@@ -1,0 +1,15 @@
+@import url("regels.css");
+
+.declaratief {
+    background-color: rgb(220, 220, 220)
+}
+.declaratief {
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.flowseq, .flowseq ul {
+    list-style: none;
+    margin-left: 0px;
+}
+.ruletask {
+}

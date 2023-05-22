@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <title>Belastingdienst</title>
+    <div class="branch">GIT BRANCH:
+        no current branch found</div>
+    
+    <link rel="stylesheet" type="text/css" href="../resources/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="../resources/css/testen.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+  </head>
+  <body>
+    <span class="alefUrl" onClick="new Image().src='http://127.0.0.1:63320/node?ref=r%3Af41d6b00-9dc9-4ab0-9b1c-29caeb862185%28regeltests%29%2F680043336101762594'">ALEF</span>
+  </body>
+  <div class="indent-layout">
+    <div>
+      <b>Testset</b>
+      <span class="naam">Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen</span>
+      <span>voor</span>
+      <span>
+        <span>de regelgroep</span>
+        <span class="naam-referentie">Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen</span>
+      </span>
+    </div>
+    
+    <div>Gebruikte parameters:</div>
+    
+    <div>
+      <div>
+        Geldigheidsperiode
+        <span class="periode">van 2023 t/m 2023</span>
+      </div>
+      
+      <div>
+        Datums voor testuitvoering
+        <ul class="lijst">
+          <li>01-07-2023</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="testgeval">
+      
+      <b>Testgeval</b>
+      <span class="naam">001</span>
+      
+      <div class="body">
+        
+        
+        <div class="indent-layout">
+          <div>de volgende situatie:</div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Persoon</span>
+              <span class="naam">diederik</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span class="rol">verkeerslicht</span>
+                 =
+                <span>{verkeerslicht A}</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Verspringen van het licht naar groen</span>
+              <span class="naam">Gebeurtenis 1</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span>heeft</span>
+                <span class="kenmerk">plaatsgevonden</span>
+                 =
+                <span>waar</span>
+              </div>
+              <div>
+                <span class="rol">verkeerslicht</span>
+                 =
+                <span>{verkeerslicht A}</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Verkeerslicht</span>
+              <span class="naam">verkeerslicht A</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span>is</span>
+                <span class="kenmerk">rood</span>
+                 =
+                <span>waar</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Fatale verplichting niet meer beginnen met over te steken</span>
+              <span class="naam">Rechtsbetrekking A</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span>is</span>
+                <span class="kenmerk">beeindigd</span>
+                 =
+                <span>onwaar</span>
+              </div>
+              <div>
+                <span class="rol">verkeerslicht</span>
+                 =
+                <span>{verkeerslicht A}</span>
+              </div>
+              <div>
+                <span class="rol">plichthoudende Persoon</span>
+                 =
+                <span>{diederik}</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Vrijheid om over te steken</span>
+              <span class="naam">Rechtsbetrekking B</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span>is</span>
+                <span class="kenmerk">ontstaan</span>
+                 =
+                <span>onwaar</span>
+              </div>
+              <div>
+                <span class="rol">verkeerslicht</span>
+                 =
+                <span>{verkeerslicht A}</span>
+              </div>
+              <div>
+                <span class="rol">rechthebbende Persoon</span>
+                 =
+                <span>{diederik}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="indent-layout">
+          <div>moet het volgende resultaat hebben:</div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Persoon</span>
+              <span class="naam">diederik</span>
+              met 
+            </div>
+            <div class="lijst-leeg">
+                &lt;&lt; ... &gt;&gt;</div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Verkeerslicht</span>
+              <span class="naam">verkeerslicht A</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span class="attribuut">groen</span>
+                 =
+                <span>waar</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Fatale verplichting niet meer beginnen met over te steken</span>
+              <span class="naam">Rechtsbetrekking A</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span class="attribuut">beeindigd</span>
+                 =
+                <span>waar</span>
+              </div>
+            </div>
+          </div>
+          <div class="indent-layout">
+            <div>
+              <span class="objecttype">Vrijheid om over te steken</span>
+              <span class="naam">Rechtsbetrekking B</span>
+              met 
+            </div>
+            <div>
+              <div>
+                <span class="attribuut">ontstaan</span>
+                 =
+                <span>waar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</html>
