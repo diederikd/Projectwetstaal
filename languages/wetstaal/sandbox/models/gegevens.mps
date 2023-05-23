@@ -77,16 +77,47 @@
       </node>
     </node>
     <node concept="2mG0Cb" id="5rg1XHBzR7S" role="2bv6Cn">
-      <property role="TrG5h" value="overstekende voetganger steekt over bij een verkeerlicht" />
+      <property role="TrG5h" value="overstekende voetganger bij een verkeerlicht" />
       <node concept="2mG0Ck" id="5rg1XHBzR7T" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="overstekende voetganger" />
-        <property role="2mCGrO" value="steekt" />
+        <property role="TrG5h" value="voetganger bij verkeerslicht" />
+        <property role="2mCGrO" value="staat bij" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="2mG0Ck" id="5rg1XHBzR7U" role="2mG0Ct">
         <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verkeerslicht waarbij de persoon is" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="_JZWYCe_ce" role="2bv6Cn">
+      <property role="TrG5h" value="overstekende voetganger steekt over bij een verkeerlicht" />
+      <node concept="2mG0Ck" id="_JZWYCe_cf" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="overstekende voetganger" />
+        <property role="2mCGrO" value="steekt over bij" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="_JZWYCe_cg" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
         <property role="TrG5h" value="verkeerslicht" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="_JZWYCe_eO" role="2bv6Cn">
+      <property role="TrG5h" value="overstekende voetganger is overgestoken bij een verkeerlicht" />
+      <node concept="2mG0Ck" id="_JZWYCe_eP" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="overgestoken voetganger" />
+        <property role="2mCGrO" value="is overgestoken bij" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="_JZWYCe_eQ" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verkeerslicht waarbij overgestoken is" />
+        <property role="16Ztxt" value="true" />
         <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
       </node>
     </node>

@@ -126,7 +126,7 @@
               <node concept="3_mHL5" id="n" role="pQQuc">
                 <uo k="s:originTrace" v="n:680043336101598686" />
                 <node concept="ean_g" id="o" role="eaaoM">
-                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:680043336101598687" />
                 </node>
                 <node concept="3yS1BT" id="p" role="pQQuc">
@@ -194,7 +194,7 @@
               <node concept="3_mHL5" id="C" role="pQQuc">
                 <uo k="s:originTrace" v="n:680043336101599119" />
                 <node concept="ean_g" id="D" role="eaaoM">
-                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:680043336101599120" />
                 </node>
                 <node concept="3yS1BT" id="E" role="pQQuc">

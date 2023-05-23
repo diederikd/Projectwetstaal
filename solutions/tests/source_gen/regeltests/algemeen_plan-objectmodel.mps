@@ -267,7 +267,7 @@
         <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
         <uo k="s:originTrace" v="n:680043336101762615" />
         <node concept="3_ceKt" id="$" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht waarbij de persoon is" />
           <uo k="s:originTrace" v="n:680043336101776596" />
           <node concept="4PMua" id="_" role="3_ceKu">
             <uo k="s:originTrace" v="n:680043336101776652" />
