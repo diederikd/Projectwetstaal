@@ -1,5 +1,5 @@
 // gegenereerd o.b.v. de ObjectModel genaamd 'Objectmodel wetstaal', in model 'gegevens' in module 'specificaties': http://127.0.0.1:63320/node?ref=r%3Af2cf4255-03c1-476f-8cbd-5e4ac3c7c23f%28gegevens%29%2F290809765463711519
-a Gegevens__680043336102100900persoon is an object with {
+a Gegevens__680043336102265430persoon is an object with {
     an identificatie : a string.
     an isBevoegd_spAmbtenaar : a boolean.
     a verkeerslicht_spWaarbij_spDe_spPersoon_spIs : some .
@@ -20,13 +20,13 @@ a Gegevens__680043336102100900persoon is an object with {
   }.
 
 
-de_Gegevens__680043336102100900persoon is some Gegevens__680043336102100900persoon.
-het_Gegevens__1731147829589941706verkeerslicht is some .
+de_Gegevens__680043336102265430persoon is some Gegevens__680043336102265430persoon.
+het_Gegevens__1731147829589941706voetgangerslicht is some .
 de_Gegevens__1731147829587402928fatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken is some .
 de_Gegevens__7134786545906925929vrijheid_spOm_spOver_spTe_spSteken is some .
 het_Gegevens__1731147829589790163verspringen_spVan_spHet_spLicht_spNaar_spGroen is some .
-eenGegevens__680043336102100900persoon0 is any Gegevens__680043336102100900persoon.
-eenGegevens__1731147829589941706verkeerslicht0 is any .
+eenGegevens__680043336102265430persoon0 is any Gegevens__680043336102265430persoon.
+eenGegevens__1731147829589941706voetgangerslicht0 is any .
 eenGegevens__1731147829587402928fatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken0 is any .
 eenGegevens__7134786545906925929vrijheid_spOm_spOver_spTe_spSteken0 is any .
 eenGegevens__1731147829589790163verspringen_spVan_spHet_spLicht_spNaar_spGroen0 is any .
@@ -34,143 +34,143 @@ eenGegevens__1731147829589790163verspringen_spVan_spHet_spLicht_spNaar_spGroen0 
 
 
 
-function isVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return ((o3.verkeerslicht_spWaarbij_spDe_spPersoon_spIs is known) and
   ((o3.verkeerslicht_spWaarbij_spDe_spPersoon_spIs is other)));
 }
 
-function isVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o2: a Gegevens__680043336102100900persoon }
+function isVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.verkeerslicht_spWaarbij_spDe_spPersoon_spIs is known;
 }
 
-function assertIsVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsVoetganger_spBij_spVerkeerslichtVanVerkeerslicht_spWaarbij_spDe_spPersoon_spIs for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.verkeerslicht_spWaarbij_spDe_spPersoon_spIs = o8;
   o8. = o9;
 }
 
 .
-function isOverstekende_spVoetgangerVanVerkeerslicht for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isOverstekende_spVoetgangerVanVerkeerslicht for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return ((o3.verkeerslicht is known) and
   ((o3.verkeerslicht is other)));
 }
 
-function isOverstekende_spVoetgangerVanVerkeerslicht for { o2: a Gegevens__680043336102100900persoon }
+function isOverstekende_spVoetgangerVanVerkeerslicht for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.verkeerslicht is known;
 }
 
-function assertIsOverstekende_spVoetgangerVanVerkeerslicht for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsOverstekende_spVoetgangerVanVerkeerslicht for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.verkeerslicht = o8;
   o8. = o9;
 }
 
 .
-function isOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return ((o3.verkeerslicht_spWaarbij_spOvergestoken_spIs is known) and
   ((o3.verkeerslicht_spWaarbij_spOvergestoken_spIs is other)));
 }
 
-function isOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o2: a Gegevens__680043336102100900persoon }
+function isOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.verkeerslicht_spWaarbij_spOvergestoken_spIs is known;
 }
 
-function assertIsOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsOvergestoken_spVoetgangerVanVerkeerslicht_spWaarbij_spOvergestoken_spIs for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.verkeerslicht_spWaarbij_spOvergestoken_spIs = o8;
   o8. = o9;
 }
 
 .
-function isRechthebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isKrachtige_spAanspraak_spHebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_sp_a61 for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return o3.voordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.contains(other);
 }
 
-function isRechthebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o2: a Gegevens__680043336102100900persoon }
+function isKrachtige_spAanspraak_spHebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_sp_a61_0 for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.voordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.count > 0;
 }
 
-function assertIsRechthebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsKrachtige_spAanspraak_spHebbende_spPersoonVanVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spO_a61 for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.voordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.append(o8);
   o8. = o9;
 }
 
 .
-function isPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isFatale_spPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSte_a71 for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return o3.nadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.contains(other);
 }
 
-function isPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o2: a Gegevens__680043336102100900persoon }
+function isFatale_spPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSte_a71_0 for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.nadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.count > 0;
 }
 
-function assertIsPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsFatale_spPlichthoudende_spPersoonVanNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_a71 for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.nadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.append(o8);
   o8. = o9;
 }
 
 .
-function isRechthebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isVerlof_spHebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return o3.voordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken.contains(other);
 }
 
-function isRechthebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o2: a Gegevens__680043336102100900persoon }
+function isVerlof_spHebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.voordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken.count > 0;
 }
 
-function assertIsRechthebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsVerlof_spHebbende_spPersoonVanVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.voordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken.append(o8);
   o8. = o9;
 }
 
 .
-function isPlichthoudende_spPersoonVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o3: a Gegevens__680043336102100900persoon, other:   }
+function isGeenaanspraakVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o3: a Gegevens__680043336102265430persoon, other:   }
 returning a boolean
 is {
   return o3.nadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken.contains(other);
 }
 
-function isPlichthoudende_spPersoonVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o2: a Gegevens__680043336102100900persoon }
+function isGeenaanspraakVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o2: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o2.nadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken.count > 0;
 }
 
-function assertIsPlichthoudende_spPersoonVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102100900persoon }
+function assertIsGeenaanspraakVanNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken for { o8:  , o9: a Gegevens__680043336102265430persoon }
 is {
   o9.nadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken.append(o8);
   o8. = o9;
 }
 
 .
-function isVerkeerslicht_spWaarbij_spDe_spPersoon_spIsVanVoetganger_spBij_spVerkeerslicht for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isVerkeerslicht_spWaarbij_spDe_spPersoon_spIsVanVoetganger_spBij_spVerkeerslicht for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
@@ -183,14 +183,14 @@ is {
   return o2. is known;
 }
 
-function assertIsVerkeerslicht_spWaarbij_spDe_spPersoon_spIsVanVoetganger_spBij_spVerkeerslicht for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsVerkeerslicht_spWaarbij_spDe_spPersoon_spIsVanVoetganger_spBij_spVerkeerslicht for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.verkeerslicht_spWaarbij_spDe_spPersoon_spIs = o9;
 }
 
 .
-function isVerkeerslichtVanOverstekende_spVoetganger for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isVerkeerslichtVanOverstekende_spVoetganger for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
@@ -203,14 +203,14 @@ is {
   return o2. is known;
 }
 
-function assertIsVerkeerslichtVanOverstekende_spVoetganger for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsVerkeerslichtVanOverstekende_spVoetganger for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.verkeerslicht = o9;
 }
 
 .
-function isVerkeerslicht_spWaarbij_spOvergestoken_spIsVanOvergestoken_spVoetganger for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isVerkeerslicht_spWaarbij_spOvergestoken_spIsVanOvergestoken_spVoetganger for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
@@ -223,50 +223,10 @@ is {
   return o2. is known;
 }
 
-function assertIsVerkeerslicht_spWaarbij_spOvergestoken_spIsVanOvergestoken_spVoetganger for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsVerkeerslicht_spWaarbij_spOvergestoken_spIsVanOvergestoken_spVoetganger for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.verkeerslicht_spWaarbij_spOvergestoken_spIs = o9;
-}
-
-.
-function isVerkeerslichtVanFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o3:  , other:   }
-returning a boolean
-is {
-  return ((o3. is known) and
-  ((o3. is other)));
-}
-
-function isVerkeerslichtVanFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o2:   }
-returning a boolean
-is {
-  return o2. is known;
-}
-
-function assertIsVerkeerslichtVanFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken for { o8:  , o9:   }
-is {
-  o9. = o8;
-  o8. = o9;
-}
-
-.
-function isVerkeerslichtVanVrijheid_spOm_spOver_spTe_spSteken for { o3:  , other:   }
-returning a boolean
-is {
-  return ((o3. is known) and
-  ((o3. is other)));
-}
-
-function isVerkeerslichtVanVrijheid_spOm_spOver_spTe_spSteken for { o2:   }
-returning a boolean
-is {
-  return o2. is known;
-}
-
-function assertIsVerkeerslichtVanVrijheid_spOm_spOver_spTe_spSteken for { o8:  , o9:   }
-is {
-  o9. = o8;
-  o8. = o9;
 }
 
 .
@@ -290,123 +250,83 @@ is {
 }
 
 .
-function isVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanKrachtige_spAanspraak_spHebbend_b61 for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
   ((o3. is other)));
 }
 
-function isVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o2:   }
+function isVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanKrachtige_spAanspraak_spHebbend_b61_0 for { o2:   }
 returning a boolean
 is {
   return o2. is known;
 }
 
-function assertIsVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsVoordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanKrachtige_spAanspraak_spH_b61 for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.voordelen_spDoor_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.append(o9);
 }
 
 .
-function isNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanFatale_spPlichthoudende_spPers_b71 for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
   ((o3. is other)));
 }
 
-function isNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o2:   }
+function isNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanFatale_spPlichthoudende_spPers_b71_0 for { o2:   }
 returning a boolean
 is {
   return o2. is known;
 }
 
-function assertIsNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsNadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanFatale_spPlichthoudende_b71 for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.nadeel_spVan_spDe_spFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spSteken.append(o9);
 }
 
 .
-function isFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanVerkeerslicht for { o3:  , other:   }
+function isVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanVerlof_spHebbende_spPersoon for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
   ((o3. is other)));
 }
 
-function isFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanVerkeerslicht for { o2:   }
+function isVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanVerlof_spHebbende_spPersoon for { o2:   }
 returning a boolean
 is {
   return o2. is known;
 }
 
-function assertIsFatale_spVerplichting_spNiet_spMeer_spBeginnen_spMet_spOver_spTe_spStekenVanVerkeerslicht for { o8:  , o9:   }
-is {
-  o9. = o8;
-  o8. = o9;
-}
-
-.
-function isVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o3:  , other: a Gegevens__680043336102100900persoon }
-returning a boolean
-is {
-  return ((o3. is known) and
-  ((o3. is other)));
-}
-
-function isVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o2:   }
-returning a boolean
-is {
-  return o2. is known;
-}
-
-function assertIsVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanRechthebbende_spPersoon for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsVoordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spStekenVanVerlof_spHebbende_spPersoon for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.voordeel_spVan_spDe_spVrijheid_spOm_spOver_spTe_spSteken.append(o9);
 }
 
 .
-function isNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o3:  , other: a Gegevens__680043336102100900persoon }
+function isNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanGeenaanspraak for { o3:  , other: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return ((o3. is known) and
   ((o3. is other)));
 }
 
-function isNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o2:   }
+function isNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanGeenaanspraak for { o2:   }
 returning a boolean
 is {
   return o2. is known;
 }
 
-function assertIsNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanPlichthoudende_spPersoon for { o8: a Gegevens__680043336102100900persoon, o9:   }
+function assertIsNadelen_spDoor_spVrijheid_spOm_spOver_spTe_spStekenVanGeenaanspraak for { o8: a Gegevens__680043336102265430persoon, o9:   }
 is {
   o9. = o8;
   o8.nadelen_spDoor_spVrijheid_spOm_spOver_spTe_spSteken.append(o9);
-}
-
-.
-function isVrijheid_spOm_spOver_spTe_spStekenVanVerkeerslicht for { o3:  , other:   }
-returning a boolean
-is {
-  return ((o3. is known) and
-  ((o3. is other)));
-}
-
-function isVrijheid_spOm_spOver_spTe_spStekenVanVerkeerslicht for { o2:   }
-returning a boolean
-is {
-  return o2. is known;
-}
-
-function assertIsVrijheid_spOm_spOver_spTe_spStekenVanVerkeerslicht for { o8:  , o9:   }
-is {
-  o9. = o8;
-  o8. = o9;
 }
 
 .
@@ -432,13 +352,13 @@ is {
 .
 
 
-function isBevoegd_spAmbtenaar for { o20: a Gegevens__680043336102100900persoon }
+function isBevoegd_spAmbtenaar for { o20: a Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   return o20.isBevoegd_spAmbtenaar;
 }
 
-function setBevoegd_spAmbtenaar for { o1: a Gegevens__680043336102100900persoon, w: a boolean }
+function setBevoegd_spAmbtenaar for { o1: a Gegevens__680043336102265430persoon, w: a boolean }
 is {
   o1.isBevoegd_spAmbtenaar = w;
 }
@@ -542,12 +462,12 @@ is {
 .
 
 
-function setIdentificatie for { o4: a Gegevens__680043336102100900persoon, w4: a string }
+function setIdentificatie for { o4: a Gegevens__680043336102265430persoon, w4: a string }
 is {
   o4.identificatie = w4;
 }
 
-function getIdentificatie for { o51: a Gegevens__680043336102100900persoon }
+function getIdentificatie for { o51: a Gegevens__680043336102265430persoon }
 returning a string
 is {
   return o51.identificatie;
@@ -572,17 +492,17 @@ is {
 
 
 
-function equalCollectionGegevens__680043336102100900persoon for { _aa: an array of Gegevens__680043336102100900persoon, _bb: an array of Gegevens__680043336102100900persoon }
+function equalCollectionGegevens__680043336102265430persoon for { _aa: an array of Gegevens__680043336102265430persoon, _bb: an array of Gegevens__680043336102265430persoon }
 returning a boolean
 is {
   if (_aa.count <> _bb.count) then return false;
-  for each Gegevens__680043336102100900persoon in _aa do {  
+  for each Gegevens__680043336102265430persoon in _aa do {  
     if (not (_bb.contains(it))) then return false;
   };
   return true;
 }
 
-function equalCollectionGegevens__1731147829589941706verkeerslicht for { _aa: an array of , _bb: an array of  }
+function equalCollectionGegevens__1731147829589941706voetgangerslicht for { _aa: an array of , _bb: an array of  }
 returning a boolean
 is {
   if (_aa.count <> _bb.count) then return false;

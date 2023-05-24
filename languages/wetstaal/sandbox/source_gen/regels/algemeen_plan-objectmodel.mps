@@ -188,36 +188,36 @@
     <node concept="39e2AJ" id="1" role="39e2AI">
       <property role="39e3Y2" value="onderwerpVar" />
       <node concept="39e2AG" id="5" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:_JZWYCdhkN" resolve="plichthoudende Persoon" />
+        <ref role="39e2AK" to="elf3:_JZWYCdhkN" resolve="fatale plichthoudende persoon" />
         <node concept="385nmt" id="7" role="385vvn">
-          <property role="385vuF" value="plichthoudende Persoon" />
+          <property role="385vuF" value="fatale plichthoudende persoon" />
           <node concept="3u3nmq" id="9" role="385v07">
             <property role="3u3nmv" value="680043336101598515" />
           </node>
         </node>
         <node concept="39e2AT" id="8" role="39e2AY">
-          <ref role="39e2AS" node="1o" resolve="plichthoudende_spPersoon_a0a0a1" />
+          <ref role="39e2AS" node="1o" resolve="fatale_spPlichthoudende_spPersoon_a0a0a1" />
         </node>
       </node>
       <node concept="39e2AG" id="6" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:_JZWYCdhrl" resolve="rechthebbende Persoon" />
+        <ref role="39e2AK" to="elf3:_JZWYCdhrl" resolve="verlof hebbende persoon" />
         <node concept="385nmt" id="a" role="385vvn">
-          <property role="385vuF" value="rechthebbende Persoon" />
+          <property role="385vuF" value="verlof hebbende persoon" />
           <node concept="3u3nmq" id="c" role="385v07">
             <property role="3u3nmv" value="680043336101598933" />
           </node>
         </node>
         <node concept="39e2AT" id="b" role="39e2AY">
-          <ref role="39e2AS" node="2$" resolve="rechthebbende_spPersoon_a0a0a2" />
+          <ref role="39e2AS" node="2$" resolve="verlof_spHebbende_spPersoon_a0a0a2" />
         </node>
       </node>
     </node>
     <node concept="39e2AJ" id="2" role="39e2AI">
       <property role="39e3Y2" value="rule" />
       <node concept="39e2AG" id="d" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:6c3QCZh1bBN" resolve="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
+        <ref role="39e2AK" to="elf3:6c3QCZh1bBN" resolve="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
         <node concept="385nmt" id="g" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
           <node concept="3u3nmq" id="i" role="385v07">
             <property role="3u3nmv" value="7134786545906924019" />
           </node>
@@ -227,36 +227,36 @@
         </node>
       </node>
       <node concept="39e2AG" id="e" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:1w6hstGpq7G" resolve="Rechtsgevolgen ten aanzien van het juridisch relevant feit(altijd)" />
+        <ref role="39e2AK" to="elf3:5rg1XHBzQN5" resolve="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
         <node concept="385nmt" id="j" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het juridisch relevant feit(altijd)" />
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
           <node concept="3u3nmq" id="l" role="385v07">
-            <property role="3u3nmv" value="1731147829589942764" />
-          </node>
-        </node>
-        <node concept="39e2AT" id="k" role="39e2AY">
-          <ref role="39e2AS" node="N" resolve="rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" />
-        </node>
-      </node>
-      <node concept="39e2AG" id="f" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:5rg1XHBzQN5" resolve="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
-        <node concept="385nmt" id="m" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
-          <node concept="3u3nmq" id="o" role="385v07">
             <property role="3u3nmv" value="6255508521334303941" />
           </node>
         </node>
-        <node concept="39e2AT" id="n" role="39e2AY">
+        <node concept="39e2AT" id="k" role="39e2AY">
           <ref role="39e2AS" node="2w" resolve="rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941" />
+        </node>
+      </node>
+      <node concept="39e2AG" id="f" role="39e3Y0">
+        <ref role="39e2AK" to="elf3:1w6hstGpq7G" resolve="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit(altijd)" />
+        <node concept="385nmt" id="m" role="385vvn">
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit(altijd)" />
+          <node concept="3u3nmq" id="o" role="385v07">
+            <property role="3u3nmv" value="1731147829589942764" />
+          </node>
+        </node>
+        <node concept="39e2AT" id="n" role="39e2AY">
+          <ref role="39e2AS" node="N" resolve="rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" />
         </node>
       </node>
     </node>
     <node concept="39e2AJ" id="3" role="39e2AI">
       <property role="39e3Y2" value="ruleSet" />
       <node concept="39e2AG" id="p" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:6c3QCZh1bBN" resolve="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
+        <ref role="39e2AK" to="elf3:6c3QCZh1bBN" resolve="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
         <node concept="385nmt" id="s" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking(altijd)" />
           <node concept="3u3nmq" id="u" role="385v07">
             <property role="3u3nmv" value="7134786545906924019" />
           </node>
@@ -266,27 +266,27 @@
         </node>
       </node>
       <node concept="39e2AG" id="q" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:1w6hstGpq7G" resolve="Rechtsgevolgen ten aanzien van het juridisch relevant feit(altijd)" />
+        <ref role="39e2AK" to="elf3:5rg1XHBzQN5" resolve="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
         <node concept="385nmt" id="v" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het juridisch relevant feit(altijd)" />
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
           <node concept="3u3nmq" id="x" role="385v07">
-            <property role="3u3nmv" value="1731147829589942764" />
-          </node>
-        </node>
-        <node concept="39e2AT" id="w" role="39e2AY">
-          <ref role="39e2AS" node="M" resolve="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" />
-        </node>
-      </node>
-      <node concept="39e2AG" id="r" role="39e3Y0">
-        <ref role="39e2AK" to="elf3:5rg1XHBzQN5" resolve="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
-        <node concept="385nmt" id="y" role="385vvn">
-          <property role="385vuF" value="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking(altijd)" />
-          <node concept="3u3nmq" id="$" role="385v07">
             <property role="3u3nmv" value="6255508521334303941" />
           </node>
         </node>
-        <node concept="39e2AT" id="z" role="39e2AY">
+        <node concept="39e2AT" id="w" role="39e2AY">
           <ref role="39e2AS" node="2v" resolve="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941" />
+        </node>
+      </node>
+      <node concept="39e2AG" id="r" role="39e3Y0">
+        <ref role="39e2AK" to="elf3:1w6hstGpq7G" resolve="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit(altijd)" />
+        <node concept="385nmt" id="y" role="385vvn">
+          <property role="385vuF" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit(altijd)" />
+          <node concept="3u3nmq" id="$" role="385v07">
+            <property role="3u3nmv" value="1731147829589942764" />
+          </node>
+        </node>
+        <node concept="39e2AT" id="z" role="39e2AY">
+          <ref role="39e2AS" node="M" resolve="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" />
         </node>
       </node>
     </node>
@@ -319,7 +319,7 @@
         <uo k="s:originTrace" v="n:1731147829589942764" />
       </node>
       <node concept="3JwO$X" id="K" role="1HS5Ll">
-        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen ten aanzien van het juridisch relevant feit altijd" />
+        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd" />
         <uo k="s:originTrace" v="n:1731147829589942764" />
       </node>
       <node concept="3JwO$X" id="L" role="1HS5Ll">
@@ -444,7 +444,7 @@
         <uo k="s:originTrace" v="n:7134786545906924019" />
       </node>
       <node concept="3JwO$X" id="1h" role="1HS5Ll">
-        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking altijd" />
+        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd" />
         <uo k="s:originTrace" v="n:7134786545906924019" />
       </node>
       <node concept="3JwO$X" id="1i" role="1HS5Ll">
@@ -464,7 +464,7 @@
               <uo k="s:originTrace" v="n:680043336101598515" />
               <node concept="3YT61b" id="1o" role="2Wx6aU">
                 <property role="HTrxY" value="true" />
-                <property role="TrG5h" value="plichthoudende_spPersoon_a0a0a1" />
+                <property role="TrG5h" value="fatale_spPlichthoudende_spPersoon_a0a0a1" />
                 <uo k="s:originTrace" v="n:680043336101598515" />
                 <node concept="2Atfqh" id="1q" role="2Aj$U7">
                   <ref role="2Atfqi" node="^" resolve="ObjType" />
@@ -484,7 +484,7 @@
                   <property role="3_B8VL" value="476AmczqviB/IS" />
                   <uo k="s:originTrace" v="n:680043336101598515" />
                   <node concept="2ZvqDS" id="1v" role="3_B8VN">
-                    <ref role="2ZvqD7" node="1o" resolve="plichthoudende_spPersoon_a0a0a1" />
+                    <ref role="2ZvqD7" node="1o" resolve="fatale_spPlichthoudende_spPersoon_a0a0a1" />
                     <uo k="s:originTrace" v="n:680043336101598515" />
                   </node>
                   <node concept="3YTkTU" id="1w" role="3_B8VX">
@@ -516,7 +516,7 @@
                                 <uo k="s:originTrace" v="n:680043336101598515" />
                               </node>
                               <node concept="2ZvqDS" id="1I" role="bIW20">
-                                <ref role="2ZvqD7" node="1o" resolve="plichthoudende_spPersoon_a0a0a1" />
+                                <ref role="2ZvqD7" node="1o" resolve="fatale_spPlichthoudende_spPersoon_a0a0a1" />
                                 <uo k="s:originTrace" v="n:680043336101598515" />
                               </node>
                               <node concept="2A9xUH" id="1J" role="2AtbEv">
@@ -585,7 +585,7 @@
                                       <node concept="2Wyvd7" id="20" role="2K$UiC">
                                         <uo k="s:originTrace" v="n:680043336101598515" />
                                         <node concept="1yCNvD" id="21" role="2Wyvd4">
-                                          <property role="1yCNvM" value="Fout in regel Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking altijd: Er zijn meerdere instanties van nadeel van de fatale verplichting niet meer beginnen met over te steken die aan de voorwaarden voldoen" />
+                                          <property role="1yCNvM" value="Fout in regel Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd: Er zijn meerdere instanties van nadeel van de fatale verplichting niet meer beginnen met over te steken die aan de voorwaarden voldoen" />
                                           <uo k="s:originTrace" v="n:680043336101598515" />
                                         </node>
                                         <node concept="1rgj47" id="22" role="1C4s6X">
@@ -661,7 +661,7 @@
                               <node concept="2Wyvd7" id="2i" role="25y4W8">
                                 <uo k="s:originTrace" v="n:680043336101598515" />
                                 <node concept="2ZvqDS" id="2k" role="2Wyvd4">
-                                  <ref role="2ZvqD7" node="1o" resolve="plichthoudende_spPersoon_a0a0a1" />
+                                  <ref role="2ZvqD7" node="1o" resolve="fatale_spPlichthoudende_spPersoon_a0a0a1" />
                                   <uo k="s:originTrace" v="n:680043336101598515" />
                                 </node>
                                 <node concept="2AVVtR" id="2l" role="2AVSbL">
@@ -676,7 +676,7 @@
                                   <node concept="3YT1z9" id="2o" role="3YT1zb">
                                     <uo k="s:originTrace" v="n:680043336101598687" />
                                     <node concept="2ZvqDS" id="2p" role="3YT1zb">
-                                      <ref role="2ZvqD7" node="1o" resolve="plichthoudende_spPersoon_a0a0a1" />
+                                      <ref role="2ZvqD7" node="1o" resolve="fatale_spPlichthoudende_spPersoon_a0a0a1" />
                                       <uo k="s:originTrace" v="n:680043336101598685" />
                                     </node>
                                   </node>
@@ -726,7 +726,7 @@
         <uo k="s:originTrace" v="n:6255508521334303941" />
       </node>
       <node concept="3JwO$X" id="2t" role="1HS5Ll">
-        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking altijd" />
+        <property role="3JwO$Y" value="regelversie: Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd" />
         <uo k="s:originTrace" v="n:6255508521334303941" />
       </node>
       <node concept="3JwO$X" id="2u" role="1HS5Ll">
@@ -746,7 +746,7 @@
               <uo k="s:originTrace" v="n:680043336101598933" />
               <node concept="3YT61b" id="2$" role="2Wx6aU">
                 <property role="HTrxY" value="true" />
-                <property role="TrG5h" value="rechthebbende_spPersoon_a0a0a2" />
+                <property role="TrG5h" value="verlof_spHebbende_spPersoon_a0a0a2" />
                 <uo k="s:originTrace" v="n:680043336101598933" />
                 <node concept="2Atfqh" id="2A" role="2Aj$U7">
                   <ref role="2Atfqi" node="^" resolve="ObjType" />
@@ -766,7 +766,7 @@
                   <property role="3_B8VL" value="476AmczqviB/IS" />
                   <uo k="s:originTrace" v="n:680043336101598933" />
                   <node concept="2ZvqDS" id="2F" role="3_B8VN">
-                    <ref role="2ZvqD7" node="2$" resolve="rechthebbende_spPersoon_a0a0a2" />
+                    <ref role="2ZvqD7" node="2$" resolve="verlof_spHebbende_spPersoon_a0a0a2" />
                     <uo k="s:originTrace" v="n:680043336101598933" />
                   </node>
                   <node concept="3YTkTU" id="2G" role="3_B8VX">
@@ -798,7 +798,7 @@
                                 <uo k="s:originTrace" v="n:680043336101598933" />
                               </node>
                               <node concept="2ZvqDS" id="2U" role="bIW20">
-                                <ref role="2ZvqD7" node="2$" resolve="rechthebbende_spPersoon_a0a0a2" />
+                                <ref role="2ZvqD7" node="2$" resolve="verlof_spHebbende_spPersoon_a0a0a2" />
                                 <uo k="s:originTrace" v="n:680043336101598933" />
                               </node>
                               <node concept="2A9xUH" id="2V" role="2AtbEv">
@@ -867,7 +867,7 @@
                                       <node concept="2Wyvd7" id="3c" role="2K$UiC">
                                         <uo k="s:originTrace" v="n:680043336101598933" />
                                         <node concept="1yCNvD" id="3d" role="2Wyvd4">
-                                          <property role="1yCNvM" value="Fout in regel Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking altijd: Er zijn meerdere instanties van voordeel van de Vrijheid om over te steken die aan de voorwaarden voldoen" />
+                                          <property role="1yCNvM" value="Fout in regel Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd: Er zijn meerdere instanties van voordeel van de Vrijheid om over te steken die aan de voorwaarden voldoen" />
                                           <uo k="s:originTrace" v="n:680043336101598933" />
                                         </node>
                                         <node concept="1rgj47" id="3e" role="1C4s6X">
@@ -943,7 +943,7 @@
                               <node concept="2Wyvd7" id="3u" role="25y4W8">
                                 <uo k="s:originTrace" v="n:680043336101598933" />
                                 <node concept="2ZvqDS" id="3w" role="2Wyvd4">
-                                  <ref role="2ZvqD7" node="2$" resolve="rechthebbende_spPersoon_a0a0a2" />
+                                  <ref role="2ZvqD7" node="2$" resolve="verlof_spHebbende_spPersoon_a0a0a2" />
                                   <uo k="s:originTrace" v="n:680043336101598933" />
                                 </node>
                                 <node concept="2AVVtR" id="3x" role="2AVSbL">
@@ -958,7 +958,7 @@
                                   <node concept="3YT1z9" id="3$" role="3YT1zb">
                                     <uo k="s:originTrace" v="n:680043336101599120" />
                                     <node concept="2ZvqDS" id="3_" role="3YT1zb">
-                                      <ref role="2ZvqD7" node="2$" resolve="rechthebbende_spPersoon_a0a0a2" />
+                                      <ref role="2ZvqD7" node="2$" resolve="verlof_spHebbende_spPersoon_a0a0a2" />
                                       <uo k="s:originTrace" v="n:680043336101599118" />
                                     </node>
                                   </node>
@@ -1046,7 +1046,7 @@
               <property role="2pNUuO" value="name" />
               <uo k="s:originTrace" v="n:1731147829589942764" />
               <node concept="2pMdtt" id="3U" role="2pMdts">
-                <property role="2pMdty" value="Rechtsgevolgen ten aanzien van het juridisch relevant feit altijd" />
+                <property role="2pMdty" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd" />
                 <uo k="s:originTrace" v="n:1731147829589942764" />
               </node>
             </node>
@@ -1083,7 +1083,7 @@
               <property role="2pNUuO" value="name" />
               <uo k="s:originTrace" v="n:7134786545906924019" />
               <node concept="2pMdtt" id="42" role="2pMdts">
-                <property role="2pMdty" value="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking altijd" />
+                <property role="2pMdty" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd" />
                 <uo k="s:originTrace" v="n:7134786545906924019" />
               </node>
             </node>
@@ -1120,7 +1120,7 @@
               <property role="2pNUuO" value="name" />
               <uo k="s:originTrace" v="n:6255508521334303941" />
               <node concept="2pMdtt" id="4a" role="2pMdts">
-                <property role="2pMdty" value="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking altijd" />
+                <property role="2pMdty" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd" />
                 <uo k="s:originTrace" v="n:6255508521334303941" />
               </node>
             </node>

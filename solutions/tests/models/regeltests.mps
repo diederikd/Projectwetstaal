@@ -84,7 +84,7 @@
         <ref role="4Oh8G" to="akwf:g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="4OhPC" id="_JZWYCdToR" role="4Ohaa">
-        <property role="TrG5h" value="diederik" />
+        <property role="TrG5h" value="Diederik" />
         <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
         <node concept="3_ceKt" id="_JZWYCdWNk" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
@@ -94,6 +94,10 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="4OhPC" id="_JZWYCfdzh" role="4Ohaa">
+        <property role="TrG5h" value="de Staat" />
+        <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="4OhPC" id="5rg1XHBzPBL" role="4Ohaa">
         <property role="TrG5h" value="Gebeurtenis 1" />
@@ -114,7 +118,7 @@
         </node>
       </node>
       <node concept="4OhPC" id="5rg1XHBzPyb" role="4Ohaa">
-        <property role="TrG5h" value="verkeerslicht A" />
+        <property role="TrG5h" value="voetgangerslicht A" />
         <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
         <node concept="3_ceKt" id="5rg1XHBzPyg" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:1w6hstGpq7Z" resolve="rood" />
@@ -126,6 +130,14 @@
       <node concept="4OhPC" id="5rg1XHBzPyB" role="4Ohaa">
         <property role="TrG5h" value="Rechtsbetrekking A" />
         <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
+        <node concept="3_ceKt" id="_JZWYCfdzU" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="rechthebbende Persoon" />
+          <node concept="4PMua" id="_JZWYCfd$n" role="3_ceKu">
+            <node concept="4PMub" id="_JZWYCfd$I" role="4PMue">
+              <ref role="4PMuN" node="_JZWYCfdzh" resolve="de Staat" />
+            </node>
+          </node>
+        </node>
         <node concept="3_ceKt" id="5rg1XHBzPz1" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:1w6hstGmuaY" resolve="plichthoudende Persoon" />
           <node concept="4PMua" id="5rg1XHBzPzs" role="3_ceKu">
@@ -134,12 +146,10 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="5rg1XHBzPzH" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1bOx" resolve="verkeerslicht" />
-          <node concept="4PMua" id="5rg1XHBzPzV" role="3_ceKu">
-            <node concept="4PMub" id="5rg1XHBzP$2" role="4PMue">
-              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
-            </node>
+        <node concept="3_ceKt" id="_JZWYCfdqW" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
+          <node concept="2Jx4MH" id="_JZWYCfdrb" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
           </node>
         </node>
         <node concept="3_ceKt" id="5rg1XHB_5hU" role="4OhPJ">
@@ -158,17 +168,21 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="5rg1XHBzRDc" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1cdm" resolve="verkeerslicht" />
-          <node concept="4PMua" id="5rg1XHBzRD$" role="3_ceKu">
-            <node concept="4PMub" id="5rg1XHBzRDN" role="4PMue">
-              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
+        <node concept="3_ceKt" id="_JZWYCfd_a" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c7Q" resolve="plichthoudende Persoon" />
+          <node concept="4PMua" id="_JZWYCfd_t" role="3_ceKu">
+            <node concept="4PMub" id="_JZWYCfd_W" role="4PMue">
+              <ref role="4PMuN" node="_JZWYCfdzh" resolve="de Staat" />
             </node>
           </node>
         </node>
         <node concept="3_ceKt" id="5rg1XHBzRC1" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
           <node concept="2Jx4MH" id="5rg1XHBzRC8" role="3_ceKu" />
+        </node>
+        <node concept="3_ceKt" id="_JZWYCfdRF" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
+          <node concept="2Jx4MH" id="_JZWYCfdRX" role="3_ceKu" />
         </node>
       </node>
       <node concept="4Oh8J" id="5rg1XHBzPUe" role="4Ohb1">

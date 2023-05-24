@@ -63,7 +63,7 @@
   <node concept="2bQVlO" id="1w6hstGf8YC">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
     <node concept="1HSql3" id="1w6hstGpq7F" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het juridisch relevant feit" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
       <node concept="1wO7pt" id="1w6hstGpq7G" role="kiesI">
         <node concept="2boe1W" id="1w6hstGpq7H" role="1wO7pp">
           <node concept="2zaH5l" id="1w6hstGpqa1" role="1wO7i6">
@@ -90,7 +90,7 @@
       </node>
     </node>
     <node concept="1HSql3" id="6c3QCZh1bBM" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
       <node concept="1wO7pt" id="6c3QCZh1bBN" role="kiesI">
         <node concept="2boe1W" id="6c3QCZh1bBO" role="1wO7pp">
           <node concept="2z5Mdt" id="6c3QCZh1bBR" role="1wO7i3">
@@ -127,7 +127,7 @@
       </node>
     </node>
     <node concept="1HSql3" id="5rg1XHBzQN3" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking" />
       <node concept="1wO7pt" id="5rg1XHBzQN5" role="kiesI">
         <node concept="2boe1W" id="5rg1XHBzQN6" role="1wO7pp">
           <node concept="2zaH5l" id="5rg1XHBzQPc" role="1wO7i6">

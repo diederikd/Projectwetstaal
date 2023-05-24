@@ -12,23 +12,31 @@ is {
   diederik. = an array of ;
   diederik. = an array of ;
    = diederik;
+  de_spStaat is  ;
+  de_spStaat. = an array of ;
+  de_spStaat. = an array of ;
+  de_spStaat. = an array of ;
+  de_spStaat. = an array of ;
+   = de_spStaat;
   gebeurtenis_sp1 is  ;
    = gebeurtenis_sp1;
-  verkeerslicht_spA is  ;
-   = verkeerslicht_spA;
+  voetgangerslicht_spA is  ;
+   = voetgangerslicht_spA;
   rechtsbetrekking_spA is  ;
    = rechtsbetrekking_spA;
   rechtsbetrekking_spB is  ;
    = rechtsbetrekking_spB;
-  (diederik, verkeerslicht_spA);
+  (diederik, voetgangerslicht_spA);
   gebeurtenis_sp1. = true;
-  (gebeurtenis_sp1, verkeerslicht_spA);
-  verkeerslicht_spA. = true;
+  (gebeurtenis_sp1, voetgangerslicht_spA);
+  voetgangerslicht_spA. = true;
   rechtsbetrekking_spA. = false;
-  (rechtsbetrekking_spA, verkeerslicht_spA);
+  rechtsbetrekking_spA. = true;
   (rechtsbetrekking_spA, diederik);
+  (rechtsbetrekking_spA, de_spStaat);
   rechtsbetrekking_spB. = false;
-  (rechtsbetrekking_spB, verkeerslicht_spA);
+  rechtsbetrekking_spB. = false;
+  (rechtsbetrekking_spB, de_spStaat);
   (rechtsbetrekking_spB, diederik);
   try {    
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764();
@@ -41,7 +49,7 @@ is {
       it.printStackTrace();
     };
   ;
-  assert().checkEquals("<verkeerslicht A> is/heeft groen ", true, (verkeerslicht_spA));
+  assert().checkEquals("<voetgangerslicht A> is/heeft groen ", true, (voetgangerslicht_spA));
   assert().checkEquals("<Rechtsbetrekking A> is/heeft beeindigd ", true, (rechtsbetrekking_spA));
   assert().checkEquals("<Rechtsbetrekking B> is/heeft ontstaan ", true, (rechtsbetrekking_spB));
 }

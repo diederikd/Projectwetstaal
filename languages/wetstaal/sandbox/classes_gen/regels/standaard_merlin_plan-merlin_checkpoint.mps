@@ -70,7 +70,7 @@
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
     <uo k="s:originTrace" v="n:1731147829587251112" />
     <node concept="1HSql3" id="2" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het juridisch relevant feit" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
       <uo k="s:originTrace" v="n:1731147829589942763" />
       <node concept="1wO7pt" id="5" role="kiesI">
         <uo k="s:originTrace" v="n:1731147829589942764" />
@@ -80,7 +80,7 @@
             <ref role="2zaJI2" to="akwf:1w6hstGpq9c" resolve="groen" />
             <uo k="s:originTrace" v="n:1731147829589942913" />
             <node concept="3_kdyS" id="a" role="pRcyL">
-              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
+              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
               <uo k="s:originTrace" v="n:1731147829589942915" />
             </node>
           </node>
@@ -93,7 +93,7 @@
                 <uo k="s:originTrace" v="n:680043336101774983" />
               </node>
               <node concept="3yS1BT" id="e" role="pQQuc">
-                <ref role="3yS1Ki" node="a" resolve="Verkeerslicht" />
+                <ref role="3yS1Ki" node="a" resolve="Voetgangerslicht" />
                 <uo k="s:originTrace" v="n:680043336101776071" />
               </node>
             </node>
@@ -109,7 +109,7 @@
       </node>
     </node>
     <node concept="1HSql3" id="3" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
       <uo k="s:originTrace" v="n:7134786545906924018" />
       <node concept="1wO7pt" id="f" role="kiesI">
         <uo k="s:originTrace" v="n:7134786545906924019" />
@@ -130,7 +130,7 @@
                   <uo k="s:originTrace" v="n:680043336101598687" />
                 </node>
                 <node concept="3yS1BT" id="p" role="pQQuc">
-                  <ref role="3yS1Ki" node="s" resolve="plichthoudende Persoon" />
+                  <ref role="3yS1Ki" node="s" resolve="fatale plichthoudende persoon" />
                   <uo k="s:originTrace" v="n:680043336101598685" />
                 </node>
               </node>
@@ -150,7 +150,7 @@
                 <uo k="s:originTrace" v="n:680043336101598514" />
               </node>
               <node concept="3_kdyS" id="s" role="pQQuc">
-                <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="plichthoudende Persoon" />
+                <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
                 <uo k="s:originTrace" v="n:680043336101598515" />
               </node>
             </node>
@@ -162,7 +162,7 @@
       </node>
     </node>
     <node concept="1HSql3" id="4" role="1HSqhF">
-      <property role="TrG5h" value="Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking" />
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking" />
       <uo k="s:originTrace" v="n:6255508521334303939" />
       <node concept="1wO7pt" id="t" role="kiesI">
         <uo k="s:originTrace" v="n:6255508521334303941" />
@@ -178,7 +178,7 @@
                 <uo k="s:originTrace" v="n:680043336101598932" />
               </node>
               <node concept="3_kdyS" id="$" role="pQQuc">
-                <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="rechthebbende Persoon" />
+                <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
                 <uo k="s:originTrace" v="n:680043336101598933" />
               </node>
             </node>
@@ -198,7 +198,7 @@
                   <uo k="s:originTrace" v="n:680043336101599120" />
                 </node>
                 <node concept="3yS1BT" id="E" role="pQQuc">
-                  <ref role="3yS1Ki" node="$" resolve="rechthebbende Persoon" />
+                  <ref role="3yS1Ki" node="$" resolve="verlof hebbende persoon" />
                   <uo k="s:originTrace" v="n:680043336101599118" />
                 </node>
               </node>

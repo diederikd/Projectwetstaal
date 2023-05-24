@@ -2,7 +2,7 @@
 
 
 // regelgroep : Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen
-// regelversie: Rechtsgevolgen ten aanzien van het juridisch relevant feit altijd
+// regelversie: Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3Abd8c1c5e-fc16-4607-baa6-63a8c943621e%28regels%29%2F1731147829589942764
 sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764 is
 {
@@ -20,20 +20,20 @@ sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942
 }
 .
 // regelgroep : Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen
-// regelversie: Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking altijd
+// regelversie: Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3Abd8c1c5e-fc16-4607-baa6-63a8c943621e%28regels%29%2F7134786545906924019
 sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019 is
 {
   rule rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019 is
     if  is known
     then {      
-        plichthoudende_spPersoon_a0a0a1 is some  initially .;
-        if (plichthoudende_spPersoon_a0a0a1 is known) then {        
-          if (BlazeLibrary.isTrue(((((plichthoudende_spPersoon_a0a0a1)) and
-          (((plichthoudende_spPersoon_a0a0a1..))))) as an Object)) then {          
+        fatale_spPlichthoudende_spPersoon_a0a0a1 is some  initially .;
+        if (fatale_spPlichthoudende_spPersoon_a0a0a1 is known) then {        
+          if (BlazeLibrary.isTrue(((((fatale_spPlichthoudende_spPersoon_a0a0a1)) and
+          (((fatale_spPlichthoudende_spPersoon_a0a0a1..))))) as an Object)) then {          
             RegelExecutieTracker.markeerGevuurd("rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019", an array of Object initially {
              it.append(),
-             it.append(plichthoudende_spPersoon_a0a0a1).
+             it.append(fatale_spPlichthoudende_spPersoon_a0a0a1).
             });
             if (HuidigeRegelVersie <> "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019") then {            
               HuidigeRegelVersie = "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019";
@@ -41,7 +41,7 @@ sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924
             }
             else {            
               if (HuidigeHoofdOnderwerpen.contains()) then {              
-                throw RuntimeException.newInstance("Fout in regel Rechtsgevolgen ten aanzien van het beeindigen van de rechtsbetrekking altijd: Er zijn meerdere instanties van nadeel van de fatale verplichting niet meer beginnen met over te steken die aan de voorwaarden voldoen");
+                throw RuntimeException.newInstance("Fout in regel Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd: Er zijn meerdere instanties van nadeel van de fatale verplichting niet meer beginnen met over te steken die aan de voorwaarden voldoen");
               };
             };
             HuidigeHoofdOnderwerpen.append();
@@ -53,20 +53,20 @@ sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924
 }
 .
 // regelgroep : Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen
-// regelversie: Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking altijd
+// regelversie: Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd
 // alef url   : http://127.0.0.1:63320/node?ref=r%3Abd8c1c5e-fc16-4607-baa6-63a8c943621e%28regels%29%2F6255508521334303941
 sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941 is
 {
   rule rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941 is
     if  is known
     then {      
-        rechthebbende_spPersoon_a0a0a2 is some  initially .;
-        if (rechthebbende_spPersoon_a0a0a2 is known) then {        
-          if (BlazeLibrary.isTrue(((((rechthebbende_spPersoon_a0a0a2)) and
-          (((rechthebbende_spPersoon_a0a0a2..))))) as an Object)) then {          
+        verlof_spHebbende_spPersoon_a0a0a2 is some  initially .;
+        if (verlof_spHebbende_spPersoon_a0a0a2 is known) then {        
+          if (BlazeLibrary.isTrue(((((verlof_spHebbende_spPersoon_a0a0a2)) and
+          (((verlof_spHebbende_spPersoon_a0a0a2..))))) as an Object)) then {          
             RegelExecutieTracker.markeerGevuurd("rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941", an array of Object initially {
              it.append(),
-             it.append(rechthebbende_spPersoon_a0a0a2).
+             it.append(verlof_spHebbende_spPersoon_a0a0a2).
             });
             if (HuidigeRegelVersie <> "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941") then {            
               HuidigeRegelVersie = "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941";
@@ -74,7 +74,7 @@ sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303
             }
             else {            
               if (HuidigeHoofdOnderwerpen.contains()) then {              
-                throw RuntimeException.newInstance("Fout in regel Rechtsgevolgen ten aanzien van het onstaan van de rechtsbetrekking altijd: Er zijn meerdere instanties van voordeel van de Vrijheid om over te steken die aan de voorwaarden voldoen");
+                throw RuntimeException.newInstance("Fout in regel Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd: Er zijn meerdere instanties van voordeel van de Vrijheid om over te steken die aan de voorwaarden voldoen");
               };
             };
             HuidigeHoofdOnderwerpen.append();

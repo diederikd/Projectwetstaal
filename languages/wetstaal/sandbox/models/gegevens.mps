@@ -38,6 +38,7 @@
         <property id="5917060184181247410" name="granulariteit" index="1EDDdh" />
       </concept>
       <concept id="5636224356224001686" name="gegevensspraak.structure.LeegElement" flags="ng" index="3H5gaA" />
+      <concept id="4104573890451362331" name="gegevensspraak.structure.Commentaar" flags="ng" index="3Ih38J" />
     </language>
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
       <concept id="290809765463580690" name="wetstaal.structure.Rechtssubject" flags="ng" index="3rCGBy" />
@@ -123,7 +124,7 @@
     </node>
     <node concept="3H5gaA" id="5rg1XHBzR7P" role="2bv6Cn" />
     <node concept="1OpgJr" id="1w6hstGppRa" role="2bv6Cn">
-      <property role="TrG5h" value="Verkeerslicht" />
+      <property role="TrG5h" value="Voetgangerslicht" />
       <property role="16Ztxt" value="true" />
       <node concept="2bpyt6" id="1w6hstGpq7Z" role="2bv01j">
         <property role="TrG5h" value="rood" />
@@ -138,6 +139,31 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
+    <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
+      <property role="TrG5h" value="Rechtsbetrekking" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxEy" role="2bv6Cn">
+      <property role="TrG5h" value="1. commentaar rechtsbetrekking RB01" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxGz" role="2bv6Cn">
+      <property role="TrG5h" value="2. hoofdsoort: verplichting" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxIA" role="2bv6Cn">
+      <property role="TrG5h" value="3. ondersoort fatale verplichting" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxKF" role="2bv6Cn">
+      <property role="TrG5h" value="4. Voordeel-houdend rechtssubject: de Staat" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxMM" role="2bv6Cn">
+      <property role="TrG5h" value="5. Nadeel-houdend rechtssubject: de voetganger op het troittoir of voetpad bij een voetgangerslicht" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxOV" role="2bv6Cn">
+      <property role="TrG5h" value="6. Rechtsobject: beginnen over te steken" />
+    </node>
+    <node concept="3Ih38J" id="4oA7p__MxR6" role="2bv6Cn">
+      <property role="TrG5h" value="7. Voorwaarde: indien voetgangerslicht op rood staat" />
+    </node>
+    <node concept="3H5gaA" id="_JZWYCfdao" role="2bv6Cn" />
     <node concept="3rDfq_" id="1w6hstGfI2K" role="2bv6Cn">
       <property role="TrG5h" value="Fatale verplichting niet meer beginnen met over te steken" />
       <property role="3rDz0B" value="g9av3vFLsd/S01" />
@@ -157,7 +183,7 @@
       <ref role="1OeGCA" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       <node concept="2mG0Ck" id="1w6hstGmubD" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="rechthebbende Persoon" />
+        <property role="TrG5h" value="krachtige aanspraak hebbende persoon" />
         <property role="2mCGrO" value="heeft" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
@@ -171,7 +197,7 @@
       <ref role="1OeGCy" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       <node concept="2mG0Ck" id="1w6hstGmuaY" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="plichthoudende Persoon" />
+        <property role="TrG5h" value="fatale plichthoudende persoon" />
         <property role="2mCGrO" value="heeft" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
@@ -180,21 +206,6 @@
         <property role="TrG5h" value="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
         <property role="16Ztxt" value="true" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-      </node>
-    </node>
-    <node concept="2mG0Cb" id="6c3QCZh1bOv" role="2bv6Cn">
-      <property role="TrG5h" value="Objecttype van Fatale verplichting niet meer beginnen met over te steken" />
-      <node concept="2mG0Ck" id="6c3QCZh1bOw" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="fatale verplichting niet meer beginnen met over te steken" />
-        <property role="2mCGrO" value="heeft betrekking op" />
-        <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-      </node>
-      <node concept="2mG0Ck" id="6c3QCZh1bOx" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
       </node>
     </node>
     <node concept="3H5gaA" id="5rg1XHBz7SQ" role="2bv6Cn" />
@@ -217,7 +228,7 @@
       <ref role="1OeGCA" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
       <node concept="2mG0Ck" id="6c3QCZh1c9f" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="rechthebbende Persoon" />
+        <property role="TrG5h" value="verlof hebbende persoon" />
         <property role="2mCGrO" value="heeft" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
@@ -232,7 +243,7 @@
       <ref role="1OeGCy" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
       <node concept="2mG0Ck" id="6c3QCZh1c7Q" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="plichthoudende Persoon" />
+        <property role="TrG5h" value="geenaanspraak" />
         <property role="2mCGrO" value="heeft" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
@@ -240,20 +251,6 @@
         <property role="u$DAK" value="false" />
         <property role="TrG5h" value="nadelen door Vrijheid om over te steken" />
         <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
-      </node>
-    </node>
-    <node concept="2mG0Cb" id="6c3QCZh1cdk" role="2bv6Cn">
-      <property role="TrG5h" value="Objecttype van Vrijheid om over te steken" />
-      <node concept="2mG0Ck" id="6c3QCZh1cdl" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="vrijheid om over te steken" />
-        <property role="2mCGrO" value="heeft betrekking op" />
-        <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
-      </node>
-      <node concept="2mG0Ck" id="6c3QCZh1cdm" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
       </node>
     </node>
     <node concept="3H5gaA" id="6c3QCZh1bNB" role="2bv6Cn" />
