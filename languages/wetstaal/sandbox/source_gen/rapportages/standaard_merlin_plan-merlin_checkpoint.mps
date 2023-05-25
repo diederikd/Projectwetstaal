@@ -7,6 +7,7 @@
   <languages />
   <imports>
     <import index="un3k" ref="r:d61c5d4e-680b-4744-9877-20e1e2d7e59b(rapportages)" />
+    <import index="elf3" ref="r:bd8c1c5e-fc16-4607-baa6-63a8c943621e(regels)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -18,7 +19,9 @@
       </concept>
     </language>
     <language id="b2fc4154-1657-4d74-8828-c55b57a96ecd" name="rapporten">
-      <concept id="8610067412509013100" name="rapporten.structure.AlleServices" flags="ng" index="3TIiVt" />
+      <concept id="172689781860533492" name="rapporten.structure.EnkeleRoot" flags="ng" index="ihC25">
+        <reference id="172689781860534369" name="root" index="ihCKg" />
+      </concept>
       <concept id="8610067412508977244" name="rapporten.structure.Rapportage" flags="ng" index="3TJFbH">
         <child id="8610067412509012738" name="content" index="3TIiAN" />
       </concept>
@@ -28,8 +31,9 @@
   <node concept="3TJFbH" id="1">
     <property role="TrG5h" value="html" />
     <uo k="s:originTrace" v="n:8654851445382322297" />
-    <node concept="3TIiVt" id="2" role="3TIiAN">
-      <uo k="s:originTrace" v="n:8654851445382322298" />
+    <node concept="ihC25" id="2" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:1w6hstGf8YC" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
+      <uo k="s:originTrace" v="n:8654851445387459356" />
     </node>
   </node>
 </model>

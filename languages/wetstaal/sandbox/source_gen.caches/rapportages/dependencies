@@ -17,6 +17,7 @@
   <uses module="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
   <uses module="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" kind="dp" />
   <uses module="c31f3da0-0042-4ad5-b4fc-2622762fa0fe(linguistics.runtime)" kind="rt" />
+  <uses module="ab32cbbf-9b8a-430b-a2ba-3c617a648d2f(specificaties)" kind="dp" />
   <uses module="8270cb09-651a-458a-9f4e-86e3e4423c92(standaardFuncties)" kind="rt" />
   <uses module="de859d7b-3967-4dc6-800a-c7f85c414239(translator.runtime)" kind="dp" />
 </dependenciesRoot>

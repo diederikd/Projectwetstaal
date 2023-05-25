@@ -21,7 +21,9 @@
       </concept>
     </language>
     <language id="b2fc4154-1657-4d74-8828-c55b57a96ecd" name="rapporten">
-      <concept id="8610067412509013100" name="rapporten.structure.AlleServices" flags="ng" index="3TIiVt" />
+      <concept id="172689781860533492" name="rapporten.structure.EnkeleRoot" flags="ng" index="ihC25">
+        <reference id="172689781860534369" name="root" index="ihCKg" />
+      </concept>
       <concept id="8610067412508977244" name="rapporten.structure.Rapportage" flags="ng" index="3TJFbH">
         <child id="8610067412509012738" name="content" index="3TIiAN" />
       </concept>
@@ -29,7 +31,9 @@
   </registry>
   <node concept="3TJFbH" id="7wsdoz1MxxT">
     <property role="TrG5h" value="html" />
-    <node concept="3TIiVt" id="7wsdoz1MxxU" role="3TIiAN" />
+    <node concept="ihC25" id="7wsdoz267Gs" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:1w6hstGf8YC" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
+    </node>
   </node>
 </model>
 

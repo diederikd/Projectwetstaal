@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="asy9fuvxw5cicowt4oy43h2vo2aosaw">
   <files names="rulebase_regels__bd8c1c5e__fc16__4607__baa6__63a8c943621e__1731147829587251112.rb:ruleflow_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829587251112.flow" />
+  <files dir="HTML/regels/" names="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen_Regelgroep.html" />
+  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
 </product>
 
