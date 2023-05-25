@@ -12,6 +12,7 @@ import jetbrains.mps.smodel.adapter.ids.SConceptId;
 import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
 import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
@@ -25,7 +26,9 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptRechtshandeling = createDescriptorForRechtshandeling();
   /*package*/ final ConceptDescriptor myConceptRechtsobject = createDescriptorForRechtsobject();
   /*package*/ final ConceptDescriptor myConceptRechtssubject = createDescriptorForRechtssubject();
+  /*package*/ final ConceptDescriptor myConceptUitgevoerdOp = createDescriptorForUitgevoerdOp();
   /*package*/ final ConceptDescriptor myConceptVoordeelkant = createDescriptorForVoordeelkant();
+  /*package*/ final ConceptDescriptor myConceptWetsmodel = createDescriptorForWetsmodel();
   /*package*/ final EnumerationDescriptor myEnumerationhoofdsoort = new EnumerationDescriptor_hoofdsoort();
   /*package*/ final EnumerationDescriptor myEnumerationondersoort = new EnumerationDescriptor_ondersoort();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -42,7 +45,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDatumTijd, myConceptGebeurtenisMetRechtsgevolg, myConceptIsBeeindigd, myConceptIsOnstaan, myConceptNadeelkant, myConceptRechtsbetrekking, myConceptRechtsfeit, myConceptRechtshandeling, myConceptRechtsobject, myConceptRechtssubject, myConceptVoordeelkant);
+    return Arrays.asList(myConceptDatumTijd, myConceptGebeurtenisMetRechtsgevolg, myConceptIsBeeindigd, myConceptIsOnstaan, myConceptNadeelkant, myConceptRechtsbetrekking, myConceptRechtsfeit, myConceptRechtshandeling, myConceptRechtsobject, myConceptRechtssubject, myConceptUitgevoerdOp, myConceptVoordeelkant, myConceptWetsmodel);
   }
 
   @Override
@@ -69,8 +72,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptRechtsobject;
       case LanguageConceptSwitch.Rechtssubject:
         return myConceptRechtssubject;
+      case LanguageConceptSwitch.UitgevoerdOp:
+        return myConceptUitgevoerdOp;
       case LanguageConceptSwitch.Voordeelkant:
         return myConceptVoordeelkant;
+      case LanguageConceptSwitch.Wetsmodel:
+        return myConceptWetsmodel;
       default:
         return null;
     }
@@ -132,10 +139,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.super_("gegevensspraak.structure.ObjectType", 0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826ddd50L);
     b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/290809765463711573");
     b.version(2);
+    b.property("tekstvoordeelkant", 0x96fffcfa841ba99L).type(PrimitiveTypeId.STRING).origin("680043336102427289").done();
+    b.property("tekstnadeelkant", 0x96fffcfa841ba9dL).type(PrimitiveTypeId.STRING).origin("680043336102427293").done();
     b.property("hoofdsoort", 0x40929f0dfaf19d7L).type(MetaIdFactory.dataTypeId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaf170cL)).origin("290809765463792087").done();
     b.property("ondersoort", 0x40929f0dfaf19d9L).type(MetaIdFactory.dataTypeId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaf19a7L)).origin("290809765463792089").done();
     b.associate("voordeelkant", 0x180645c76c3c120aL).target(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfabe012L).optional(false).origin("1731147829587218954").done();
     b.associate("nadeelkant", 0x180645c76c3c120cL).target(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfabe012L).optional(false).origin("1731147829587218956").done();
+    b.associate("rechtsobject", 0x96fffcfa84714e3L).target(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c634e1cL).optional(true).origin("680043336102778083").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForRechtsfeit() {
@@ -170,6 +180,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForUitgevoerdOp() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "UitgevoerdOp", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x96fffcfa849ae59L);
+    b.class_(false, false, false);
+    b.super_("gegevensspraak.structure.Attribuut", 0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826e330cL);
+    b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/680043336102948441");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForVoordeelkant() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "Voordeelkant", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe0L);
     b.class_(false, false, false);
@@ -177,6 +195,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/1731147829587251168");
     b.version(2);
     b.associate("rechtsbetrekking", 0x180645c76c3c8fe1L).target(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L).optional(false).origin("1731147829587251169").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWetsmodel() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "Wetsmodel", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x781c3588c200b263L);
+    b.class_(false, false, true);
+    b.super_("gegevensspraak.structure.ObjectModel", 0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826e36e2L);
+    b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/8654851445385900643");
+    b.version(2);
     return b.create();
   }
 }

@@ -34,6 +34,7 @@
     <language slang="l:d8af31be-1847-4d5b-8686-78e232d4e0f8:servicespraak" version="10" />
     <language slang="l:8bc962c0-cb3c-49f0-aa03-23c3bc0304b0:testspraak" version="15" />
     <language slang="l:e55f258b-af61-4a6a-8f90-7f249af47f79:wetstaal" version="0" />
+    <language slang="l:bfbf9599-302a-4a1a-b5ec-d2679c50e0c4:wetstaalNaarHtml" version="0" />
     <language slang="l:51f8c68a-90ac-4dbf-b58a-c9e9db784c81:xml.schema" version="0" />
   </languageVersions>
   <dependencyVersions>

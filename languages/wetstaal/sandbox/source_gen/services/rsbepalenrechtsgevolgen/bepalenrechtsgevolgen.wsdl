@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<wsdl:definitions name="jas_demo" targetNamespace="http://brm.jas.demo.belastingdienst.nl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns0="http://www.belastingdienst.nl/BepalenrechtsgevolgenBlazeBOM" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://brm.jas.demo.belastingdienst.nl" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema>
+      <xsd:import namespace="http://www.belastingdienst.nl/BepalenrechtsgevolgenBlazeBOM" schemaLocation="./service.xsd"></xsd:import>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="berekenBepalenrechtsgevolgenRequest">
+    <wsdl:part name="rsbepalenrechtsgevolgenMsg" type="ns0:Message"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="berekenBepalenrechtsgevolgenResponse">
+    <wsdl:part name="return" type="ns0:Message"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="jas_demo_PortType">
+    <wsdl:operation name="berekenBepalenrechtsgevolgen">
+      <wsdl:input message="tns:berekenBepalenrechtsgevolgenRequest" wsaw:Action="http://servicespecifications.belastingdienst.nl/bouwblokken/brm/jas/demo/DecisionService/berekenBepalenrechtsgevolgenRequest"></wsdl:input>
+      <wsdl:output message="tns:berekenBepalenrechtsgevolgenResponse" wsaw:Action="http://servicespecifications.belastingdienst.nl/bouwblokken/brm/projectnaam/componentnaam/DecisionService/jasRequest"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="jas_demo_Binding" type="tns:jas_demo_PortType">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"></soap:binding>
+    <wsdl:operation name="berekenBepalenrechtsgevolgen">
+      <soap:operation soapAction="http://servicespecifications.belastingdienst.nl/bouwblokken/brm/jas/demo/DecisionService/berekenBepalenrechtsgevolgenRequest"></soap:operation>
+      <wsdl:input>
+        <soap:body namespace="http://brm.jas.demo.belastingdienst.nl" use="literal"></soap:body>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body namespace="http://brm.jas.demo.belastingdienst.nl" use="literal"></soap:body>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DecisionService">
+    <wsdl:port binding="tns:jas_demo_Binding" name="jas_demo_Port">
+      <soap:address location="http://localhost:9080/brm/jas/demo/DecisionService"></soap:address>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

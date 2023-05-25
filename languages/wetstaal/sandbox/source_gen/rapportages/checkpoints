@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoints>
+  <plan id="standaard merlin plan">
+    <checkpoint id="merlin_checkpoint" file="standaard_merlin_plan-merlin_checkpoint.mps" />
+  </plan>
+  <plan id="algemeen plan">
+    <checkpoint id="objectmodel" file="algemeen_plan-objectmodel.mps" />
+  </plan>
+</checkpoints>
+

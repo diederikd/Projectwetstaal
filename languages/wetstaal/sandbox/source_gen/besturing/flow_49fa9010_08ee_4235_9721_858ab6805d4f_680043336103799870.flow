@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<ruleflow name="flow_49fa9010_08ee_4235_9721_858ab6805d4f_680043336103799870">
+  <!--gegenereerd o.b.v. de Flow genaamd 'Hoofdflow', in model 'besturing' in module 'specificaties': http://127.0.0.1:63320/node?ref=r%3A49fa9010-08ee-4235-9721-858ab6805d4f%28besturing%29%2F680043336103799870 -->
+  <variable name="persoon" type="" value="" />
+  <flow><booleanDecision>
+        <test>true</test>
+        <flow>
+          <task name="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" type="ruleset" datatype="void"></task>
+          <task name="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019" type="ruleset" datatype="void"></task>
+          <task name="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941" type="ruleset" datatype="void"></task>
+        </flow>
+      </booleanDecision>
+      </flow>
+</ruleflow>

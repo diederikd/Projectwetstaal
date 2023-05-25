@@ -1,0 +1,46 @@
+{
+  "name": "BepalenRechtsgevolgen",
+  "projectnaam": "jas",
+  "componentnaam": "demo",
+  "genDir": "bepalenrechtsgevolgen$service",
+  "objectModelName": "services.bepalenrechtsgevolgen____ObjectModel",
+  "propertiesFileName": "bepalenrechtsgevolgen.properties",
+  "serviceAcronym": "rsbepalenrechtsgevolgen",
+  "namespace": "http://www.belastingdienst.nl/BepalenrechtsgevolgenBlazeBOM",
+  "xmlRekenmomentVeld": "belastingjaar",
+  "xmlBerichtType": "Message",
+  "xmlBerichtInType": "Request",
+  "xmlBerichtUitType": "Response",
+  "entryPoint": "berekenBepalenrechtsgevolgen",
+  "testEntryPoint": "testService__bepalenrechtsgevolgen",
+  "xsdFileName": "rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.xsd",
+  "blazeName": "bepalenrechtsgevolgen",
+  "coreModels": [
+    {
+      "model": "besturing",
+      "module": "specificaties",
+      "moduleDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox",
+      "modelGenDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox/source_gen/besturing"
+    },
+    {
+      "model": "gegevens",
+      "module": "specificaties",
+      "moduleDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox",
+      "modelGenDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox/source_gen/gegevens"
+    },
+    {
+      "model": "regels",
+      "module": "specificaties",
+      "moduleDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox",
+      "modelGenDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox/source_gen/regels"
+    },
+    {
+      "model": "services",
+      "module": "specificaties",
+      "moduleDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox",
+      "modelGenDir": "/Users/diederikdulfer/MPSProjects/ProjectWetstaal/languages/wetstaal/sandbox/source_gen/services"
+    }
+  ],
+  "testModels": [],
+  "objectModel": {}
+}

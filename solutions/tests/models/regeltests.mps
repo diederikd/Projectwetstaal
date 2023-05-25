@@ -128,10 +128,10 @@
         </node>
       </node>
       <node concept="4OhPC" id="5rg1XHBzPyB" role="4Ohaa">
-        <property role="TrG5h" value="Rechtsbetrekking A" />
+        <property role="TrG5h" value="rechtsbetrekking A" />
         <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
         <node concept="3_ceKt" id="_JZWYCfdzU" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="rechthebbende Persoon" />
+          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
           <node concept="4PMua" id="_JZWYCfd$n" role="3_ceKu">
             <node concept="4PMub" id="_JZWYCfd$I" role="4PMue">
               <ref role="4PMuN" node="_JZWYCfdzh" resolve="de Staat" />
@@ -158,7 +158,7 @@
         </node>
       </node>
       <node concept="4OhPC" id="5rg1XHBzRBG" role="4Ohaa">
-        <property role="TrG5h" value="Rechtsbetrekking B" />
+        <property role="TrG5h" value="rechtsbetrekking B" />
         <ref role="4OhPH" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
         <node concept="3_ceKt" id="5rg1XHBzRCk" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:6c3QCZh1c9f" resolve="rechthebbende Persoon" />

@@ -1,0 +1,9 @@
+**/classes_gen
+**/source_gen
+**/source_gen.caches
+*.java
+/.mps/workspace.xml
+
+\.gitattributes
+
+\.mps/vcs\.xml

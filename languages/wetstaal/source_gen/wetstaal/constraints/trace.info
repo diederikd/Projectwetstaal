@@ -27,19 +27,20 @@
       <node id="1731147829587697737" at="47,116,48,20" concept="5" />
       <node id="1731147829587698010" at="51,119,52,226" concept="1" />
       <node id="1731147829587729041" at="52,226,53,174" concept="1" />
-      <node id="1731147829588377834" at="53,174,54,288" concept="1" />
-      <node id="1731147829588377847" at="54,288,55,237" concept="1" />
+      <node id="1731147829588377834" at="53,174,54,230" concept="1" />
+      <node id="1731147829588377847" at="54,230,55,237" concept="1" />
       <node id="1731147829588535475" at="55,237,56,162" concept="1" />
       <node id="1731147829587276621" at="58,6,59,131" concept="4" />
       <node id="1731147829587697737" at="59,131,60,42" concept="1" />
       <node id="1731147829587276621" at="60,42,61,22" concept="5" />
       <node id="1731147829587276621" at="65,0,66,0" concept="7" trace="Voordeelkant$_K" />
       <node id="1731147829587276621" at="69,0,70,0" concept="7" trace="name$MnvL" />
-      <node id="1731147829587276621" at="70,0,71,0" concept="7" trace="frase$d0ev" />
-      <node id="1731147829587276621" at="74,0,75,0" concept="7" trace="rollen$hqtc" />
-      <node id="1731147829587276621" at="75,0,76,0" concept="7" trace="objectType$$zx0" />
-      <node id="1731147829587276621" at="76,0,77,0" concept="7" trace="rechtsbetrekking$4ksT" />
-      <node id="1731147829587276621" at="77,0,78,0" concept="7" trace="voordeelkant$C51f" />
+      <node id="1731147829587276621" at="70,0,71,0" concept="7" trace="tekstvoordeelkant$QiFz" />
+      <node id="1731147829587276621" at="71,0,72,0" concept="7" trace="frase$d0ev" />
+      <node id="1731147829587276621" at="75,0,76,0" concept="7" trace="rollen$hqtc" />
+      <node id="1731147829587276621" at="76,0,77,0" concept="7" trace="objectType$$zx0" />
+      <node id="1731147829587276621" at="77,0,78,0" concept="7" trace="rechtsbetrekking$4ksT" />
+      <node id="1731147829587276621" at="78,0,79,0" concept="7" trace="voordeelkant$C51f" />
       <node id="1731147829587276621" at="24,0,27,0" concept="0" trace="Voordeelkant_Constraints#()V" />
       <node id="1731147829587276622" at="29,0,32,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
       <node id="1731147829587276622" at="32,0,36,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
@@ -80,11 +81,11 @@
       </scope>
       <scope id="1731147829587276621" at="43,0,63,0" />
       <unit id="1731147829587276621" at="64,0,67,0" name="wetstaal.constraints.Voordeelkant_Constraints$CONCEPTS" />
-      <unit id="1731147829587276621" at="68,0,72,0" name="wetstaal.constraints.Voordeelkant_Constraints$PROPS" />
-      <unit id="1731147829587276621" at="73,0,79,0" name="wetstaal.constraints.Voordeelkant_Constraints$LINKS" />
+      <unit id="1731147829587276621" at="68,0,73,0" name="wetstaal.constraints.Voordeelkant_Constraints$PROPS" />
+      <unit id="1731147829587276621" at="74,0,80,0" name="wetstaal.constraints.Voordeelkant_Constraints$LINKS" />
       <unit id="1731147829587276622" at="28,0,37,0" name="wetstaal.constraints.Voordeelkant_Constraints$Name_Property" />
       <unit id="1731147829587697737" at="45,48,58,5" name="wetstaal.constraints.Voordeelkant_Constraints$1" />
-      <unit id="1731147829587276621" at="23,0,80,0" name="wetstaal.constraints.Voordeelkant_Constraints" />
+      <unit id="1731147829587276621" at="23,0,81,0" name="wetstaal.constraints.Voordeelkant_Constraints" />
     </file>
   </root>
   <root nodeRef="r:e732351c-b409-4687-ac70-f782e35413a1(wetstaal.constraints)/1731147829587281633">
@@ -98,19 +99,20 @@
       <node id="1731147829588694098" at="47,116,48,20" concept="5" />
       <node id="1731147829588695085" at="51,119,52,224" concept="1" />
       <node id="1731147829588695098" at="52,224,53,174" concept="1" />
-      <node id="1731147829588695109" at="53,174,54,287" concept="1" />
-      <node id="1731147829588695123" at="54,287,55,235" concept="1" />
+      <node id="1731147829588695109" at="53,174,54,228" concept="1" />
+      <node id="1731147829588695123" at="54,228,55,235" concept="1" />
       <node id="1731147829588695135" at="55,235,56,162" concept="1" />
       <node id="1731147829587281633" at="58,6,59,131" concept="4" />
       <node id="1731147829588694098" at="59,131,60,42" concept="1" />
       <node id="1731147829587281633" at="60,42,61,22" concept="5" />
       <node id="1731147829587281633" at="65,0,66,0" concept="7" trace="Nadeelkant$LR" />
       <node id="1731147829587281633" at="69,0,70,0" concept="7" trace="name$MnvL" />
-      <node id="1731147829587281633" at="70,0,71,0" concept="7" trace="frase$d0ev" />
-      <node id="1731147829587281633" at="74,0,75,0" concept="7" trace="rollen$hqtc" />
-      <node id="1731147829587281633" at="75,0,76,0" concept="7" trace="objectType$$zx0" />
-      <node id="1731147829587281633" at="76,0,77,0" concept="7" trace="rechtsbetrekking$4qwp" />
-      <node id="1731147829587281633" at="77,0,78,0" concept="7" trace="nadeelkant$C5vh" />
+      <node id="1731147829587281633" at="70,0,71,0" concept="7" trace="tekstnadeelkant$QoyW" />
+      <node id="1731147829587281633" at="71,0,72,0" concept="7" trace="frase$d0ev" />
+      <node id="1731147829587281633" at="75,0,76,0" concept="7" trace="rollen$hqtc" />
+      <node id="1731147829587281633" at="76,0,77,0" concept="7" trace="objectType$$zx0" />
+      <node id="1731147829587281633" at="77,0,78,0" concept="7" trace="rechtsbetrekking$4qwp" />
+      <node id="1731147829587281633" at="78,0,79,0" concept="7" trace="nadeelkant$C5vh" />
       <node id="1731147829587281633" at="24,0,27,0" concept="0" trace="Nadeelkant_Constraints#()V" />
       <node id="1731147829587281634" at="29,0,32,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
       <node id="1731147829587281634" at="32,0,36,0" concept="3" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
@@ -151,11 +153,11 @@
       </scope>
       <scope id="1731147829587281633" at="43,0,63,0" />
       <unit id="1731147829587281633" at="64,0,67,0" name="wetstaal.constraints.Nadeelkant_Constraints$CONCEPTS" />
-      <unit id="1731147829587281633" at="68,0,72,0" name="wetstaal.constraints.Nadeelkant_Constraints$PROPS" />
-      <unit id="1731147829587281633" at="73,0,79,0" name="wetstaal.constraints.Nadeelkant_Constraints$LINKS" />
+      <unit id="1731147829587281633" at="68,0,73,0" name="wetstaal.constraints.Nadeelkant_Constraints$PROPS" />
+      <unit id="1731147829587281633" at="74,0,80,0" name="wetstaal.constraints.Nadeelkant_Constraints$LINKS" />
       <unit id="1731147829587281634" at="28,0,37,0" name="wetstaal.constraints.Nadeelkant_Constraints$Name_Property" />
       <unit id="1731147829588694098" at="45,48,58,5" name="wetstaal.constraints.Nadeelkant_Constraints$1" />
-      <unit id="1731147829587281633" at="23,0,80,0" name="wetstaal.constraints.Nadeelkant_Constraints" />
+      <unit id="1731147829587281633" at="23,0,81,0" name="wetstaal.constraints.Nadeelkant_Constraints" />
     </file>
   </root>
   <root nodeRef="r:e732351c-b409-4687-ac70-f782e35413a1(wetstaal.constraints)/290809765463792096">

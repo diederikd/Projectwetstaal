@@ -19,7 +19,9 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Rechtshandeling;
   private ConceptPresentation props_Rechtsobject;
   private ConceptPresentation props_Rechtssubject;
+  private ConceptPresentation props_UitgevoerdOp;
   private ConceptPresentation props_Voordeelkant;
+  private ConceptPresentation props_Wetsmodel;
 
   @Override
   @Nullable
@@ -95,6 +97,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Rechtssubject = cpb.create();
         }
         return props_Rechtssubject;
+      case LanguageConceptSwitch.UitgevoerdOp:
+        if (props_UitgevoerdOp == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_UitgevoerdOp = cpb.create();
+        }
+        return props_UitgevoerdOp;
       case LanguageConceptSwitch.Voordeelkant:
         if (props_Voordeelkant == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -102,6 +111,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Voordeelkant = cpb.create();
         }
         return props_Voordeelkant;
+      case LanguageConceptSwitch.Wetsmodel:
+        if (props_Wetsmodel == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Wetsmodel = cpb.create();
+        }
+        return props_Wetsmodel;
     }
     return null;
   }

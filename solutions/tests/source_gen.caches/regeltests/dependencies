@@ -52,5 +52,10 @@
   <uses module="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0(testspraak)" kind="dp" />
   <uses module="de859d7b-3967-4dc6-800a-c7f85c414239(translator.runtime)" kind="dp" />
   <uses module="899a0a6a-566f-4976-b382-4766d9c4f8b4(unittest.runtime)" kind="rt+dp" />
+  <dependency className="regeltests.RechtsgevolgenVanHetRechtsfeitVerspringenVanHetLichtNaarGroen">
+    <classNode dependClassName="jetbrains.mps.MPSLaunch" />
+    <classNode dependClassName="org.junit.Test" />
+    <classNode extendsClassName="model.UnitTest" />
+  </dependency>
 </dependenciesRoot>
 

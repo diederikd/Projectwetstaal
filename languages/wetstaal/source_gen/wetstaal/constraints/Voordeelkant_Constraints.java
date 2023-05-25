@@ -51,7 +51,7 @@ public class Voordeelkant_Constraints extends BaseConstraintsDescriptor {
       public void onReferenceSet(final SNode referenceNode, final SNode oldReferentNode, final SNode newReferentNode) {
         SLinkOperations.setTarget(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(0), LINKS.objectType$$zx0, SLinkOperations.getTarget(newReferentNode, LINKS.voordeelkant$C51f));
         SLinkOperations.setTarget(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(1), LINKS.objectType$$zx0, newReferentNode);
-        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(0), PROPS.name$MnvL, "rechthebbende " + SPropertyOperations.getString(SLinkOperations.getTarget(newReferentNode, LINKS.voordeelkant$C51f), PROPS.name$MnvL));
+        SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(0), PROPS.name$MnvL, SPropertyOperations.getString(newReferentNode, PROPS.tekstvoordeelkant$QiFz));
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(1), PROPS.name$MnvL, "voordelen door " + SPropertyOperations.getString(newReferentNode, PROPS.name$MnvL));
         SPropertyOperations.assign(ListSequence.fromList(SLinkOperations.getChildren(referenceNode, LINKS.rollen$hqtc)).getElement(0), PROPS.frase$d0ev, "heeft");
       }
@@ -67,6 +67,7 @@ public class Voordeelkant_Constraints extends BaseConstraintsDescriptor {
 
   private static final class PROPS {
     /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty tekstvoordeelkant$QiFz = MetaAdapterFactory.getProperty(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x96fffcfa841ba99L, "tekstvoordeelkant");
     /*package*/ static final SProperty frase$d0ev = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x4c364aa0da8640b4L, 0x4c364aa0da948c54L, "frase");
   }
 

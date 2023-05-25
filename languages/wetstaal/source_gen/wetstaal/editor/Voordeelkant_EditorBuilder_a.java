@@ -138,7 +138,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Binair feittype");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Voordeelkant");
     editorCell.setCellId("Constant_z6ziza_a1a");
     Style style = new StyleImpl();
     new SleutelWoordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);

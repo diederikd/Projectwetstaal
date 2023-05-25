@@ -4,6 +4,8 @@
   <languages>
     <use id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal" version="0" />
     <use id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak" version="16" />
+    <use id="bfbf9599-302a-4a1a-b5ec-d2679c50e0c4" name="wetstaalNaarHtml" version="0" />
+    <engage id="bfbf9599-302a-4a1a-b5ec-d2679c50e0c4" name="wetstaalNaarHtml" />
   </languages>
   <imports />
   <registry>
@@ -41,11 +43,18 @@
       <concept id="4104573890451362331" name="gegevensspraak.structure.Commentaar" flags="ng" index="3Ih38J" />
     </language>
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
+      <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
+      <concept id="6255508521334311083" name="wetstaal.structure.IsOnstaan" flags="ng" index="LnSXK" />
+      <concept id="8654851445385900643" name="wetstaal.structure.Wetsmodel" flags="ng" index="2U78vF" />
+      <concept id="4210711717891144949" name="wetstaal.structure.Rechtshandeling" flags="ng" index="2Y5CWa" />
       <concept id="290809765463580690" name="wetstaal.structure.Rechtssubject" flags="ng" index="3rCGBy" />
       <concept id="290809765463711600" name="wetstaal.structure.IsBeeindigd" flags="ng" index="3rDfq0" />
       <concept id="290809765463711573" name="wetstaal.structure.Rechtsbetrekking" flags="ng" index="3rDfq_">
+        <property id="680043336102427293" name="tekstnadeelkant" index="2xb$li" />
+        <property id="680043336102427289" name="tekstvoordeelkant" index="2xb$lm" />
         <property id="290809765463792087" name="hoofdsoort" index="3rDz0B" />
         <property id="290809765463792089" name="ondersoort" index="3rDz0D" />
+        <reference id="680043336102778083" name="rechtsobject" index="2xaeGG" />
         <reference id="1731147829587218956" name="nadeelkant" index="1Oe_vb" />
         <reference id="1731147829587218954" name="voordeelkant" index="1Oe_vd" />
       </concept>
@@ -65,8 +74,8 @@
       </concept>
     </language>
   </registry>
-  <node concept="2bv6Cm" id="g9av3vFtWv">
-    <property role="TrG5h" value="Objectmodel wetstaal" />
+  <node concept="2U78vF" id="7wsdoz23lHv">
+    <property role="TrG5h" value="wetsmodel wetstaal" />
     <node concept="3rCGBy" id="g9av3vFtWz" role="2bv6Cn">
       <property role="TrG5h" value="Persoon" />
       <node concept="2bv6ZS" id="g9av3vFtWI" role="2bv01j">
@@ -87,9 +96,9 @@
       </node>
       <node concept="2mG0Ck" id="5rg1XHBzR7U" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht waarbij de persoon is" />
+        <property role="TrG5h" value="voetgangerslicht waarbij de persoon is" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="1fE_qF" node="1w6hstGppRa" />
       </node>
     </node>
     <node concept="2mG0Cb" id="_JZWYCe_ce" role="2bv6Cn">
@@ -102,9 +111,9 @@
       </node>
       <node concept="2mG0Ck" id="_JZWYCe_cg" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht" />
+        <property role="TrG5h" value="voetgangerslicht" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="1fE_qF" node="1w6hstGppRa" />
       </node>
     </node>
     <node concept="2mG0Cb" id="_JZWYCe_eO" role="2bv6Cn">
@@ -117,9 +126,9 @@
       </node>
       <node concept="2mG0Ck" id="_JZWYCe_eQ" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht waarbij overgestoken is" />
+        <property role="TrG5h" value="voetgangerslicht waarbij overgestoken is" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="1fE_qF" node="1w6hstGppRa" />
       </node>
     </node>
     <node concept="3H5gaA" id="5rg1XHBzR7P" role="2bv6Cn" />
@@ -139,6 +148,10 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
+    <node concept="1OpgJr" id="_JZWYChLe3" role="2bv6Cn">
+      <property role="TrG5h" value="Beginnen met oversteken" />
+    </node>
+    <node concept="3H5gaA" id="_JZWYChL2M" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
     </node>
@@ -168,8 +181,11 @@
       <property role="TrG5h" value="Fatale verplichting niet meer beginnen met over te steken" />
       <property role="3rDz0B" value="g9av3vFLsd/S01" />
       <property role="3rDz0D" value="g9av3vFLAD/S011" />
-      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <property role="2xb$lm" value="krachtige aanspraak hebbende persoon" />
+      <property role="2xb$li" value="fatale plichthoudende persoon" />
+      <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <node concept="2bpyt6" id="_JZWYCdgYf" role="2bv01j">
         <property role="TrG5h" value="ontstaan" />
         <property role="2VcyFJ" value="true" />
@@ -208,13 +224,29 @@
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="_JZWYChLgq" role="2bv6Cn">
+      <property role="TrG5h" value="Rechtsobject van de Fatale verplichting niet meer beginnen met over te steken" />
+      <node concept="2mG0Ck" id="_JZWYChLgr" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="beginnen met oversteken" />
+        <ref role="1fE_qF" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
+      </node>
+      <node concept="2mG0Ck" id="_JZWYChLgs" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="fatale verplichting niet meer beginnen met over te steken" />
+        <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
+      </node>
+    </node>
     <node concept="3H5gaA" id="5rg1XHBz7SQ" role="2bv6Cn" />
     <node concept="3rDfq_" id="6c3QCZh1c5D" role="2bv6Cn">
       <property role="TrG5h" value="Vrijheid om over te steken" />
       <property role="3rDz0B" value="g9av3vFLsl/S02" />
       <property role="3rDz0D" value="g9av3vFLAQ/S021" />
+      <property role="2xb$lm" value="verlof hebbende persoon" />
+      <property role="2xb$li" value="geenaanspraak" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
       <node concept="2bpyt6" id="5rg1XHBzQKg" role="2bv01j">
         <property role="TrG5h" value="ontstaan" />
         <property role="2VcyFJ" value="true" />
@@ -253,7 +285,24 @@
         <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
       </node>
     </node>
-    <node concept="3H5gaA" id="6c3QCZh1bNB" role="2bv6Cn" />
+    <node concept="3rDfq_" id="_JZWYCiqoy" role="2bv6Cn">
+      <property role="TrG5h" value="Verplichting om  zo snel mogelijk door te lopen" />
+      <property role="3rDz0B" value="g9av3vFLsd/S01" />
+      <property role="3rDz0D" value="g9av3vFLAF/S013" />
+      <property role="2xb$lm" value="aanspraak hebbende persoon" />
+      <property role="2xb$li" value="zwakke plichthoudende persoon" />
+      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="3rDfq0" id="_JZWYCiqoz" role="2bv01j">
+        <property role="TrG5h" value="beëindigd" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="LnSXK" id="_JZWYCiqo$" role="2bv01j">
+        <property role="TrG5h" value="ontstaan" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="_JZWYCiqnz" role="2bv6Cn" />
     <node concept="1Om$G4" id="1w6hstGoORj" role="2bv6Cn">
       <property role="TrG5h" value="Verspringen van het licht naar groen" />
       <property role="16Ztxt" value="true" />
@@ -269,22 +318,79 @@
         <property role="2n7kvO" value="true" />
       </node>
     </node>
+    <node concept="1Om$G4" id="_JZWYCiqrl" role="2bv6Cn">
+      <property role="TrG5h" value="Verspringen van het licht naar rood" />
+      <property role="16Ztxt" value="true" />
+      <node concept="1Om$G3" id="_JZWYCiqrm" role="2bv01j">
+        <property role="TrG5h" value="Datum tijd" />
+        <node concept="1EDDdA" id="_JZWYCiqrn" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+      <node concept="2bpyt6" id="_JZWYCiqro" role="2bv01j">
+        <property role="TrG5h" value="plaatsgevonden" />
+        <property role="3uiUDc" value="true" />
+        <property role="2n7kvO" value="true" />
+      </node>
+    </node>
+    <node concept="2Y5CWa" id="_JZWYCiquS" role="2bv6Cn">
+      <property role="TrG5h" value="Overkant op de stoep stappen" />
+      <node concept="2x9_6m" id="_JZWYCj3KO" role="2bv01j">
+        <property role="TrG5h" value="Uitgevoerd op" />
+        <node concept="1EDDdA" id="_JZWYCj3KP" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+    </node>
+    <node concept="3H5gaA" id="_JZWYCiqsG" role="2bv6Cn" />
     <node concept="2mG0Cb" id="1w6hstGpq0a" role="2bv6Cn">
       <property role="TrG5h" value="verkeerslicht wordt groen" />
       <node concept="2mG0Ck" id="1w6hstGpq0b" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="verkeerslicht" />
         <property role="2mCGrO" value="ondergaat" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
       </node>
       <node concept="2mG0Ck" id="1w6hstGpq0c" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="verspringen van het licht naar groen" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGoORj" resolve="kleur van het licht wordt groen" />
+        <ref role="1fE_qF" node="1w6hstGoORj" resolve="Verspringen van het licht naar groen" />
       </node>
     </node>
+    <node concept="2mG0Cb" id="_JZWYCiqwv" role="2bv6Cn">
+      <property role="TrG5h" value="verkeerslicht wordt rood" />
+      <node concept="2mG0Ck" id="_JZWYCiqww" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verkeerslicht" />
+        <property role="2mCGrO" value="ondergaat" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="_JZWYCiqwx" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verspringen van het licht naar rood" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="_JZWYCiqrl" resolve="Verspringen van het licht naar rood" />
+      </node>
+    </node>
+    <node concept="2mG0Cb" id="_JZWYCiqzw" role="2bv6Cn">
+      <property role="TrG5h" value="aan de overkant op de stoep stappen" />
+      <node concept="2mG0Ck" id="_JZWYCiqzx" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="persoon" />
+        <property role="2mCGrO" value="gaat" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="_JZWYCiqzy" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="overkant op de stoep stappen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="_JZWYCiquS" resolve="Overkant op de stoep stappen" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="_JZWYCiqym" role="2bv6Cn" />
     <node concept="3H5gaA" id="1w6hstGppWN" role="2bv6Cn" />
+    <node concept="3H5gaA" id="7wsdoz23lHw" role="2bv6Cn" />
   </node>
 </model>
 

@@ -11,7 +11,6 @@ import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import wetstaal.generator.templates.QueriesGenerated;
 import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Arrays;
 
 public class Generator extends TemplateModuleInterpreted2 {
@@ -34,8 +33,7 @@ public class Generator extends TemplateModuleInterpreted2 {
 
   @Override
   public Collection<SLanguage> getTargetLanguages() {
-    SLanguage[] rv = new SLanguage[1];
-    rv[0] = MetaAdapterFactory.getLanguage(0x471364db80784933L, 0xb2ef88232bfa34fcL, "gegevensspraak");
+    SLanguage[] rv = new SLanguage[0];
     return Arrays.asList(rv);
   }
 

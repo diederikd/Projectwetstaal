@@ -50,8 +50,8 @@ is {
     };
   ;
   assert().checkEquals("<voetgangerslicht A> is/heeft groen ", true, (voetgangerslicht_spA));
-  assert().checkEquals("<Rechtsbetrekking A> is/heeft beeindigd ", true, (rechtsbetrekking_spA));
-  assert().checkEquals("<Rechtsbetrekking B> is/heeft ontstaan ", true, (rechtsbetrekking_spB));
+  assert().checkEquals("<rechtsbetrekking A> is/heeft beeindigd ", true, (rechtsbetrekking_spA));
+  assert().checkEquals("<rechtsbetrekking B> is/heeft ontstaan ", true, (rechtsbetrekking_spB));
 }
 
 function test_f41d6b00_9dc9_4ab0_9b1c_29caeb862185_680043336101762613_20230701

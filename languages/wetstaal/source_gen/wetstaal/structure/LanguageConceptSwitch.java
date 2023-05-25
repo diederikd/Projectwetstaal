@@ -19,7 +19,9 @@ public final class LanguageConceptSwitch {
   public static final int Rechtshandeling = 7;
   public static final int Rechtsobject = 8;
   public static final int Rechtssubject = 9;
-  public static final int Voordeelkant = 10;
+  public static final int UitgevoerdOp = 10;
+  public static final int Voordeelkant = 11;
+  public static final int Wetsmodel = 12;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xe55f258baf614a6aL, 0x8f907f249af47f79L);
@@ -33,7 +35,9 @@ public final class LanguageConceptSwitch {
     builder.put(0x3a6f73ff8479fcf5L, Rechtshandeling);
     builder.put(0x180645c76c634e1cL, Rechtsobject);
     builder.put(0x40929f0dfabe012L, Rechtssubject);
+    builder.put(0x96fffcfa849ae59L, UitgevoerdOp);
     builder.put(0x180645c76c3c8fe0L, Voordeelkant);
+    builder.put(0x781c3588c200b263L, Wetsmodel);
     myIndex = builder.seal();
   }
 

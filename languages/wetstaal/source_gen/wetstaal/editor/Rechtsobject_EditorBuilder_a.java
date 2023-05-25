@@ -105,7 +105,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Rechtsobjecttype");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Rechtsobject");
     editorCell.setCellId("Constant_cmh1a3_b0");
     Style style = new StyleImpl();
     new SleutelWoordStyleClass(getEditorContext(), getNode()).apply(style, editorCell);

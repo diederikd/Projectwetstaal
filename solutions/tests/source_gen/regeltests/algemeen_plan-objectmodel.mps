@@ -213,39 +213,39 @@
         </node>
       </node>
       <node concept="39e2AG" id="4" role="39e3Y0">
-        <ref role="39e2AK" to="rn5r:5rg1XHBzPyB" resolve="Rechtsbetrekking A" />
-        <node concept="385nmt" id="e" role="385vvn">
-          <property role="385vuF" value="Rechtsbetrekking A" />
-          <node concept="3u3nmq" id="g" role="385v07">
-            <property role="3u3nmv" value="6255508521334298791" />
-          </node>
-        </node>
-        <node concept="39e2AT" id="f" role="39e2AY">
-          <ref role="39e2AS" node="2K" resolve="rechtsbetrekking_spA" />
-        </node>
-      </node>
-      <node concept="39e2AG" id="5" role="39e3Y0">
-        <ref role="39e2AK" to="rn5r:5rg1XHBzRBG" resolve="Rechtsbetrekking B" />
-        <node concept="385nmt" id="h" role="385vvn">
-          <property role="385vuF" value="Rechtsbetrekking B" />
-          <node concept="3u3nmq" id="j" role="385v07">
-            <property role="3u3nmv" value="6255508521334307308" />
-          </node>
-        </node>
-        <node concept="39e2AT" id="i" role="39e2AY">
-          <ref role="39e2AS" node="2P" resolve="rechtsbetrekking_spB" />
-        </node>
-      </node>
-      <node concept="39e2AG" id="6" role="39e3Y0">
         <ref role="39e2AK" to="rn5r:_JZWYCfdzh" resolve="de Staat" />
-        <node concept="385nmt" id="k" role="385vvn">
+        <node concept="385nmt" id="e" role="385vvn">
           <property role="385vuF" value="de Staat" />
-          <node concept="3u3nmq" id="m" role="385v07">
+          <node concept="3u3nmq" id="g" role="385v07">
             <property role="3u3nmv" value="680043336102107345" />
           </node>
         </node>
-        <node concept="39e2AT" id="l" role="39e2AY">
+        <node concept="39e2AT" id="f" role="39e2AY">
           <ref role="39e2AS" node="2d" resolve="de_spStaat" />
+        </node>
+      </node>
+      <node concept="39e2AG" id="5" role="39e3Y0">
+        <ref role="39e2AK" to="rn5r:5rg1XHBzPyB" resolve="rechtsbetrekking A" />
+        <node concept="385nmt" id="h" role="385vvn">
+          <property role="385vuF" value="rechtsbetrekking A" />
+          <node concept="3u3nmq" id="j" role="385v07">
+            <property role="3u3nmv" value="6255508521334298791" />
+          </node>
+        </node>
+        <node concept="39e2AT" id="i" role="39e2AY">
+          <ref role="39e2AS" node="2K" resolve="rechtsbetrekking_spA" />
+        </node>
+      </node>
+      <node concept="39e2AG" id="6" role="39e3Y0">
+        <ref role="39e2AK" to="rn5r:5rg1XHBzRBG" resolve="rechtsbetrekking B" />
+        <node concept="385nmt" id="k" role="385vvn">
+          <property role="385vuF" value="rechtsbetrekking B" />
+          <node concept="3u3nmq" id="m" role="385v07">
+            <property role="3u3nmv" value="6255508521334307308" />
+          </node>
+        </node>
+        <node concept="39e2AT" id="l" role="39e2AY">
+          <ref role="39e2AS" node="2P" resolve="rechtsbetrekking_spB" />
         </node>
       </node>
       <node concept="39e2AG" id="7" role="39e3Y0">
@@ -279,7 +279,7 @@
         <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
         <uo k="s:originTrace" v="n:680043336101762615" />
         <node concept="3_ceKt" id="D" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht waarbij de persoon is" />
+          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
           <uo k="s:originTrace" v="n:680043336101776596" />
           <node concept="4PMua" id="E" role="3_ceKu">
             <uo k="s:originTrace" v="n:680043336101776652" />
@@ -333,7 +333,7 @@
         </node>
       </node>
       <node concept="4OhPC" id="$" role="4Ohaa">
-        <property role="TrG5h" value="Rechtsbetrekking A" />
+        <property role="TrG5h" value="rechtsbetrekking A" />
         <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
         <uo k="s:originTrace" v="n:6255508521334298791" />
         <node concept="3_ceKt" id="N" role="4OhPJ">
@@ -375,7 +375,7 @@
         </node>
       </node>
       <node concept="4OhPC" id="_" role="4Ohaa">
-        <property role="TrG5h" value="Rechtsbetrekking B" />
+        <property role="TrG5h" value="rechtsbetrekking B" />
         <ref role="4OhPH" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
         <uo k="s:originTrace" v="n:6255508521334307308" />
         <node concept="3_ceKt" id="X" role="4OhPJ">
@@ -431,7 +431,7 @@
       </node>
       <node concept="4Oh8J" id="B" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-        <ref role="3teO_M" node="$" resolve="Rechtsbetrekking A" />
+        <ref role="3teO_M" node="$" resolve="rechtsbetrekking A" />
         <uo k="s:originTrace" v="n:6255508521334300925" />
         <node concept="3mzBic" id="19" role="4Ohbj">
           <property role="V2jGk" value="-1" />
@@ -445,7 +445,7 @@
       </node>
       <node concept="4Oh8J" id="C" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
-        <ref role="3teO_M" node="_" resolve="Rechtsbetrekking B" />
+        <ref role="3teO_M" node="_" resolve="rechtsbetrekking B" />
         <uo k="s:originTrace" v="n:6255508521334307465" />
         <node concept="3mzBic" id="1b" role="4Ohbj">
           <property role="V2jGk" value="-1" />
@@ -1140,7 +1140,7 @@
               <node concept="2Wyvd7" id="4e" role="2Wx6aU">
                 <uo k="s:originTrace" v="n:6255508521334300935" />
                 <node concept="1yCNvD" id="4f" role="2Wyvd4">
-                  <property role="1yCNvM" value="&lt;Rechtsbetrekking A&gt; is/heeft beeindigd " />
+                  <property role="1yCNvM" value="&lt;rechtsbetrekking A&gt; is/heeft beeindigd " />
                   <uo k="s:originTrace" v="n:6255508521334300935" />
                 </node>
                 <node concept="3YTD38" id="4g" role="2Wyvd4">
@@ -1182,7 +1182,7 @@
               <node concept="2Wyvd7" id="4p" role="2Wx6aU">
                 <uo k="s:originTrace" v="n:6255508521334307476" />
                 <node concept="1yCNvD" id="4q" role="2Wyvd4">
-                  <property role="1yCNvM" value="&lt;Rechtsbetrekking B&gt; is/heeft ontstaan " />
+                  <property role="1yCNvM" value="&lt;rechtsbetrekking B&gt; is/heeft ontstaan " />
                   <uo k="s:originTrace" v="n:6255508521334307476" />
                 </node>
                 <node concept="3YTD38" id="4r" role="2Wyvd4">

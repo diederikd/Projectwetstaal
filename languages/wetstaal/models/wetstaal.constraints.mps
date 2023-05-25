@@ -1085,20 +1085,10 @@
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
-              <node concept="3cpWs3" id="1w6hstGljG6" role="37vLTx">
-                <node concept="Xl_RD" id="1w6hstGlk3B" role="3uHU7B">
-                  <property role="Xl_RC" value="rechthebbende " />
-                </node>
-                <node concept="2OqwBi" id="1w6hstGjur2" role="3uHU7w">
-                  <node concept="2OqwBi" id="1w6hstGjs3O" role="2Oq$k0">
-                    <node concept="3khVwk" id="1w6hstGjs3P" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="1w6hstGjs3Q" role="2OqNvi">
-                      <ref role="3Tt5mk" to="b0hk:1w6hstGf18a" resolve="voordeelkant" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="1w6hstGjvdp" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
+              <node concept="2OqwBi" id="_JZWYCh7l0" role="37vLTx">
+                <node concept="3khVwk" id="_JZWYCh6UO" role="2Oq$k0" />
+                <node concept="3TrcHB" id="_JZWYCh9hC" role="2OqNvi">
+                  <ref role="3TsBF5" to="b0hk:_JZWYCgrEp" resolve="tekstvoordeelkant" />
                 </node>
               </node>
             </node>
@@ -1271,20 +1261,10 @@
                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
-              <node concept="3cpWs3" id="1w6hstGllpg" role="37vLTx">
-                <node concept="2OqwBi" id="1w6hstGkDxe" role="3uHU7w">
-                  <node concept="2OqwBi" id="1w6hstGkDxf" role="2Oq$k0">
-                    <node concept="3khVwk" id="1w6hstGkDxg" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="1w6hstGkDxh" role="2OqNvi">
-                      <ref role="3Tt5mk" to="b0hk:1w6hstGf18c" resolve="nadeelkant" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="1w6hstGkDxi" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="1w6hstGllKL" role="3uHU7B">
-                  <property role="Xl_RC" value="plichthoudende " />
+              <node concept="2OqwBi" id="_JZWYCh5i2" role="37vLTx">
+                <node concept="3khVwk" id="_JZWYCh4XA" role="2Oq$k0" />
+                <node concept="3TrcHB" id="_JZWYCh6fI" role="2OqNvi">
+                  <ref role="3TsBF5" to="b0hk:_JZWYCgrEt" resolve="tekstnadeelkant" />
                 </node>
               </node>
             </node>

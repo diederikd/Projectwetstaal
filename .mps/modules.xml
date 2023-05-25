@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/wetstaal/sandbox/specificaties.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/wetstaal/wetstaal.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/wetstaalNaarHtml/wetstaalNaarHtml.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/tests/tests.msd" folder="" />
     </projectModules>
   </component>

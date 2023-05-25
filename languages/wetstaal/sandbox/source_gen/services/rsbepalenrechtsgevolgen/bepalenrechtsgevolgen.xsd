@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<xsd:schema version="" targetNamespace="http://www.belastingdienst.nl/BepalenrechtsgevolgenBlazeBOM" xmlns:bepalenrechtsgevolgen="http://www.belastingdienst.nl/BepalenrechtsgevolgenBlazeBOM" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="rsbepalenrechtsgevolgenMsg" type="bepalenrechtsgevolgen:Message" />
+  <xsd:complexType name="Message">
+    <xsd:sequence>
+      <xsd:element name="request" type="bepalenrechtsgevolgen:Request" />
+      <xsd:element name="response" type="bepalenrechtsgevolgen:Response" minOccurs="0" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Request">
+    <xsd:sequence>
+      <xsd:element name="invoerberichten" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="invoerbericht" type="bepalenrechtsgevolgen:Invoerbericht" minOccurs="0" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="belastingjaar" type="bepalenrechtsgevolgen:belastingjaarType" use="required" />
+    <xsd:attribute name="berichtId" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:complexType name="Response">
+    <xsd:sequence>
+      <xsd:element name="serviceResultaat" type="bepalenrechtsgevolgen:ServiceResultaat" />
+      <xsd:element name="uitvoerberichten" minOccurs="0">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="uitvoerbericht" type="bepalenrechtsgevolgen:Uitvoerbericht" minOccurs="0" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="ServiceResultaat">
+    <xsd:sequence>
+      <xsd:element name="resultaatcode" type="xsd:string" />
+      <xsd:element name="resultaatmelding" type="xsd:string" />
+      <xsd:element name="rulesversie" type="xsd:string" />
+      <xsd:element name="serviceversie" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Invoerbericht">
+    <xsd:all></xsd:all>
+  </xsd:complexType>
+  <xsd:complexType name="Uitvoerbericht">
+    <xsd:all></xsd:all>
+  </xsd:complexType>
+  <xsd:simpleType name="belastingjaarType">
+    <xsd:restriction base="xsd:short">
+      <xsd:totalDigits value="4" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>
