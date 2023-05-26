@@ -128,5 +128,65 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="h">
+    <property role="TrG5h" value="RechtsgevolgenVanHetRechtsfeitVerspringenVanHetLichtNaarRood" />
+    <uo k="s:originTrace" v="n:8654851445388272293" />
+    <node concept="2AHcQZ" id="i" role="2AJF6D">
+      <ref role="2AI5Lk" to="fyhk:~MPSLaunch" resolve="MPSLaunch" />
+      <uo k="s:originTrace" v="n:8654851445388272293" />
+    </node>
+    <node concept="3Tm1VV" id="j" role="1B3o_S">
+      <uo k="s:originTrace" v="n:8654851445388272293" />
+    </node>
+    <node concept="3uibUv" id="k" role="1zkMxy">
+      <ref role="3uigEE" to="4g2y:3Rk1qB99Ka7" resolve="UnitTest" />
+      <uo k="s:originTrace" v="n:8654851445388272293" />
+    </node>
+    <node concept="3clFb_" id="l" role="jymVt">
+      <property role="TrG5h" value="_001" />
+      <uo k="s:originTrace" v="n:8654851445388272293" />
+      <node concept="3cqZAl" id="m" role="3clF45">
+        <uo k="s:originTrace" v="n:8654851445388272293" />
+      </node>
+      <node concept="3Tm1VV" id="n" role="1B3o_S">
+        <uo k="s:originTrace" v="n:8654851445388272293" />
+      </node>
+      <node concept="3clFbS" id="o" role="3clF47">
+        <uo k="s:originTrace" v="n:8654851445388272293" />
+        <node concept="3clFbF" id="q" role="3cqZAp">
+          <uo k="s:originTrace" v="n:8654851445388272293" />
+          <node concept="2YIFZM" id="r" role="3clFbG">
+            <ref role="37wK5l" to="4g2y:2Z0Ph7LnWgm" resolve="test" />
+            <ref role="1Pybhc" to="4g2y:3Rk1qB99Ka7" resolve="UnitTest" />
+            <uo k="s:originTrace" v="n:8654851445388272293" />
+            <node concept="Xl_RD" id="s" role="37wK5m">
+              <property role="Xl_RC" value="tests.regeltests.Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood.001" />
+              <uo k="s:originTrace" v="n:8654851445388272293" />
+            </node>
+            <node concept="Xl_RD" id="t" role="37wK5m">
+              <property role="Xl_RC" value="8654851445388272294" />
+              <uo k="s:originTrace" v="n:8654851445388272293" />
+            </node>
+            <node concept="Xl_RD" id="u" role="37wK5m">
+              <property role="Xl_RC" value="/Users/diederikdulfer/MPSProjects/ProjectWetstaal" />
+              <uo k="s:originTrace" v="n:8654851445388272293" />
+            </node>
+            <node concept="Xl_RD" id="v" role="37wK5m">
+              <property role="Xl_RC" value="r:f41d6b00-9dc9-4ab0-9b1c-29caeb862185(regeltests)" />
+              <uo k="s:originTrace" v="n:8654851445388272293" />
+            </node>
+            <node concept="37vLTw" id="w" role="37wK5m">
+              <ref role="3cqZAo" to="4g2y:1HZyRngNvaw" resolve="myEnvironment" />
+              <uo k="s:originTrace" v="n:8654851445388272293" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="p" role="2AJF6D">
+        <ref role="2AI5Lk" to="rjhg:~Test" resolve="Test" />
+        <uo k="s:originTrace" v="n:8654851445388272293" />
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -13,15 +13,16 @@ public final class LanguageConceptSwitch {
   public static final int GebeurtenisMetRechtsgevolg = 1;
   public static final int IsBeeindigd = 2;
   public static final int IsOnstaan = 3;
-  public static final int Nadeelkant = 4;
-  public static final int Rechtsbetrekking = 5;
-  public static final int Rechtsfeit = 6;
-  public static final int Rechtshandeling = 7;
-  public static final int Rechtsobject = 8;
-  public static final int Rechtssubject = 9;
-  public static final int UitgevoerdOp = 10;
-  public static final int Voordeelkant = 11;
-  public static final int Wetsmodel = 12;
+  public static final int IsUitgevoerd = 4;
+  public static final int Nadeelkant = 5;
+  public static final int Rechtsbetrekking = 6;
+  public static final int Rechtsfeit = 7;
+  public static final int Rechtshandeling = 8;
+  public static final int Rechtsobject = 9;
+  public static final int Rechtssubject = 10;
+  public static final int UitgevoerdOp = 11;
+  public static final int Voordeelkant = 12;
+  public static final int Wetsmodel = 13;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xe55f258baf614a6aL, 0x8f907f249af47f79L);
@@ -29,6 +30,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x180645c76c5c0ec3L, GebeurtenisMetRechtsgevolg);
     builder.put(0x40929f0dfaddf70L, IsBeeindigd);
     builder.put(0x56d007db678f88abL, IsOnstaan);
+    builder.put(0x56d007db678f88abL, IsUitgevoerd);
     builder.put(0x180645c76c3c8fe4L, Nadeelkant);
     builder.put(0x40929f0dfaddf55L, Rechtsbetrekking);
     builder.put(0x180645c76c5c0ec2L, Rechtsfeit);

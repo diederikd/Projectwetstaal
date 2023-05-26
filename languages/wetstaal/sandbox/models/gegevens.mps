@@ -46,7 +46,9 @@
       <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
       <concept id="6255508521334311083" name="wetstaal.structure.IsOnstaan" flags="ng" index="LnSXK" />
       <concept id="8654851445385900643" name="wetstaal.structure.Wetsmodel" flags="ng" index="2U78vF" />
-      <concept id="4210711717891144949" name="wetstaal.structure.Rechtshandeling" flags="ng" index="2Y5CWa" />
+      <concept id="4210711717891144949" name="wetstaal.structure.Rechtshandeling" flags="ng" index="2Y5CWa">
+        <reference id="8654851445388285571" name="rechtsubject" index="2Ueicb" />
+      </concept>
       <concept id="290809765463580690" name="wetstaal.structure.Rechtssubject" flags="ng" index="3rCGBy" />
       <concept id="290809765463711600" name="wetstaal.structure.IsBeeindigd" flags="ng" index="3rDfq0" />
       <concept id="290809765463711573" name="wetstaal.structure.Rechtsbetrekking" flags="ng" index="3rDfq_">
@@ -383,6 +385,7 @@
     </node>
     <node concept="2Y5CWa" id="_JZWYCiquS" role="2bv6Cn">
       <property role="TrG5h" value="Overkant op de stoep stappen" />
+      <ref role="2Ueicb" node="g9av3vFtWz" resolve="Persoon" />
       <node concept="2bpyt6" id="7wsdoz26L67" role="2bv01j">
         <property role="TrG5h" value="uitgevoerd" />
         <property role="2n7kvO" value="true" />

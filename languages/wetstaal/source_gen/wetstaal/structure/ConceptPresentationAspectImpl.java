@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_GebeurtenisMetRechtsgevolg;
   private ConceptPresentation props_IsBeeindigd;
   private ConceptPresentation props_IsOnstaan;
+  private ConceptPresentation props_IsUitgevoerd;
   private ConceptPresentation props_Nadeelkant;
   private ConceptPresentation props_Rechtsbetrekking;
   private ConceptPresentation props_Rechtsfeit;
@@ -56,6 +57,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IsOnstaan = cpb.create();
         }
         return props_IsOnstaan;
+      case LanguageConceptSwitch.IsUitgevoerd:
+        if (props_IsUitgevoerd == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_IsUitgevoerd = cpb.create();
+        }
+        return props_IsUitgevoerd;
       case LanguageConceptSwitch.Nadeelkant:
         if (props_Nadeelkant == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

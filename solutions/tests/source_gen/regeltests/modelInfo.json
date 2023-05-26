@@ -23,6 +23,12 @@
           "detail": "2023-07-01",
           "set": "Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen",
           "method": "test_f41d6b00_9dc9_4ab0_9b1c_29caeb862185_680043336101762613_20230701"
+        },
+        {
+          "test": "001",
+          "detail": "2023-07-01",
+          "set": "Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood",
+          "method": "test_f41d6b00_9dc9_4ab0_9b1c_29caeb862185_8654851445388272294_20230701"
         }
       ]
     }

@@ -57,5 +57,10 @@
     <classNode dependClassName="org.junit.Test" />
     <classNode extendsClassName="model.UnitTest" />
   </dependency>
+  <dependency className="regeltests.RechtsgevolgenVanHetRechtsfeitVerspringenVanHetLichtNaarRood">
+    <classNode dependClassName="jetbrains.mps.MPSLaunch" />
+    <classNode dependClassName="org.junit.Test" />
+    <classNode extendsClassName="model.UnitTest" />
+  </dependency>
 </dependenciesRoot>
 

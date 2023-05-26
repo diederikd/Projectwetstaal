@@ -43,6 +43,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -98,6 +101,7 @@
   <node concept="1TIwiD" id="g9av3vFtXK">
     <property role="EcuMT" value="290809765463711600" />
     <property role="TrG5h" value="IsBeeindigd" />
+    <property role="3GE5qa" value="kenmerken" />
     <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
   <node concept="25R3W" id="g9av3vFLsc">
@@ -205,10 +209,16 @@
     <property role="EcuMT" value="4210711717891144949" />
     <property role="TrG5h" value="Rechtshandeling" />
     <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
+    <node concept="1TJgyj" id="7wsdoz29hq3" role="1TKVEi">
+      <property role="IQ2ns" value="8654851445388285571" />
+      <property role="20kJfa" value="rechtsubject" />
+      <ref role="20lvS9" node="g9av3vEY0i" resolve="Rechtssubject" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5rg1XHBzSyF">
     <property role="EcuMT" value="6255508521334311083" />
     <property role="TrG5h" value="IsOnstaan" />
+    <property role="3GE5qa" value="kenmerken" />
     <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
   <node concept="1TIwiD" id="_JZWYCiqTp">
@@ -221,6 +231,12 @@
     <property role="TrG5h" value="Wetsmodel" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="3ic2:$infi2rzry" resolve="ObjectModel" />
+  </node>
+  <node concept="1TIwiD" id="7wsdoz2apSe">
+    <property role="EcuMT" value="6255508521334311083" />
+    <property role="TrG5h" value="IsUitgevoerd" />
+    <property role="3GE5qa" value="kenmerken" />
+    <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
 </model>
 

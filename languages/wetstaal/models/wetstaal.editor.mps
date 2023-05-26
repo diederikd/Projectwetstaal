@@ -1910,9 +1910,32 @@
       </node>
       <node concept="l2Vlx" id="3DJsZY4uvWe" role="2iSdaV" />
       <node concept="3EZMnI" id="3DJsZY4uvWf" role="3EZMnx">
+        <node concept="3F0ifn" id="7wsdoz29hFu" role="3EZMnx">
+          <property role="3F0ifm" value="uitgevoerd door" />
+          <node concept="pVoyu" id="7wsdoz29hTt" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7wsdoz29hIa" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="1iCGBv" id="7wsdoz29hRW" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;rechtssubject&gt;" />
+          <ref role="1NtTu8" to="b0hk:7wsdoz29hq3" resolve="rechtsubject" />
+          <ref role="1k5W1q" to="mbb7:7MZNd$Uedjy" resolve="Object" />
+          <node concept="1sVBvm" id="7wsdoz29hRY" role="1sWHZn">
+            <node concept="3F0A7n" id="7wsdoz29hTq" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
         <node concept="l2Vlx" id="3DJsZY4uvWg" role="2iSdaV" />
         <node concept="35HoNQ" id="3DJsZY4uvWh" role="3EZMnx">
           <node concept="VPM3Z" id="3DJsZY4uvWi" role="3F10Kt" />
+          <node concept="pVoyu" id="7wsdoz29i26" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F2HdR" id="3DJsZY4uvWj" role="3EZMnx">
           <ref role="1NtTu8" to="3ic2:$infi2r_MB" resolve="elem" />

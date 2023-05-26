@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="-4zm80kzavffllowlvk83ut7aqj3cajb">
   <files names="flow_49fa9010_08ee_4235_9721_858ab6805d4f_680043336103799870.flow" />
+  <files dir="HTML/besturing/" names="Hoofdflow_Flow.html" />
+  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
 </product>
 
