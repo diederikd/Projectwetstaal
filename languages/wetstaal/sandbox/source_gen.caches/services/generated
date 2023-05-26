@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="-eoar3iv2yrz0asqdwzqu76yft59qhdr">
-  <files names="bepalenrechtsgevolgen.properties:bepalenrechtsgevolgen____ObjectModel.java:rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.wsdl:rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.xsd:service_9dd9a1e4_ea5e_402f_8409_30b3c0c2eae9_680043336103799869.rb" />
-  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
-  <files dir="HTML/services/" names="BepalenRechtsgevolgen_Service.html:Invoerbericht_InvoerBerichtType.html:Uitvoerbericht_UitvoerBerichtType.html" />
-  <files dir="services/rsbepalenrechtsgevolgen" names="serviceInfo_bepalenrechtsgevolgen.json" />
+  <files names="rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.wsdl:rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.xsd:service_9dd9a1e4_ea5e_402f_8409_30b3c0c2eae9_680043336103799869.rb" />
 </product>
 

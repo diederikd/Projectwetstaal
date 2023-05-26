@@ -75,6 +75,7 @@ is {
 function testService__bepalenrechtsgevolgen
 is {
   TestProvider.init("", -1, -1, "Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd");
+  TestProvider.init("", -1, -1, "Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking snel doorlopen altijd");
   TestProvider.init("", -1, -1, "Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd");
   TestProvider.init("", -1, -1, "Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd");
   while TestProvider.hasNext() do {  

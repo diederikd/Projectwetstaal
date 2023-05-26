@@ -240,5 +240,183 @@
       <ref role="vfxH2" to="elf3:1w6hstGf8YC" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
     </node>
   </node>
+  <node concept="1rXTK1" id="7wsdoz29ea_">
+    <property role="1bBDVy" value="true" />
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
+    <node concept="210ffa" id="7wsdoz29eaA" role="10_$IM">
+      <property role="TrG5h" value="001" />
+      <node concept="4Oh8J" id="7wsdoz29eaB" role="4Ohb1">
+        <ref role="3teO_M" node="7wsdoz29eaC" resolve="Diederik" />
+        <ref role="4Oh8G" to="akwf:g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eaC" role="4Ohaa">
+        <property role="TrG5h" value="Diederik" />
+        <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
+        <node concept="3_ceKt" id="7wsdoz29eaD" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
+          <node concept="4PMua" id="7wsdoz29eaE" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eaF" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaN" resolve="voetgangerslicht A" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eaG" role="4Ohaa">
+        <property role="TrG5h" value="de Staat" />
+        <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eaH" role="4Ohaa">
+        <property role="TrG5h" value="Gebeurtenis 1" />
+        <ref role="4OhPH" to="akwf:_JZWYCiqrl" resolve="Verspringen van het licht naar rood" />
+        <node concept="3_ceKt" id="7wsdoz29eaI" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:_JZWYCiqww" resolve="verkeerslicht" />
+          <node concept="4PMua" id="7wsdoz29eaJ" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eaK" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaN" resolve="voetgangerslicht A" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eaL" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
+          <node concept="2Jx4MH" id="7wsdoz29eaM" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eaN" role="4Ohaa">
+        <property role="TrG5h" value="voetgangerslicht A" />
+        <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+        <node concept="3_ceKt" id="7wsdoz29eaO" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:1w6hstGpq9c" resolve="groen" />
+          <node concept="2Jx4MH" id="7wsdoz29eaP" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eaQ" role="4Ohaa">
+        <property role="TrG5h" value="rechtsbetrekking A" />
+        <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
+        <node concept="3_ceKt" id="7wsdoz29eaR" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
+          <node concept="4PMua" id="7wsdoz29eaS" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eaT" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaG" resolve="de Staat" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eaU" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
+          <node concept="4PMua" id="7wsdoz29eaV" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eaW" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaC" resolve="Diederik" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eaX" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
+          <node concept="2Jx4MH" id="7wsdoz29eaY" role="3_ceKu" />
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eaZ" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
+          <node concept="2Jx4MH" id="7wsdoz29eb0" role="3_ceKu" />
+        </node>
+      </node>
+      <node concept="4OhPC" id="7wsdoz29eb1" role="4Ohaa">
+        <property role="TrG5h" value="rechtsbetrekking B" />
+        <ref role="4OhPH" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
+        <node concept="3_ceKt" id="7wsdoz29eb2" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
+          <node concept="4PMua" id="7wsdoz29eb3" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eb4" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaC" resolve="Diederik" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eb5" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c7Q" resolve="geenaanspraak" />
+          <node concept="4PMua" id="7wsdoz29eb6" role="3_ceKu">
+            <node concept="4PMub" id="7wsdoz29eb7" role="4PMue">
+              <ref role="4PMuN" node="7wsdoz29eaG" resolve="de Staat" />
+            </node>
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eb8" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
+          <node concept="2Jx4MH" id="7wsdoz29eb9" role="3_ceKu">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+        <node concept="3_ceKt" id="7wsdoz29eba" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
+          <node concept="2Jx4MH" id="7wsdoz29ebb" role="3_ceKu" />
+        </node>
+      </node>
+      <node concept="4Oh8J" id="7wsdoz29ebc" role="4Ohb1">
+        <ref role="3teO_M" node="7wsdoz29eaN" resolve="voetgangerslicht A" />
+        <ref role="4Oh8G" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+        <node concept="3mzBic" id="7wsdoz29ebd" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="akwf:1w6hstGpq7Z" resolve="rood" />
+          <node concept="2Jx4MH" id="7wsdoz29ebe" role="3mzBi6">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="4Oh8J" id="7wsdoz29ebf" role="4Ohb1">
+        <ref role="3teO_M" node="7wsdoz29eaQ" resolve="rechtsbetrekking A" />
+        <ref role="4Oh8G" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
+        <node concept="3mzBic" id="7wsdoz29epH" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
+          <node concept="2Jx4MH" id="7wsdoz29eqU" role="3mzBi6">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+        <node concept="3mzBic" id="7wsdoz29ebg" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
+          <node concept="2Jx4MH" id="7wsdoz29ebh" role="3mzBi6" />
+        </node>
+      </node>
+      <node concept="4Oh8J" id="7wsdoz29ebi" role="4Ohb1">
+        <ref role="3teO_M" node="7wsdoz29eb1" resolve="rechtsbetrekking B" />
+        <ref role="4Oh8G" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
+        <node concept="3mzBic" id="7wsdoz29ebj" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
+          <node concept="2Jx4MH" id="7wsdoz29ebk" role="3mzBi6">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+        <node concept="3mzBic" id="7wsdoz29enF" role="4Ohbj">
+          <property role="V2jGk" value="-1" />
+          <ref role="10Xmnc" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
+          <node concept="2Jx4MH" id="7wsdoz29eoV" role="3mzBi6">
+            <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ljwA5" id="7wsdoz29ebl" role="3Na4y7">
+      <node concept="2ljiaL" id="7wsdoz29ebm" role="2ljwA6">
+        <property role="2ljiaO" value="2023" />
+        <property role="2ljiaN" value="1" />
+        <property role="2ljiaM" value="1" />
+      </node>
+      <node concept="2ljiaL" id="7wsdoz29ebn" role="2ljwA7">
+        <property role="2ljiaO" value="2023" />
+        <property role="2ljiaN" value="12" />
+        <property role="2ljiaM" value="31" />
+      </node>
+    </node>
+    <node concept="2ljiaL" id="7wsdoz29ebo" role="1lUMLE">
+      <property role="2ljiaO" value="2023" />
+      <property role="2ljiaN" value="7" />
+      <property role="2ljiaM" value="1" />
+    </node>
+    <node concept="vfxHe" id="7wsdoz29ebp" role="vfxHU">
+      <ref role="vfxH2" to="elf3:7wsdoz269H5" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
+    </node>
+  </node>
 </model>
 

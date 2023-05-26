@@ -163,6 +163,219 @@
         <node concept="2ljwA5" id="5rg1XHBzQN8" role="1nvPAL" />
       </node>
     </node>
+    <node concept="1HSql3" id="7wsdoz28_ts" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking snel doorlopen" />
+      <node concept="1wO7pt" id="7wsdoz28_tt" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz28_tu" role="1wO7pp">
+          <node concept="2z5Mdt" id="7wsdoz28_tv" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz28_tw" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz28_tx" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
+              </node>
+              <node concept="3_mHL5" id="7wsdoz28_ty" role="pQQuc">
+                <node concept="ean_g" id="7wsdoz28_tz" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht waarbij wordt overgestoken" />
+                </node>
+                <node concept="3yS1BT" id="7wsdoz28_t$" role="pQQuc">
+                  <ref role="3yS1Ki" node="7wsdoz28_tD" resolve="zwakke plichthoudende persoon" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz28_t_" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
+            </node>
+          </node>
+          <node concept="2zaH5l" id="7wsdoz28_tA" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:_JZWYCiqoz" resolve="beëindigd" />
+            <node concept="3_mHL5" id="7wsdoz28_tB" role="pRcyL">
+              <node concept="ean_g" id="7wsdoz28_tC" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWf" resolve="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
+              </node>
+              <node concept="3_kdyS" id="7wsdoz28_tD" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWe" resolve="zwakke plichthoudende persoon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz28_tE" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
+  <node concept="2bQVlO" id="7wsdoz269H5">
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
+    <node concept="1HSql3" id="7wsdoz269HO" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
+      <node concept="1wO7pt" id="7wsdoz269HP" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz269HQ" role="1wO7pp">
+          <node concept="2zaH5l" id="7wsdoz269HR" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:1w6hstGpq7Z" resolve="rood" />
+            <node concept="3_kdyS" id="7wsdoz269HS" role="pRcyL">
+              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="7wsdoz269HT" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz269HU" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz269HV" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
+              </node>
+              <node concept="3yS1BT" id="7wsdoz269HW" role="pQQuc">
+                <ref role="3yS1Ki" node="7wsdoz269HS" resolve="Voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz269HX" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz269HY" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="7wsdoz269HZ" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
+      <node concept="1wO7pt" id="7wsdoz269I0" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz269I1" role="1wO7pp">
+          <node concept="2z5Mdt" id="7wsdoz269I2" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz269I3" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz269I4" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
+              </node>
+              <node concept="3_mHL5" id="7wsdoz269I5" role="pQQuc">
+                <node concept="ean_g" id="7wsdoz269I6" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
+                </node>
+                <node concept="3yS1BT" id="7wsdoz269I7" role="pQQuc">
+                  <ref role="3yS1Ki" node="7wsdoz269Ic" resolve="fatale plichthoudende persoon" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz269I8" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
+            </node>
+          </node>
+          <node concept="2zaH5l" id="7wsdoz269I9" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
+            <node concept="3_mHL5" id="7wsdoz269Ia" role="pRcyL">
+              <node concept="ean_g" id="7wsdoz269Ib" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
+              </node>
+              <node concept="3_kdyS" id="7wsdoz269Ic" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz269Id" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="7wsdoz269Ie" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking vrijheid om over te steken" />
+      <node concept="1wO7pt" id="7wsdoz269If" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz269Ig" role="1wO7pp">
+          <node concept="2zaH5l" id="7wsdoz269Ih" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
+            <node concept="3_mHL5" id="7wsdoz269Ii" role="pRcyL">
+              <node concept="ean_g" id="7wsdoz269Ij" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:6c3QCZh1c9g" resolve="voordeel van de Vrijheid om over te steken" />
+              </node>
+              <node concept="3_kdyS" id="7wsdoz269Ik" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="7wsdoz269Il" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz269Im" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz269In" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
+              </node>
+              <node concept="3_mHL5" id="7wsdoz269Io" role="pQQuc">
+                <node concept="ean_g" id="7wsdoz269Ip" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
+                </node>
+                <node concept="3yS1BT" id="7wsdoz269Iq" role="pQQuc">
+                  <ref role="3yS1Ki" node="7wsdoz269Ik" resolve="verlof hebbende persoon" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz269Ir" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz269Is" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1HSql3" id="7wsdoz26apB" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het ontstaan van de rechtsbetrekking snel doorlopen" />
+      <node concept="1wO7pt" id="7wsdoz26apC" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz26apD" role="1wO7pp">
+          <node concept="2z5Mdt" id="7wsdoz26apE" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz26aRT" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz26aRU" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
+              </node>
+              <node concept="3_mHL5" id="7wsdoz26aTg" role="pQQuc">
+                <node concept="ean_g" id="7wsdoz26aTh" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht" />
+                </node>
+                <node concept="3yS1BT" id="7wsdoz26bmo" role="pQQuc">
+                  <ref role="3yS1Ki" node="7wsdoz26b51" resolve="zwakke plichthoudende persoon" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz26apK" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
+            </node>
+          </node>
+          <node concept="2zaH5l" id="7wsdoz26aKy" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:_JZWYCiqo$" resolve="ontstaan" />
+            <node concept="3_mHL5" id="7wsdoz26b4Z" role="pRcyL">
+              <node concept="ean_g" id="7wsdoz26b50" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWf" resolve="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
+              </node>
+              <node concept="3_kdyS" id="7wsdoz26b51" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWe" resolve="zwakke plichthoudende persoon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz26apP" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
+  <node concept="2bQVlO" id="7wsdoz269Wo">
+    <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit aan de overkant op de stoep stappen" />
+    <node concept="1HSql3" id="7wsdoz26KFI" role="1HSqhF">
+      <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het ontstaan van de rechtsbetrekking snel doorlopen bij aan" />
+      <node concept="1wO7pt" id="7wsdoz26KFJ" role="kiesI">
+        <node concept="2boe1W" id="7wsdoz26KFK" role="1wO7pp">
+          <node concept="2zaH5l" id="7wsdoz26KFS" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:_JZWYCiqoz" resolve="beëindigd" />
+            <node concept="3_mHL5" id="7wsdoz26KFT" role="pRcyL">
+              <node concept="ean_g" id="7wsdoz26KFU" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWf" resolve="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
+              </node>
+              <node concept="3_kdyS" id="7wsdoz26KFV" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:7wsdoz26aWe" resolve="zwakke plichthoudende persoon" />
+              </node>
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="7wsdoz26KPN" role="1wO7i3">
+            <node concept="3_mHL5" id="7wsdoz26L1q" role="2z5D6P">
+              <node concept="ean_g" id="7wsdoz26L1r" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:_JZWYCiqzy" resolve="overkant op de stoep stappen" />
+              </node>
+              <node concept="3yS1BT" id="7wsdoz26L50" role="pQQuc">
+                <ref role="3yS1Ki" node="7wsdoz26KFV" resolve="zwakke plichthoudende persoon" />
+              </node>
+            </node>
+            <node concept="28IzFB" id="7wsdoz26L7k" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:7wsdoz26L67" resolve="plaatsgevonden" />
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="7wsdoz26KFW" role="1nvPAL" />
+      </node>
+    </node>
   </node>
 </model>
 

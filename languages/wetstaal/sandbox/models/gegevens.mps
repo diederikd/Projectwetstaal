@@ -111,27 +111,11 @@
       </node>
       <node concept="2mG0Ck" id="_JZWYCe_cg" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="TrG5h" value="voetgangerslicht waarbij wordt overgestoken" />
         <property role="16Ztxt" value="true" />
         <ref role="1fE_qF" node="1w6hstGppRa" />
       </node>
     </node>
-    <node concept="2mG0Cb" id="_JZWYCe_eO" role="2bv6Cn">
-      <property role="TrG5h" value="overstekende voetganger is overgestoken bij een verkeerlicht" />
-      <node concept="2mG0Ck" id="_JZWYCe_eP" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="overgestoken voetganger" />
-        <property role="2mCGrO" value="is overgestoken bij" />
-        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
-      </node>
-      <node concept="2mG0Ck" id="_JZWYCe_eQ" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voetgangerslicht waarbij overgestoken is" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" />
-      </node>
-    </node>
-    <node concept="3H5gaA" id="5rg1XHBzR7P" role="2bv6Cn" />
     <node concept="1OpgJr" id="1w6hstGppRa" role="2bv6Cn">
       <property role="TrG5h" value="Voetgangerslicht" />
       <property role="16Ztxt" value="true" />
@@ -302,6 +286,34 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
+    <node concept="1OeGCz" id="7wsdoz26aWd" role="2bv6Cn">
+      <ref role="1OeGCy" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      <node concept="2mG0Ck" id="7wsdoz26aWe" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="zwakke plichthoudende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="7wsdoz26aWf" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
+        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      </node>
+    </node>
+    <node concept="1OeGCB" id="7wsdoz26aZ6" role="2bv6Cn">
+      <ref role="1OeGCA" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      <node concept="2mG0Ck" id="7wsdoz26aZ7" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="aanspraak hebbende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="7wsdoz26aZ8" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="voordelen door Verplichting om  zo snel mogelijk door te lopen" />
+        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      </node>
+    </node>
     <node concept="3H5gaA" id="_JZWYCiqnz" role="2bv6Cn" />
     <node concept="1Om$G4" id="1w6hstGoORj" role="2bv6Cn">
       <property role="TrG5h" value="Verspringen van het licht naar groen" />
@@ -316,6 +328,24 @@
         <property role="TrG5h" value="plaatsgevonden" />
         <property role="3uiUDc" value="true" />
         <property role="2n7kvO" value="true" />
+      </node>
+    </node>
+    <node concept="3Ih38J" id="7wsdoz29dVp" role="2bv6Cn">
+      <property role="TrG5h" value="Het rechtsobject wat wordt geraakt door de gebeurtenis" />
+    </node>
+    <node concept="2mG0Cb" id="1w6hstGpq0a" role="2bv6Cn">
+      <property role="TrG5h" value="verkeerslicht wordt groen" />
+      <node concept="2mG0Ck" id="1w6hstGpq0b" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verkeerslicht" />
+        <property role="2mCGrO" value="ondergaat" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
+      </node>
+      <node concept="2mG0Ck" id="1w6hstGpq0c" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="verspringen van het licht naar groen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="1w6hstGoORj" resolve="Verspringen van het licht naar groen" />
       </node>
     </node>
     <node concept="1Om$G4" id="_JZWYCiqrl" role="2bv6Cn">
@@ -333,30 +363,8 @@
         <property role="2n7kvO" value="true" />
       </node>
     </node>
-    <node concept="2Y5CWa" id="_JZWYCiquS" role="2bv6Cn">
-      <property role="TrG5h" value="Overkant op de stoep stappen" />
-      <node concept="2x9_6m" id="_JZWYCj3KO" role="2bv01j">
-        <property role="TrG5h" value="Uitgevoerd op" />
-        <node concept="1EDDdA" id="_JZWYCj3KP" role="1EDDcc">
-          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
-        </node>
-      </node>
-    </node>
-    <node concept="3H5gaA" id="_JZWYCiqsG" role="2bv6Cn" />
-    <node concept="2mG0Cb" id="1w6hstGpq0a" role="2bv6Cn">
-      <property role="TrG5h" value="verkeerslicht wordt groen" />
-      <node concept="2mG0Ck" id="1w6hstGpq0b" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verkeerslicht" />
-        <property role="2mCGrO" value="ondergaat" />
-        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
-      </node>
-      <node concept="2mG0Ck" id="1w6hstGpq0c" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="verspringen van het licht naar groen" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGoORj" resolve="Verspringen van het licht naar groen" />
-      </node>
+    <node concept="3Ih38J" id="7wsdoz29dTZ" role="2bv6Cn">
+      <property role="TrG5h" value="Het rechtsobject wat wordt geraakt door de gebeurtenis" />
     </node>
     <node concept="2mG0Cb" id="_JZWYCiqwv" role="2bv6Cn">
       <property role="TrG5h" value="verkeerslicht wordt rood" />
@@ -373,21 +381,40 @@
         <ref role="1fE_qF" node="_JZWYCiqrl" resolve="Verspringen van het licht naar rood" />
       </node>
     </node>
+    <node concept="2Y5CWa" id="_JZWYCiquS" role="2bv6Cn">
+      <property role="TrG5h" value="Overkant op de stoep stappen" />
+      <node concept="2bpyt6" id="7wsdoz26L67" role="2bv01j">
+        <property role="TrG5h" value="uitgevoerd" />
+        <property role="2n7kvO" value="true" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2x9_6m" id="_JZWYCj3KO" role="2bv01j">
+        <property role="TrG5h" value="Uitgevoerd op" />
+        <node concept="1EDDdA" id="_JZWYCj3KP" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Ih38J" id="7wsdoz29drM" role="2bv6Cn">
+      <property role="TrG5h" value="Het rechtssubject die de rechtshandeling uitvoert:" />
+    </node>
     <node concept="2mG0Cb" id="_JZWYCiqzw" role="2bv6Cn">
       <property role="TrG5h" value="aan de overkant op de stoep stappen" />
+      <node concept="2mG0Ck" id="_JZWYCiqzy" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="aan de overkant op de stoep stappen" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="wordt uitgevoerd door" />
+        <ref role="1fE_qF" node="_JZWYCiquS" resolve="Overkant op de stoep stappen" />
+      </node>
       <node concept="2mG0Ck" id="_JZWYCiqzx" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="persoon" />
         <property role="2mCGrO" value="gaat" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
-      <node concept="2mG0Ck" id="_JZWYCiqzy" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="overkant op de stoep stappen" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="_JZWYCiquS" resolve="Overkant op de stoep stappen" />
-      </node>
     </node>
+    <node concept="3H5gaA" id="_JZWYCiqsG" role="2bv6Cn" />
     <node concept="3H5gaA" id="_JZWYCiqym" role="2bv6Cn" />
     <node concept="3H5gaA" id="1w6hstGppWN" role="2bv6Cn" />
     <node concept="3H5gaA" id="7wsdoz23lHw" role="2bv6Cn" />

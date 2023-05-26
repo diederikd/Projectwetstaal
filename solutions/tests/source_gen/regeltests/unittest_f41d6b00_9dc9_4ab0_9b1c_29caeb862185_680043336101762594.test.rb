@@ -11,8 +11,12 @@ is {
   diederik. = an array of ;
   diederik. = an array of ;
   diederik. = an array of ;
+  diederik. = an array of ;
+  diederik. = an array of ;
    = diederik;
   de_spStaat is  ;
+  de_spStaat. = an array of ;
+  de_spStaat. = an array of ;
   de_spStaat. = an array of ;
   de_spStaat. = an array of ;
   de_spStaat. = an array of ;
@@ -42,6 +46,7 @@ is {
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764();
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019();
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941();
+      apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_8654851445388105565();
     }
   catch an Exception with {    
       assert().checkTrue("er is een onverwachte fout opgetreden tijdens het uitvoeren van de regels", false);

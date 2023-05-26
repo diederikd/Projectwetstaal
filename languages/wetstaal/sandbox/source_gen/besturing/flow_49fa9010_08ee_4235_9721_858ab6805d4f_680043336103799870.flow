@@ -8,6 +8,7 @@
           <task name="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764" type="ruleset" datatype="void"></task>
           <task name="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019" type="ruleset" datatype="void"></task>
           <task name="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941" type="ruleset" datatype="void"></task>
+          <task name="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking snel doorlopen altijd" implementation="ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_8654851445388105565" type="ruleset" datatype="void"></task>
         </flow>
       </booleanDecision>
       </flow>
