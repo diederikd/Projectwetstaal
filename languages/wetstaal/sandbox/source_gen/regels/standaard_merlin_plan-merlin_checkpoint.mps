@@ -18,9 +18,14 @@
         <child id="1480463129960504796" name="conditie" index="1wO7i3" />
         <child id="1480463129960504793" name="actie" index="1wO7i6" />
       </concept>
+      <concept id="653687101152476297" name="regelspraak.structure.Gelijkstelling" flags="ng" index="2boe1X">
+        <child id="653687101152498722" name="rechts" index="2bokzm" />
+        <child id="653687101152498719" name="links" index="2bokzF" />
+      </concept>
       <concept id="653687101158189440" name="regelspraak.structure.Regelgroep" flags="ng" index="2bQVlO">
         <child id="9154144551704439187" name="regel" index="1HSqhF" />
       </concept>
+      <concept id="347899601029311684" name="regelspraak.structure.AttribuutSelector" flags="ng" index="c2t0s" />
       <concept id="6774523643279607820" name="regelspraak.structure.RolSelector" flags="ng" index="ean_g" />
       <concept id="6223277501270327848" name="regelspraak.structure.AbstracteRegel" flags="ng" index="nISv2">
         <child id="6223277501273432772" name="versie" index="kiesI" />
@@ -58,6 +63,9 @@
     </language>
     <language id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak">
       <concept id="5478077304742085581" name="gegevensspraak.structure.Geldigheidsperiode" flags="ng" index="2ljwA5" />
+      <concept id="8989128614611296432" name="gegevensspraak.structure.EnumWaardeRef" flags="ng" index="16yQLD">
+        <reference id="8989128614611340128" name="waarde" index="16yCuT" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -121,92 +129,102 @@
     <uo k="s:originTrace" v="n:1731147829587251112" />
     <node concept="1HSql3" id="g" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
-      <uo k="s:originTrace" v="n:1731147829589942763" />
+      <uo k="s:originTrace" v="n:4222828548818166682" />
       <node concept="1wO7pt" id="k" role="kiesI">
-        <uo k="s:originTrace" v="n:1731147829589942764" />
+        <uo k="s:originTrace" v="n:4222828548818166684" />
         <node concept="2boe1W" id="l" role="1wO7pp">
-          <uo k="s:originTrace" v="n:1731147829589942765" />
-          <node concept="2zaH5l" id="n" role="1wO7i6">
-            <ref role="2zaJI2" to="akwf:1w6hstGpq9c" resolve="groen" />
-            <uo k="s:originTrace" v="n:1731147829589942913" />
-            <node concept="3_kdyS" id="p" role="pRcyL">
-              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
-              <uo k="s:originTrace" v="n:1731147829589942915" />
+          <uo k="s:originTrace" v="n:4222828548818166685" />
+          <node concept="2boe1X" id="n" role="1wO7i6">
+            <uo k="s:originTrace" v="n:4222828548818166904" />
+            <node concept="3_mHL5" id="p" role="2bokzF">
+              <uo k="s:originTrace" v="n:4222828548818166905" />
+              <node concept="c2t0s" id="r" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+                <uo k="s:originTrace" v="n:4222828548818167003" />
+              </node>
+              <node concept="3_kdyS" id="s" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+                <uo k="s:originTrace" v="n:4222828548818167002" />
+              </node>
+            </node>
+            <node concept="16yQLD" id="q" role="2bokzm">
+              <ref role="16yCuT" to="akwf:3Eqw34fFQ4I" resolve="groen" />
+              <uo k="s:originTrace" v="n:4222828548818167129" />
             </node>
           </node>
           <node concept="2z5Mdt" id="o" role="1wO7i3">
-            <uo k="s:originTrace" v="n:1731147829589943234" />
-            <node concept="3_mHL5" id="q" role="2z5D6P">
-              <uo k="s:originTrace" v="n:680043336101774982" />
-              <node concept="ean_g" id="s" role="eaaoM">
+            <uo k="s:originTrace" v="n:4222828548818167322" />
+            <node concept="3_mHL5" id="t" role="2z5D6P">
+              <uo k="s:originTrace" v="n:4222828548818167323" />
+              <node concept="ean_g" id="v" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
-                <uo k="s:originTrace" v="n:680043336101774983" />
+                <uo k="s:originTrace" v="n:4222828548818167324" />
               </node>
-              <node concept="3yS1BT" id="t" role="pQQuc">
-                <ref role="3yS1Ki" node="p" resolve="Voetgangerslicht" />
-                <uo k="s:originTrace" v="n:680043336101776071" />
+              <node concept="3yS1BT" id="w" role="pQQuc">
+                <ref role="3yS1Ki" node="s" resolve="Voetgangerslicht" />
+                <uo k="s:originTrace" v="n:4222828548818167325" />
               </node>
             </node>
-            <node concept="28IzFB" id="r" role="2z5HcU">
+            <node concept="28IzFB" id="u" role="2z5HcU">
               <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
-              <uo k="s:originTrace" v="n:1731147829589943321" />
+              <uo k="s:originTrace" v="n:4222828548818167326" />
             </node>
           </node>
         </node>
         <node concept="2ljwA5" id="m" role="1nvPAL">
-          <uo k="s:originTrace" v="n:1731147829589942767" />
+          <uo k="s:originTrace" v="n:4222828548818166687" />
         </node>
       </node>
     </node>
     <node concept="1HSql3" id="h" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
       <uo k="s:originTrace" v="n:7134786545906924018" />
-      <node concept="1wO7pt" id="u" role="kiesI">
+      <node concept="1wO7pt" id="x" role="kiesI">
         <uo k="s:originTrace" v="n:7134786545906924019" />
-        <node concept="2boe1W" id="v" role="1wO7pp">
+        <node concept="2boe1W" id="y" role="1wO7pp">
           <uo k="s:originTrace" v="n:7134786545906924020" />
-          <node concept="2z5Mdt" id="x" role="1wO7i3">
+          <node concept="2z5Mdt" id="$" role="1wO7i3">
             <uo k="s:originTrace" v="n:7134786545906924023" />
-            <node concept="3_mHL5" id="z" role="2z5D6P">
+            <node concept="3_mHL5" id="A" role="2z5D6P">
               <uo k="s:originTrace" v="n:7134786545906924024" />
-              <node concept="ean_g" id="_" role="eaaoM">
+              <node concept="ean_g" id="C" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
                 <uo k="s:originTrace" v="n:7134786545906924025" />
               </node>
-              <node concept="3_mHL5" id="A" role="pQQuc">
+              <node concept="3_mHL5" id="D" role="pQQuc">
                 <uo k="s:originTrace" v="n:680043336101598686" />
-                <node concept="ean_g" id="B" role="eaaoM">
+                <node concept="ean_g" id="E" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:680043336101598687" />
                 </node>
-                <node concept="3yS1BT" id="C" role="pQQuc">
-                  <ref role="3yS1Ki" node="F" resolve="fatale plichthoudende persoon" />
+                <node concept="3yS1BT" id="F" role="pQQuc">
+                  <ref role="3yS1Ki" node="I" resolve="fatale plichthoudende persoon" />
                   <uo k="s:originTrace" v="n:680043336101598685" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="$" role="2z5HcU">
+            <node concept="28IzFB" id="B" role="2z5HcU">
               <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:7134786545906924027" />
             </node>
           </node>
-          <node concept="2zaH5l" id="y" role="1wO7i6">
+          <node concept="2zaH5l" id="_" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
             <uo k="s:originTrace" v="n:7134786545906924346" />
-            <node concept="3_mHL5" id="D" role="pRcyL">
+            <node concept="3_mHL5" id="G" role="pRcyL">
               <uo k="s:originTrace" v="n:680043336101598513" />
-              <node concept="ean_g" id="E" role="eaaoM">
+              <node concept="ean_g" id="H" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
                 <uo k="s:originTrace" v="n:680043336101598514" />
               </node>
-              <node concept="3_kdyS" id="F" role="pQQuc">
+              <node concept="3_kdyS" id="I" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
                 <uo k="s:originTrace" v="n:680043336101598515" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="w" role="1nvPAL">
+        <node concept="2ljwA5" id="z" role="1nvPAL">
           <uo k="s:originTrace" v="n:7134786545906924028" />
         </node>
       </node>
@@ -214,52 +232,52 @@
     <node concept="1HSql3" id="i" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking" />
       <uo k="s:originTrace" v="n:6255508521334303939" />
-      <node concept="1wO7pt" id="G" role="kiesI">
+      <node concept="1wO7pt" id="J" role="kiesI">
         <uo k="s:originTrace" v="n:6255508521334303941" />
-        <node concept="2boe1W" id="H" role="1wO7pp">
+        <node concept="2boe1W" id="K" role="1wO7pp">
           <uo k="s:originTrace" v="n:6255508521334303942" />
-          <node concept="2zaH5l" id="J" role="1wO7i6">
+          <node concept="2zaH5l" id="M" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
             <uo k="s:originTrace" v="n:6255508521334304076" />
-            <node concept="3_mHL5" id="L" role="pRcyL">
+            <node concept="3_mHL5" id="O" role="pRcyL">
               <uo k="s:originTrace" v="n:680043336101598931" />
-              <node concept="ean_g" id="M" role="eaaoM">
+              <node concept="ean_g" id="P" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:6c3QCZh1c9g" resolve="voordeel van de Vrijheid om over te steken" />
                 <uo k="s:originTrace" v="n:680043336101598932" />
               </node>
-              <node concept="3_kdyS" id="N" role="pQQuc">
+              <node concept="3_kdyS" id="Q" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
                 <uo k="s:originTrace" v="n:680043336101598933" />
               </node>
             </node>
           </node>
-          <node concept="2z5Mdt" id="K" role="1wO7i3">
+          <node concept="2z5Mdt" id="N" role="1wO7i3">
             <uo k="s:originTrace" v="n:6255508521334304231" />
-            <node concept="3_mHL5" id="O" role="2z5D6P">
+            <node concept="3_mHL5" id="R" role="2z5D6P">
               <uo k="s:originTrace" v="n:6255508521334304232" />
-              <node concept="ean_g" id="Q" role="eaaoM">
+              <node concept="ean_g" id="T" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
                 <uo k="s:originTrace" v="n:6255508521334304233" />
               </node>
-              <node concept="3_mHL5" id="R" role="pQQuc">
+              <node concept="3_mHL5" id="U" role="pQQuc">
                 <uo k="s:originTrace" v="n:680043336101599119" />
-                <node concept="ean_g" id="S" role="eaaoM">
+                <node concept="ean_g" id="V" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:680043336101599120" />
                 </node>
-                <node concept="3yS1BT" id="T" role="pQQuc">
-                  <ref role="3yS1Ki" node="N" resolve="verlof hebbende persoon" />
+                <node concept="3yS1BT" id="W" role="pQQuc">
+                  <ref role="3yS1Ki" node="Q" resolve="verlof hebbende persoon" />
                   <uo k="s:originTrace" v="n:680043336101599118" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="P" role="2z5HcU">
+            <node concept="28IzFB" id="S" role="2z5HcU">
               <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:6255508521334304235" />
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="I" role="1nvPAL">
+        <node concept="2ljwA5" id="L" role="1nvPAL">
           <uo k="s:originTrace" v="n:6255508521334303944" />
         </node>
       </node>
@@ -267,254 +285,264 @@
     <node concept="1HSql3" id="j" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking snel doorlopen" />
       <uo k="s:originTrace" v="n:8654851445388105564" />
-      <node concept="1wO7pt" id="U" role="kiesI">
+      <node concept="1wO7pt" id="X" role="kiesI">
         <uo k="s:originTrace" v="n:8654851445388105565" />
-        <node concept="2boe1W" id="V" role="1wO7pp">
+        <node concept="2boe1W" id="Y" role="1wO7pp">
           <uo k="s:originTrace" v="n:8654851445388105566" />
-          <node concept="2z5Mdt" id="X" role="1wO7i3">
+          <node concept="2z5Mdt" id="10" role="1wO7i3">
             <uo k="s:originTrace" v="n:8654851445388105567" />
-            <node concept="3_mHL5" id="Z" role="2z5D6P">
+            <node concept="3_mHL5" id="12" role="2z5D6P">
               <uo k="s:originTrace" v="n:8654851445388105568" />
-              <node concept="ean_g" id="11" role="eaaoM">
+              <node concept="ean_g" id="14" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
                 <uo k="s:originTrace" v="n:8654851445388105569" />
               </node>
-              <node concept="3_mHL5" id="12" role="pQQuc">
+              <node concept="3_mHL5" id="15" role="pQQuc">
                 <uo k="s:originTrace" v="n:8654851445388105570" />
-                <node concept="ean_g" id="13" role="eaaoM">
+                <node concept="ean_g" id="16" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht waarbij wordt overgestoken" />
                   <uo k="s:originTrace" v="n:8654851445388105571" />
                 </node>
-                <node concept="3yS1BT" id="14" role="pQQuc">
-                  <ref role="3yS1Ki" node="17" resolve="zwakke plichthoudende persoon" />
+                <node concept="3yS1BT" id="17" role="pQQuc">
+                  <ref role="3yS1Ki" node="1a" resolve="zwakke plichthoudende persoon" />
                   <uo k="s:originTrace" v="n:8654851445388105572" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="10" role="2z5HcU">
+            <node concept="28IzFB" id="13" role="2z5HcU">
               <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:8654851445388105573" />
             </node>
           </node>
-          <node concept="2zaH5l" id="Y" role="1wO7i6">
+          <node concept="2zaH5l" id="11" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:_JZWYCiqoz" resolve="beëindigd" />
             <uo k="s:originTrace" v="n:8654851445388105574" />
-            <node concept="3_mHL5" id="15" role="pRcyL">
+            <node concept="3_mHL5" id="18" role="pRcyL">
               <uo k="s:originTrace" v="n:8654851445388105575" />
-              <node concept="ean_g" id="16" role="eaaoM">
+              <node concept="ean_g" id="19" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:7wsdoz26aWf" resolve="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
                 <uo k="s:originTrace" v="n:8654851445388105576" />
               </node>
-              <node concept="3_kdyS" id="17" role="pQQuc">
+              <node concept="3_kdyS" id="1a" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:7wsdoz26aWe" resolve="zwakke plichthoudende persoon" />
                 <uo k="s:originTrace" v="n:8654851445388105577" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="W" role="1nvPAL">
+        <node concept="2ljwA5" id="Z" role="1nvPAL">
           <uo k="s:originTrace" v="n:8654851445388105578" />
         </node>
       </node>
     </node>
   </node>
-  <node concept="2bQVlO" id="18">
+  <node concept="2bQVlO" id="1b">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
     <uo k="s:originTrace" v="n:8654851445387467589" />
-    <node concept="1HSql3" id="19" role="1HSqhF">
+    <node concept="1HSql3" id="1c" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
-      <uo k="s:originTrace" v="n:8654851445387467636" />
-      <node concept="1wO7pt" id="1d" role="kiesI">
-        <uo k="s:originTrace" v="n:8654851445387467637" />
-        <node concept="2boe1W" id="1e" role="1wO7pp">
-          <uo k="s:originTrace" v="n:8654851445387467638" />
-          <node concept="2zaH5l" id="1g" role="1wO7i6">
-            <ref role="2zaJI2" to="akwf:1w6hstGpq7Z" resolve="rood" />
-            <uo k="s:originTrace" v="n:8654851445387467639" />
-            <node concept="3_kdyS" id="1i" role="pRcyL">
-              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
-              <uo k="s:originTrace" v="n:8654851445387467640" />
+      <uo k="s:originTrace" v="n:4222828548818168427" />
+      <node concept="1wO7pt" id="1g" role="kiesI">
+        <uo k="s:originTrace" v="n:4222828548818168429" />
+        <node concept="2boe1W" id="1h" role="1wO7pp">
+          <uo k="s:originTrace" v="n:4222828548818168430" />
+          <node concept="2boe1X" id="1j" role="1wO7i6">
+            <uo k="s:originTrace" v="n:4222828548818168725" />
+            <node concept="3_mHL5" id="1l" role="2bokzF">
+              <uo k="s:originTrace" v="n:4222828548818168726" />
+              <node concept="c2t0s" id="1n" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+                <uo k="s:originTrace" v="n:4222828548818168824" />
+              </node>
+              <node concept="3_kdyS" id="1o" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+                <uo k="s:originTrace" v="n:4222828548818168823" />
+              </node>
+            </node>
+            <node concept="16yQLD" id="1m" role="2bokzm">
+              <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
+              <uo k="s:originTrace" v="n:4222828548818168950" />
             </node>
           </node>
-          <node concept="2z5Mdt" id="1h" role="1wO7i3">
-            <uo k="s:originTrace" v="n:8654851445387467641" />
-            <node concept="3_mHL5" id="1j" role="2z5D6P">
-              <uo k="s:originTrace" v="n:8654851445387467642" />
-              <node concept="ean_g" id="1l" role="eaaoM">
+          <node concept="2z5Mdt" id="1k" role="1wO7i3">
+            <uo k="s:originTrace" v="n:4222828548818169141" />
+            <node concept="3_mHL5" id="1p" role="2z5D6P">
+              <uo k="s:originTrace" v="n:4222828548818169142" />
+              <node concept="ean_g" id="1r" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
-                <uo k="s:originTrace" v="n:8654851445387467643" />
+                <uo k="s:originTrace" v="n:4222828548818169143" />
               </node>
-              <node concept="3yS1BT" id="1m" role="pQQuc">
-                <ref role="3yS1Ki" node="1i" resolve="Voetgangerslicht" />
-                <uo k="s:originTrace" v="n:8654851445387467644" />
+              <node concept="3yS1BT" id="1s" role="pQQuc">
+                <ref role="3yS1Ki" node="1o" resolve="Voetgangerslicht" />
+                <uo k="s:originTrace" v="n:4222828548818169144" />
               </node>
             </node>
-            <node concept="28IzFB" id="1k" role="2z5HcU">
+            <node concept="28IzFB" id="1q" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
-              <uo k="s:originTrace" v="n:8654851445387467645" />
+              <uo k="s:originTrace" v="n:4222828548818169145" />
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="1f" role="1nvPAL">
-          <uo k="s:originTrace" v="n:8654851445387467646" />
+        <node concept="2ljwA5" id="1i" role="1nvPAL">
+          <uo k="s:originTrace" v="n:4222828548818168432" />
         </node>
       </node>
     </node>
-    <node concept="1HSql3" id="1a" role="1HSqhF">
+    <node concept="1HSql3" id="1d" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
       <uo k="s:originTrace" v="n:8654851445387467647" />
-      <node concept="1wO7pt" id="1n" role="kiesI">
+      <node concept="1wO7pt" id="1t" role="kiesI">
         <uo k="s:originTrace" v="n:8654851445387467648" />
-        <node concept="2boe1W" id="1o" role="1wO7pp">
+        <node concept="2boe1W" id="1u" role="1wO7pp">
           <uo k="s:originTrace" v="n:8654851445387467649" />
-          <node concept="2z5Mdt" id="1q" role="1wO7i3">
+          <node concept="2z5Mdt" id="1w" role="1wO7i3">
             <uo k="s:originTrace" v="n:8654851445387467650" />
-            <node concept="3_mHL5" id="1s" role="2z5D6P">
+            <node concept="3_mHL5" id="1y" role="2z5D6P">
               <uo k="s:originTrace" v="n:8654851445387467651" />
-              <node concept="ean_g" id="1u" role="eaaoM">
+              <node concept="ean_g" id="1$" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
                 <uo k="s:originTrace" v="n:8654851445387467652" />
               </node>
-              <node concept="3_mHL5" id="1v" role="pQQuc">
+              <node concept="3_mHL5" id="1_" role="pQQuc">
                 <uo k="s:originTrace" v="n:8654851445387467653" />
-                <node concept="ean_g" id="1w" role="eaaoM">
+                <node concept="ean_g" id="1A" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:8654851445387467654" />
                 </node>
-                <node concept="3yS1BT" id="1x" role="pQQuc">
-                  <ref role="3yS1Ki" node="1$" resolve="fatale plichthoudende persoon" />
+                <node concept="3yS1BT" id="1B" role="pQQuc">
+                  <ref role="3yS1Ki" node="1E" resolve="fatale plichthoudende persoon" />
                   <uo k="s:originTrace" v="n:8654851445387467655" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="1t" role="2z5HcU">
+            <node concept="28IzFB" id="1z" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:8654851445387467656" />
             </node>
           </node>
-          <node concept="2zaH5l" id="1r" role="1wO7i6">
+          <node concept="2zaH5l" id="1x" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
             <uo k="s:originTrace" v="n:8654851445387467657" />
-            <node concept="3_mHL5" id="1y" role="pRcyL">
+            <node concept="3_mHL5" id="1C" role="pRcyL">
               <uo k="s:originTrace" v="n:8654851445387467658" />
-              <node concept="ean_g" id="1z" role="eaaoM">
+              <node concept="ean_g" id="1D" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
                 <uo k="s:originTrace" v="n:8654851445387467659" />
               </node>
-              <node concept="3_kdyS" id="1$" role="pQQuc">
+              <node concept="3_kdyS" id="1E" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
                 <uo k="s:originTrace" v="n:8654851445387467660" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="1p" role="1nvPAL">
+        <node concept="2ljwA5" id="1v" role="1nvPAL">
           <uo k="s:originTrace" v="n:8654851445387467661" />
         </node>
       </node>
     </node>
-    <node concept="1HSql3" id="1b" role="1HSqhF">
+    <node concept="1HSql3" id="1e" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het onstaan van de rechtsbetrekking vrijheid om over te steken" />
       <uo k="s:originTrace" v="n:8654851445387467662" />
-      <node concept="1wO7pt" id="1_" role="kiesI">
+      <node concept="1wO7pt" id="1F" role="kiesI">
         <uo k="s:originTrace" v="n:8654851445387467663" />
-        <node concept="2boe1W" id="1A" role="1wO7pp">
+        <node concept="2boe1W" id="1G" role="1wO7pp">
           <uo k="s:originTrace" v="n:8654851445387467664" />
-          <node concept="2zaH5l" id="1C" role="1wO7i6">
+          <node concept="2zaH5l" id="1I" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
             <uo k="s:originTrace" v="n:8654851445387467665" />
-            <node concept="3_mHL5" id="1E" role="pRcyL">
+            <node concept="3_mHL5" id="1K" role="pRcyL">
               <uo k="s:originTrace" v="n:8654851445387467666" />
-              <node concept="ean_g" id="1F" role="eaaoM">
+              <node concept="ean_g" id="1L" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:6c3QCZh1c9g" resolve="voordeel van de Vrijheid om over te steken" />
                 <uo k="s:originTrace" v="n:8654851445387467667" />
               </node>
-              <node concept="3_kdyS" id="1G" role="pQQuc">
+              <node concept="3_kdyS" id="1M" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
                 <uo k="s:originTrace" v="n:8654851445387467668" />
               </node>
             </node>
           </node>
-          <node concept="2z5Mdt" id="1D" role="1wO7i3">
+          <node concept="2z5Mdt" id="1J" role="1wO7i3">
             <uo k="s:originTrace" v="n:8654851445387467669" />
-            <node concept="3_mHL5" id="1H" role="2z5D6P">
+            <node concept="3_mHL5" id="1N" role="2z5D6P">
               <uo k="s:originTrace" v="n:8654851445387467670" />
-              <node concept="ean_g" id="1J" role="eaaoM">
+              <node concept="ean_g" id="1P" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
                 <uo k="s:originTrace" v="n:8654851445387467671" />
               </node>
-              <node concept="3_mHL5" id="1K" role="pQQuc">
+              <node concept="3_mHL5" id="1Q" role="pQQuc">
                 <uo k="s:originTrace" v="n:8654851445387467672" />
-                <node concept="ean_g" id="1L" role="eaaoM">
+                <node concept="ean_g" id="1R" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                   <uo k="s:originTrace" v="n:8654851445387467673" />
                 </node>
-                <node concept="3yS1BT" id="1M" role="pQQuc">
-                  <ref role="3yS1Ki" node="1G" resolve="verlof hebbende persoon" />
+                <node concept="3yS1BT" id="1S" role="pQQuc">
+                  <ref role="3yS1Ki" node="1M" resolve="verlof hebbende persoon" />
                   <uo k="s:originTrace" v="n:8654851445387467674" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="1I" role="2z5HcU">
+            <node concept="28IzFB" id="1O" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:8654851445387467675" />
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="1B" role="1nvPAL">
+        <node concept="2ljwA5" id="1H" role="1nvPAL">
           <uo k="s:originTrace" v="n:8654851445387467676" />
         </node>
       </node>
     </node>
-    <node concept="1HSql3" id="1c" role="1HSqhF">
+    <node concept="1HSql3" id="1f" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het ontstaan van de rechtsbetrekking snel doorlopen" />
       <uo k="s:originTrace" v="n:8654851445387470439" />
-      <node concept="1wO7pt" id="1N" role="kiesI">
+      <node concept="1wO7pt" id="1T" role="kiesI">
         <uo k="s:originTrace" v="n:8654851445387470440" />
-        <node concept="2boe1W" id="1O" role="1wO7pp">
+        <node concept="2boe1W" id="1U" role="1wO7pp">
           <uo k="s:originTrace" v="n:8654851445387470441" />
-          <node concept="2z5Mdt" id="1Q" role="1wO7i3">
+          <node concept="2z5Mdt" id="1W" role="1wO7i3">
             <uo k="s:originTrace" v="n:8654851445387470442" />
-            <node concept="3_mHL5" id="1S" role="2z5D6P">
+            <node concept="3_mHL5" id="1Y" role="2z5D6P">
               <uo k="s:originTrace" v="n:8654851445387472377" />
-              <node concept="ean_g" id="1U" role="eaaoM">
+              <node concept="ean_g" id="20" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
                 <uo k="s:originTrace" v="n:8654851445387472378" />
               </node>
-              <node concept="3_mHL5" id="1V" role="pQQuc">
+              <node concept="3_mHL5" id="21" role="pQQuc">
                 <uo k="s:originTrace" v="n:8654851445387472464" />
-                <node concept="ean_g" id="1W" role="eaaoM">
+                <node concept="ean_g" id="22" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht waarbij wordt overgestoken" />
                   <uo k="s:originTrace" v="n:8654851445387472465" />
                 </node>
-                <node concept="3yS1BT" id="1X" role="pQQuc">
-                  <ref role="3yS1Ki" node="20" resolve="zwakke plichthoudende persoon" />
+                <node concept="3yS1BT" id="23" role="pQQuc">
+                  <ref role="3yS1Ki" node="26" resolve="zwakke plichthoudende persoon" />
                   <uo k="s:originTrace" v="n:8654851445387474328" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="1T" role="2z5HcU">
+            <node concept="28IzFB" id="1Z" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
               <uo k="s:originTrace" v="n:8654851445387470448" />
             </node>
           </node>
-          <node concept="2zaH5l" id="1R" role="1wO7i6">
+          <node concept="2zaH5l" id="1X" role="1wO7i6">
             <ref role="2zaJI2" to="akwf:_JZWYCiqo$" resolve="ontstaan" />
             <uo k="s:originTrace" v="n:8654851445387471906" />
-            <node concept="3_mHL5" id="1Y" role="pRcyL">
+            <node concept="3_mHL5" id="24" role="pRcyL">
               <uo k="s:originTrace" v="n:8654851445387473215" />
-              <node concept="ean_g" id="1Z" role="eaaoM">
+              <node concept="ean_g" id="25" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:7wsdoz26aWf" resolve="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
                 <uo k="s:originTrace" v="n:8654851445387473216" />
               </node>
-              <node concept="3_kdyS" id="20" role="pQQuc">
+              <node concept="3_kdyS" id="26" role="pQQuc">
                 <ref role="Qu8KH" to="akwf:7wsdoz26aWe" resolve="zwakke plichthoudende persoon" />
                 <uo k="s:originTrace" v="n:8654851445387473217" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="1P" role="1nvPAL">
+        <node concept="2ljwA5" id="1V" role="1nvPAL">
           <uo k="s:originTrace" v="n:8654851445387470453" />
         </node>
       </node>

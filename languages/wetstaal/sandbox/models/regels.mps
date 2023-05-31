@@ -16,9 +16,14 @@
         <child id="1480463129960504796" name="conditie" index="1wO7i3" />
         <child id="1480463129960504793" name="actie" index="1wO7i6" />
       </concept>
+      <concept id="653687101152476297" name="regelspraak.structure.Gelijkstelling" flags="ng" index="2boe1X">
+        <child id="653687101152498722" name="rechts" index="2bokzm" />
+        <child id="653687101152498719" name="links" index="2bokzF" />
+      </concept>
       <concept id="653687101158189440" name="regelspraak.structure.Regelgroep" flags="ng" index="2bQVlO">
         <child id="9154144551704439187" name="regel" index="1HSqhF" />
       </concept>
+      <concept id="347899601029311684" name="regelspraak.structure.AttribuutSelector" flags="ng" index="c2t0s" />
       <concept id="6774523643279607820" name="regelspraak.structure.RolSelector" flags="ng" index="ean_g" />
       <concept id="6223277501270327848" name="regelspraak.structure.AbstracteRegel" flags="ng" index="nISv2">
         <child id="6223277501273432772" name="versie" index="kiesI" />
@@ -53,6 +58,9 @@
     </language>
     <language id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak">
       <concept id="5478077304742085581" name="gegevensspraak.structure.Geldigheidsperiode" flags="ng" index="2ljwA5" />
+      <concept id="8989128614611296432" name="gegevensspraak.structure.EnumWaardeRef" flags="ng" index="16yQLD">
+        <reference id="8989128614611340128" name="waarde" index="16yCuT" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -62,31 +70,38 @@
   </registry>
   <node concept="2bQVlO" id="1w6hstGf8YC">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
-    <node concept="1HSql3" id="1w6hstGpq7F" role="1HSqhF">
+    <node concept="1HSql3" id="3Eqw34fFQeq" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
-      <node concept="1wO7pt" id="1w6hstGpq7G" role="kiesI">
-        <node concept="2boe1W" id="1w6hstGpq7H" role="1wO7pp">
-          <node concept="2zaH5l" id="1w6hstGpqa1" role="1wO7i6">
-            <ref role="2zaJI2" to="akwf:1w6hstGpq9c" resolve="groen" />
-            <node concept="3_kdyS" id="1w6hstGpqa3" role="pRcyL">
-              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
+      <node concept="1wO7pt" id="3Eqw34fFQes" role="kiesI">
+        <node concept="2boe1W" id="3Eqw34fFQet" role="1wO7pp">
+          <node concept="2boe1X" id="3Eqw34fFQhS" role="1wO7i6">
+            <node concept="3_mHL5" id="3Eqw34fFQhT" role="2bokzF">
+              <node concept="c2t0s" id="3Eqw34fFQjr" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+              </node>
+              <node concept="3_kdyS" id="3Eqw34fFQjq" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="16yQLD" id="3Eqw34fFQlp" role="2bokzm">
+              <ref role="16yCuT" to="akwf:3Eqw34fFQ4I" resolve="groen" />
             </node>
           </node>
-          <node concept="2z5Mdt" id="1w6hstGpqf2" role="1wO7i3">
-            <node concept="3_mHL5" id="_JZWYCdWq6" role="2z5D6P">
-              <node concept="ean_g" id="_JZWYCdWq7" role="eaaoM">
+          <node concept="2z5Mdt" id="3Eqw34fFQoq" role="1wO7i3">
+            <node concept="3_mHL5" id="3Eqw34fFQor" role="2z5D6P">
+              <node concept="ean_g" id="3Eqw34fFQos" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:1w6hstGpq0c" resolve="verspringen van het licht naar groen" />
               </node>
-              <node concept="3yS1BT" id="_JZWYCdWF7" role="pQQuc">
-                <ref role="3yS1Ki" node="1w6hstGpqa3" resolve="Verkeerslicht" />
+              <node concept="3yS1BT" id="3Eqw34fFQot" role="pQQuc">
+                <ref role="3yS1Ki" node="3Eqw34fFQjq" resolve="Voetgangerslicht" />
               </node>
             </node>
-            <node concept="28IzFB" id="1w6hstGpqgp" role="2z5HcU">
-              <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="gebeurd" />
+            <node concept="28IzFB" id="3Eqw34fFQou" role="2z5HcU">
+              <ref role="28I$VD" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="1w6hstGpq7J" role="1nvPAL" />
+        <node concept="2ljwA5" id="3Eqw34fFQev" role="1nvPAL" />
       </node>
     </node>
     <node concept="1HSql3" id="6c3QCZh1bBM" role="1HSqhF">
@@ -203,31 +218,38 @@
   </node>
   <node concept="2bQVlO" id="7wsdoz269H5">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
-    <node concept="1HSql3" id="7wsdoz269HO" role="1HSqhF">
+    <node concept="1HSql3" id="3Eqw34fFQDF" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit ten aanzien van het juridisch relevant feit" />
-      <node concept="1wO7pt" id="7wsdoz269HP" role="kiesI">
-        <node concept="2boe1W" id="7wsdoz269HQ" role="1wO7pp">
-          <node concept="2zaH5l" id="7wsdoz269HR" role="1wO7i6">
-            <ref role="2zaJI2" to="akwf:1w6hstGpq7Z" resolve="rood" />
-            <node concept="3_kdyS" id="7wsdoz269HS" role="pRcyL">
-              <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+      <node concept="1wO7pt" id="3Eqw34fFQDH" role="kiesI">
+        <node concept="2boe1W" id="3Eqw34fFQDI" role="1wO7pp">
+          <node concept="2boe1X" id="3Eqw34fFQIl" role="1wO7i6">
+            <node concept="3_mHL5" id="3Eqw34fFQIm" role="2bokzF">
+              <node concept="c2t0s" id="3Eqw34fFQJS" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+              </node>
+              <node concept="3_kdyS" id="3Eqw34fFQJR" role="pQQuc">
+                <ref role="Qu8KH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
+              </node>
+            </node>
+            <node concept="16yQLD" id="3Eqw34fFQLQ" role="2bokzm">
+              <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
             </node>
           </node>
-          <node concept="2z5Mdt" id="7wsdoz269HT" role="1wO7i3">
-            <node concept="3_mHL5" id="7wsdoz269HU" role="2z5D6P">
-              <node concept="ean_g" id="7wsdoz269HV" role="eaaoM">
+          <node concept="2z5Mdt" id="3Eqw34fFQOP" role="1wO7i3">
+            <node concept="3_mHL5" id="3Eqw34fFQOQ" role="2z5D6P">
+              <node concept="ean_g" id="3Eqw34fFQOR" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
               </node>
-              <node concept="3yS1BT" id="7wsdoz269HW" role="pQQuc">
-                <ref role="3yS1Ki" node="7wsdoz269HS" resolve="Voetgangerslicht" />
+              <node concept="3yS1BT" id="3Eqw34fFQOS" role="pQQuc">
+                <ref role="3yS1Ki" node="3Eqw34fFQJR" resolve="Voetgangerslicht" />
               </node>
             </node>
-            <node concept="28IzFB" id="7wsdoz269HX" role="2z5HcU">
+            <node concept="28IzFB" id="3Eqw34fFQOT" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
             </node>
           </node>
         </node>
-        <node concept="2ljwA5" id="7wsdoz269HY" role="1nvPAL" />
+        <node concept="2ljwA5" id="3Eqw34fFQDK" role="1nvPAL" />
       </node>
     </node>
     <node concept="1HSql3" id="7wsdoz269HZ" role="1HSqhF">

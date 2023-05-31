@@ -10,12 +10,16 @@
   <imports />
   <registry>
     <language id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak">
+      <concept id="653687101152476317" name="gegevensspraak.structure.EnumeratieWaarde" flags="ng" index="2boe1D" />
       <concept id="653687101152590770" name="gegevensspraak.structure.Kenmerk" flags="ng" index="2bpyt6">
         <property id="6987110246007511376" name="bijvoeglijk" index="2VcyFJ" />
         <property id="2589799484845947556" name="bezittelijk" index="3uiUDc" />
       </concept>
       <concept id="653687101152179938" name="gegevensspraak.structure.ObjectModel" flags="ng" index="2bv6Cm">
         <child id="653687101152179939" name="elem" index="2bv6Cn" unordered="true" />
+      </concept>
+      <concept id="653687101152178966" name="gegevensspraak.structure.Domein" flags="ng" index="2bv6Zy">
+        <child id="5917060184181531817" name="base" index="1ECJDa" />
       </concept>
       <concept id="653687101152178956" name="gegevensspraak.structure.Attribuut" flags="ng" index="2bv6ZS">
         <child id="5917060184181247471" name="type" index="1EDDcc" />
@@ -31,6 +35,9 @@
         <property id="6528193855467705353" name="single" index="u$DAK" />
         <reference id="4170820228911721549" name="objectType" index="1fE_qF" />
       </concept>
+      <concept id="5970487230362917627" name="gegevensspraak.structure.EnumeratieType" flags="ng" index="2n4JhV">
+        <child id="4145085948684469801" name="waarde" index="1niOIs" />
+      </concept>
       <concept id="8878823228840241647" name="gegevensspraak.structure.TekstType" flags="ng" index="THod0" />
       <concept id="8989128614612178023" name="gegevensspraak.structure.Naamwoord" flags="ng" index="16ZtyY">
         <property id="5970487230362691956" name="onderdrukLidwoord" index="2n7kvO" />
@@ -39,12 +46,15 @@
       <concept id="5917060184181247365" name="gegevensspraak.structure.DatumTijdType" flags="ng" index="1EDDdA">
         <property id="5917060184181247410" name="granulariteit" index="1EDDdh" />
       </concept>
+      <concept id="5917060184181247285" name="gegevensspraak.structure.DomeinType" flags="ng" index="1EDDfm">
+        <reference id="5917060184181247286" name="domein" index="1EDDfl" />
+      </concept>
       <concept id="5636224356224001686" name="gegevensspraak.structure.LeegElement" flags="ng" index="3H5gaA" />
       <concept id="4104573890451362331" name="gegevensspraak.structure.Commentaar" flags="ng" index="3Ih38J" />
     </language>
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
       <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
-      <concept id="6255508521334311083" name="wetstaal.structure.IsOnstaan" flags="ng" index="LnSXK" />
+      <concept id="6255508521334311083" name="wetstaal.structure.IsUitgevoerd" flags="ng" index="LnSXK" />
       <concept id="8654851445385900643" name="wetstaal.structure.Wetsmodel" flags="ng" index="2U78vF" />
       <concept id="4210711717891144949" name="wetstaal.structure.Rechtshandeling" flags="ng" index="2Y5CWa">
         <reference id="8654851445388285571" name="rechtsubject" index="2Ueicb" />
@@ -121,6 +131,12 @@
     <node concept="1OpgJr" id="1w6hstGppRa" role="2bv6Cn">
       <property role="TrG5h" value="Voetgangerslicht" />
       <property role="16Ztxt" value="true" />
+      <node concept="2bv6ZS" id="3Eqw34fFQ5P" role="2bv01j">
+        <property role="TrG5h" value="kleur" />
+        <node concept="1EDDfm" id="3Eqw34fFQ6q" role="1EDDcc">
+          <ref role="1EDDfl" node="3Eqw34fFQ2f" resolve="KleurVanHetLicht" />
+        </node>
+      </node>
       <node concept="2bpyt6" id="1w6hstGpq7Z" role="2bv01j">
         <property role="TrG5h" value="rood" />
         <property role="2VcyFJ" value="true" />
@@ -134,8 +150,27 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
+    <node concept="2bv6Zy" id="3Eqw34fFQ2f" role="2bv6Cn">
+      <property role="TrG5h" value="KleurVanHetLicht" />
+      <node concept="2n4JhV" id="3Eqw34fFQ4b" role="1ECJDa">
+        <node concept="2boe1D" id="3Eqw34fFQ4h" role="1niOIs">
+          <property role="TrG5h" value="rood" />
+        </node>
+        <node concept="2boe1D" id="3Eqw34fFQ4s" role="1niOIs">
+          <property role="TrG5h" value="knipperend groen" />
+        </node>
+        <node concept="2boe1D" id="3Eqw34fFQ4I" role="1niOIs">
+          <property role="TrG5h" value="groen" />
+        </node>
+      </node>
+    </node>
     <node concept="1OpgJr" id="_JZWYChLe3" role="2bv6Cn">
       <property role="TrG5h" value="Beginnen met oversteken" />
+      <node concept="2bpyt6" id="3Eqw34fECp6" role="2bv01j">
+        <property role="TrG5h" value="plaatsgevonden" />
+        <property role="3uiUDc" value="true" />
+        <property role="2n7kvO" value="true" />
+      </node>
     </node>
     <node concept="3H5gaA" id="_JZWYChL2M" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
@@ -417,10 +452,6 @@
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
     </node>
-    <node concept="3H5gaA" id="_JZWYCiqsG" role="2bv6Cn" />
-    <node concept="3H5gaA" id="_JZWYCiqym" role="2bv6Cn" />
-    <node concept="3H5gaA" id="1w6hstGppWN" role="2bv6Cn" />
-    <node concept="3H5gaA" id="7wsdoz23lHw" role="2bv6Cn" />
   </node>
 </model>
 

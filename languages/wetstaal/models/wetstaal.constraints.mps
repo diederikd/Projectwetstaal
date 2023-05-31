@@ -125,6 +125,11 @@
         <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1225711141656" name="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" flags="nn" index="1y4W85">
         <child id="1225711182005" name="list" index="1y566C" />
@@ -133,6 +138,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="g9av3vFLBw">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1M2myG" to="b0hk:g9av3vFtXl" resolve="Rechtsbetrekking" />
     <node concept="EnEH3" id="g9av3vFLBx" role="1MhHOB">
       <ref role="EomxK" to="b0hk:g9av3vFLBn" resolve="hoofdsoort" />
@@ -1011,6 +1017,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1w6hstGffdd">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1M2myG" to="b0hk:1w6hstGf8Zw" resolve="Voordeelkant" />
     <node concept="1N5Pfh" id="1w6hstGgQ19" role="1Mr941">
       <ref role="1N5Vy1" to="b0hk:1w6hstGf8Zx" resolve="rechtsbetrekking" />
@@ -1187,6 +1194,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1w6hstGfgrx">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1M2myG" to="b0hk:1w6hstGf8Z$" resolve="Nadeelkant" />
     <node concept="1N5Pfh" id="1w6hstGkDhi" role="1Mr941">
       <ref role="1N5Vy1" to="b0hk:1w6hstGf8Z_" resolve="rechtsbetrekking" />

@@ -35,6 +35,14 @@
       <ref role="ihCKg" to="elf3:1w6hstGf8YC" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
       <uo k="s:originTrace" v="n:8654851445387459356" />
     </node>
+    <node concept="ihC25" id="3" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:7wsdoz269H5" resolve="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
+      <uo k="s:originTrace" v="n:8654851445389083931" />
+    </node>
+    <node concept="ihC25" id="4" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:7wsdoz269Wo" resolve="Rechtsgevolgen van het rechtsfeit aan de overkant op de stoep stappen" />
+      <uo k="s:originTrace" v="n:8654851445389084095" />
+    </node>
   </node>
 </model>
 

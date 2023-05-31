@@ -201,6 +201,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -353,6 +356,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="g9av3vFBDx">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1XX52x" to="b0hk:g9av3vFtXl" resolve="Rechtsbetrekking" />
     <node concept="3EZMnI" id="g9av3vFBLd" role="2wV5jI">
       <node concept="3EZMnI" id="g9av3vFBLe" role="3EZMnx">
@@ -570,6 +574,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1w6hstGf9KS">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1XX52x" to="b0hk:1w6hstGf8Z$" resolve="Nadeelkant" />
     <node concept="3EZMnI" id="6M7erEBArfP" role="2wV5jI">
       <node concept="2iRkQZ" id="6M7erEBArfQ" role="2iSdaV" />
@@ -1081,6 +1086,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1w6hstGfc86">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1XX52x" to="b0hk:1w6hstGf8Zw" resolve="Voordeelkant" />
     <node concept="3EZMnI" id="1w6hstGfc88" role="2wV5jI">
       <node concept="2iRkQZ" id="1w6hstGfc89" role="2iSdaV" />
@@ -1592,6 +1598,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1w6hstGoh9J">
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="1XX52x" to="b0hk:1w6hstGn0V3" resolve="GebeurtenisMetRechtsgevolg" />
     <node concept="3EZMnI" id="1w6hstGoh9L" role="2wV5jI">
       <node concept="3EZMnI" id="1w6hstGoh9M" role="3EZMnx">
@@ -1836,6 +1843,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3DJsZY4uvVJ">
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="1XX52x" to="b0hk:3DJsZY4uvNP" resolve="Rechtshandeling" />
     <node concept="3EZMnI" id="3DJsZY4uvVL" role="2wV5jI">
       <node concept="3EZMnI" id="3DJsZY4uvVM" role="3EZMnx">

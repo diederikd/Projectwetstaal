@@ -137,6 +137,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="g9av3vFvQh">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="13h7C2" to="b0hk:g9av3vFtXl" resolve="Rechtsbetrekking" />
     <node concept="13hLZK" id="g9av3vFvQi" role="13h7CW">
       <node concept="3clFbS" id="g9av3vFvQj" role="2VODD2">
@@ -170,12 +171,14 @@
     </node>
   </node>
   <node concept="13h7C7" id="1w6hstGfJa_">
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="13h7C2" to="b0hk:1w6hstGf8Zw" resolve="Voordeelkant" />
     <node concept="13hLZK" id="1w6hstGfJaA" role="13h7CW">
       <node concept="3clFbS" id="1w6hstGfJaB" role="2VODD2" />
     </node>
   </node>
   <node concept="13h7C7" id="1w6hstGn0Ws">
+    <property role="3GE5qa" value="attributen" />
     <ref role="13h7C2" to="b0hk:1w6hstGn0V4" resolve="DatumTijd" />
     <node concept="13hLZK" id="1w6hstGn0Wt" role="13h7CW">
       <node concept="3clFbS" id="1w6hstGn0Wu" role="2VODD2">
@@ -245,6 +248,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="1w6hstGn52q">
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="13h7C2" to="b0hk:1w6hstGn0V3" resolve="GebeurtenisMetRechtsgevolg" />
     <node concept="13hLZK" id="1w6hstGn52r" role="13h7CW">
       <node concept="3clFbS" id="1w6hstGn52s" role="2VODD2">
@@ -301,6 +305,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="_JZWYCiqUN">
+    <property role="3GE5qa" value="attributen" />
     <ref role="13h7C2" to="b0hk:_JZWYCiqTp" resolve="UitgevoerdOp" />
     <node concept="13hLZK" id="_JZWYCiqUO" role="13h7CW">
       <node concept="3clFbS" id="_JZWYCiqUP" role="2VODD2">

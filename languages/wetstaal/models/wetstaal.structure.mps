@@ -59,6 +59,7 @@
   <node concept="1TIwiD" id="g9av3vFtXl">
     <property role="EcuMT" value="290809765463711573" />
     <property role="TrG5h" value="Rechtsbetrekking" />
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
     <node concept="1TJgyj" id="1w6hstGf18a" role="1TKVEi">
       <property role="IQ2ns" value="1731147829587218954" />
@@ -107,6 +108,7 @@
   <node concept="25R3W" id="g9av3vFLsc">
     <property role="3F6X1D" value="290809765463791372" />
     <property role="TrG5h" value="hoofdsoort" />
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <node concept="25R33" id="g9av3vFLsd" role="25R1y">
       <property role="3tVfz5" value="290809765463791373" />
       <property role="TrG5h" value="S01" />
@@ -126,6 +128,7 @@
   <node concept="25R3W" id="g9av3vFLAB">
     <property role="3F6X1D" value="290809765463792039" />
     <property role="TrG5h" value="ondersoort" />
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <node concept="25R33" id="g9av3vFLAD" role="25R1y">
       <property role="3tVfz5" value="290809765463792041" />
       <property role="TrG5h" value="S011" />
@@ -165,6 +168,7 @@
   <node concept="1TIwiD" id="1w6hstGf8Zw">
     <property role="EcuMT" value="1731147829587251168" />
     <property role="TrG5h" value="Voordeelkant" />
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1TJDcQ" to="3ic2:4KQiE3qx$2F" resolve="FeitType" />
     <node concept="1TJgyj" id="1w6hstGf8Zx" role="1TKVEi">
       <property role="IQ2ns" value="1731147829587251169" />
@@ -176,6 +180,7 @@
   <node concept="1TIwiD" id="1w6hstGf8Z$">
     <property role="EcuMT" value="1731147829587251172" />
     <property role="TrG5h" value="Nadeelkant" />
+    <property role="3GE5qa" value="rechtsbetrekkingen" />
     <ref role="1TJDcQ" to="3ic2:4KQiE3qx$2F" resolve="FeitType" />
     <node concept="1TJgyj" id="1w6hstGf8Z_" role="1TKVEi">
       <property role="IQ2ns" value="1731147829587251173" />
@@ -188,16 +193,19 @@
     <property role="EcuMT" value="1731147829589315266" />
     <property role="TrG5h" value="Rechtsfeit" />
     <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
   </node>
   <node concept="1TIwiD" id="1w6hstGn0V3">
     <property role="EcuMT" value="1731147829589315267" />
     <property role="TrG5h" value="GebeurtenisMetRechtsgevolg" />
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="1TJDcQ" node="1w6hstGn0V2" resolve="Rechtsfeit" />
   </node>
   <node concept="1TIwiD" id="1w6hstGn0V4">
     <property role="EcuMT" value="1731147829589315268" />
     <property role="TrG5h" value="DatumTijd" />
+    <property role="3GE5qa" value="attributen" />
     <ref role="1TJDcQ" to="3ic2:$infi2rzcc" resolve="Attribuut" />
   </node>
   <node concept="1TIwiD" id="1w6hstGoOSs">
@@ -208,6 +216,7 @@
   <node concept="1TIwiD" id="3DJsZY4uvNP">
     <property role="EcuMT" value="4210711717891144949" />
     <property role="TrG5h" value="Rechtshandeling" />
+    <property role="3GE5qa" value="rechtsfeiten" />
     <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
     <node concept="1TJgyj" id="7wsdoz29hq3" role="1TKVEi">
       <property role="IQ2ns" value="8654851445388285571" />
@@ -224,6 +233,7 @@
   <node concept="1TIwiD" id="_JZWYCiqTp">
     <property role="EcuMT" value="680043336102948441" />
     <property role="TrG5h" value="UitgevoerdOp" />
+    <property role="3GE5qa" value="attributen" />
     <ref role="1TJDcQ" to="3ic2:$infi2rzcc" resolve="Attribuut" />
   </node>
   <node concept="1TIwiD" id="7wsdoz20b9z">

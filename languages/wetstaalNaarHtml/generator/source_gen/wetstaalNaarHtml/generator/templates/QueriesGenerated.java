@@ -138,30 +138,48 @@ public class QueriesGenerated extends QueryProviderBase {
     return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
   }
   public static Object propertyMacro_GetValue_1_33(final PropertyMacroContext _context) {
-    return "(mv: " + Naamwoord__BehaviorDescriptor.meervoudsvorm_id41BOuL$NQpG.invoke(_context.getNode()) + ")";
+    return "hoofdsoort :" + SPropertyOperations.getEnum(_context.getNode(), PROPS.hoofdsoort$r9Yt).getPresentation();
   }
   public static Object propertyMacro_GetValue_1_34(final PropertyMacroContext _context) {
-    return (String) Naamwoord__BehaviorDescriptor.lidwoord_id1ibElXOfYae.invoke(_context.getNode());
+    return "ondersoort :" + SPropertyOperations.getEnum(_context.getNode(), PROPS.ondersoort$rasv).getPresentation();
   }
   public static Object propertyMacro_GetValue_1_35(final PropertyMacroContext _context) {
-    return Html.urlAnchor(_context.getNode());
+    return "voordeelkant :" + SPropertyOperations.getString(_context.getNode(), PROPS.tekstvoordeelkant$QiFz) + " " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.voordeelkant$C51f), PROPS.name$MnvL);
   }
   public static Object propertyMacro_GetValue_1_36(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+    return "nadeelkant :" + SPropertyOperations.getString(_context.getNode(), PROPS.tekstnadeelkant$QoyW) + " " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.nadeelkant$C5vh), PROPS.name$MnvL);
   }
   public static Object propertyMacro_GetValue_1_37(final PropertyMacroContext _context) {
-    return "(mv: " + Naamwoord__BehaviorDescriptor.meervoudsvorm_id41BOuL$NQpG.invoke(_context.getNode()) + ")";
+    return "rechtsobject : " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.rechtsobject$_6Ns), PROPS.name$MnvL);
   }
   public static Object propertyMacro_GetValue_1_38(final PropertyMacroContext _context) {
-    return (String) Naamwoord__BehaviorDescriptor.lidwoord_id1ibElXOfYae.invoke(_context.getNode());
+    return "(mv: " + Naamwoord__BehaviorDescriptor.meervoudsvorm_id41BOuL$NQpG.invoke(_context.getNode()) + ")";
   }
   public static Object propertyMacro_GetValue_1_39(final PropertyMacroContext _context) {
-    return Html.urlAnchor(_context.getNode());
+    return (String) Naamwoord__BehaviorDescriptor.lidwoord_id1ibElXOfYae.invoke(_context.getNode());
   }
   public static Object propertyMacro_GetValue_1_40(final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+    return Html.urlAnchor(_context.getNode());
   }
   public static Object propertyMacro_GetValue_1_41(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+  }
+  public static Object propertyMacro_GetValue_1_42(final PropertyMacroContext _context) {
+    return "rechtssubject : " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), LINKS.rechtsubject$_sIj), PROPS.name$MnvL);
+  }
+  public static Object propertyMacro_GetValue_1_43(final PropertyMacroContext _context) {
+    return "(mv: " + Naamwoord__BehaviorDescriptor.meervoudsvorm_id41BOuL$NQpG.invoke(_context.getNode()) + ")";
+  }
+  public static Object propertyMacro_GetValue_1_44(final PropertyMacroContext _context) {
+    return (String) Naamwoord__BehaviorDescriptor.lidwoord_id1ibElXOfYae.invoke(_context.getNode());
+  }
+  public static Object propertyMacro_GetValue_1_45(final PropertyMacroContext _context) {
+    return Html.urlAnchor(_context.getNode());
+  }
+  public static Object propertyMacro_GetValue_1_46(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL);
+  }
+  public static Object propertyMacro_GetValue_1_47(final PropertyMacroContext _context) {
     return "(mv: " + Naamwoord__BehaviorDescriptor.meervoudsvorm_id41BOuL$NQpG.invoke(_context.getNode()) + ")";
   }
   public static Object propertyMacro_GetValue_2_0(final PropertyMacroContext _context) {
@@ -446,10 +464,16 @@ public class QueriesGenerated extends QueryProviderBase {
     pvqMethods.put("5962567535208595965", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "de"));
     pvqMethods.put("7634915632338039613", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "id"));
     pvqMethods.put("7634915632338039622", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "naam van het objecttype"));
+    pvqMethods.put("8654851445389106133", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "hoofdsoort : "));
+    pvqMethods.put("8654851445389096953", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "ondersoort : "));
+    pvqMethods.put("8654851445389113287", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "voordeelkant : "));
+    pvqMethods.put("8654851445389113954", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "nadeelkant : "));
+    pvqMethods.put("8654851445389115617", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "rechtsobject : "));
     pvqMethods.put("4050600935021191925", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "mv: namen"));
     pvqMethods.put("8654851445382769471", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "de"));
     pvqMethods.put("8654851445382769481", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "id"));
     pvqMethods.put("8654851445382769490", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "naam van het objecttype"));
+    pvqMethods.put("8654851445389058132", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "rechtssubject : "));
     pvqMethods.put("8654851445382769499", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "mv: namen"));
     pvqMethods.put("8654851445382775333", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x16838b3fce9aa513L, 0x16838b3fce9aaa68L, "value"), "de"));
     pvqMethods.put("8654851445382775343", new PVQ(i++, MetaAdapterFactory.getProperty(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5c842a42c54cfd1fL, 0x5c842a42c54cfd20L, "text"), "id"));
@@ -577,46 +601,58 @@ public class QueriesGenerated extends QueryProviderBase {
         case 41:
           return QueriesGenerated.propertyMacro_GetValue_1_41(ctx);
         case 42:
-          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_42(ctx);
         case 43:
-          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_43(ctx);
         case 44:
-          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_44(ctx);
         case 45:
-          return QueriesGenerated.propertyMacro_GetValue_2_3(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_45(ctx);
         case 46:
-          return QueriesGenerated.propertyMacro_GetValue_2_4(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_46(ctx);
         case 47:
-          return QueriesGenerated.propertyMacro_GetValue_2_5(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_1_47(ctx);
         case 48:
-          return QueriesGenerated.propertyMacro_GetValue_2_6(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_0(ctx);
         case 49:
-          return QueriesGenerated.propertyMacro_GetValue_2_7(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_1(ctx);
         case 50:
-          return QueriesGenerated.propertyMacro_GetValue_2_8(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_2(ctx);
         case 51:
-          return QueriesGenerated.propertyMacro_GetValue_2_9(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_3(ctx);
         case 52:
-          return QueriesGenerated.propertyMacro_GetValue_2_10(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_4(ctx);
         case 53:
-          return QueriesGenerated.propertyMacro_GetValue_2_11(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_5(ctx);
         case 54:
-          return QueriesGenerated.propertyMacro_GetValue_2_12(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_6(ctx);
         case 55:
-          return QueriesGenerated.propertyMacro_GetValue_2_13(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_7(ctx);
         case 56:
-          return QueriesGenerated.propertyMacro_GetValue_2_14(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_8(ctx);
         case 57:
-          return QueriesGenerated.propertyMacro_GetValue_2_15(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_9(ctx);
         case 58:
-          return QueriesGenerated.propertyMacro_GetValue_2_16(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_10(ctx);
         case 59:
-          return QueriesGenerated.propertyMacro_GetValue_2_17(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_11(ctx);
         case 60:
-          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_12(ctx);
         case 61:
-          return QueriesGenerated.propertyMacro_GetValue_3_1(ctx);
+          return QueriesGenerated.propertyMacro_GetValue_2_13(ctx);
         case 62:
+          return QueriesGenerated.propertyMacro_GetValue_2_14(ctx);
+        case 63:
+          return QueriesGenerated.propertyMacro_GetValue_2_15(ctx);
+        case 64:
+          return QueriesGenerated.propertyMacro_GetValue_2_16(ctx);
+        case 65:
+          return QueriesGenerated.propertyMacro_GetValue_2_17(ctx);
+        case 66:
+          return QueriesGenerated.propertyMacro_GetValue_3_0(ctx);
+        case 67:
+          return QueriesGenerated.propertyMacro_GetValue_3_1(ctx);
+        case 68:
           return QueriesGenerated.propertyMacro_GetValue_3_2(ctx);
         default:
           throw new GenerationFailureException(String.format("Inconsistent QueriesGenerated: there's no method for query %s (key: #%d)", ctx.getTemplateReference(), methodKey));
@@ -731,6 +767,10 @@ public class QueriesGenerated extends QueryProviderBase {
     /*package*/ static final SProperty meervoudsvorm$tVj4 = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x7cbfccd93a421467L, 0x7cbfccd93a421487L, "meervoudsvorm");
     /*package*/ static final SProperty single$_iMj = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x4c364aa0da8640b4L, 0x5a98cdb9440a5409L, "single");
     /*package*/ static final SProperty frase$d0ev = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x4c364aa0da8640b4L, 0x4c364aa0da948c54L, "frase");
+    /*package*/ static final SProperty hoofdsoort$r9Yt = MetaAdapterFactory.getProperty(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x40929f0dfaf19d7L, "hoofdsoort");
+    /*package*/ static final SProperty ondersoort$rasv = MetaAdapterFactory.getProperty(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x40929f0dfaf19d9L, "ondersoort");
+    /*package*/ static final SProperty tekstvoordeelkant$QiFz = MetaAdapterFactory.getProperty(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x96fffcfa841ba99L, "tekstvoordeelkant");
+    /*package*/ static final SProperty tekstnadeelkant$QoyW = MetaAdapterFactory.getProperty(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x96fffcfa841ba9dL, "tekstnadeelkant");
     /*package*/ static final SProperty isOnzijdig$tUA1 = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x7cbfccd93a421467L, 0x7cbfccd93a421484L, "isOnzijdig");
     /*package*/ static final SProperty bezittelijk$HiZU = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf482747bb2L, 0x23f0d0e8fdbb7aa4L, "bezittelijk");
     /*package*/ static final SProperty bezield$$hsi = MetaAdapterFactory.getProperty(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826ddd50L, 0x5a98cdb944084a19L, "bezield");
@@ -739,6 +779,10 @@ public class QueriesGenerated extends QueryProviderBase {
 
   private static final class LINKS {
     /*package*/ static final SReferenceLink objectType$$zx0 = MetaAdapterFactory.getReferenceLink(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x4c364aa0da8640b4L, 0x39e1bae6764bec4dL, "objectType");
+    /*package*/ static final SReferenceLink voordeelkant$C51f = MetaAdapterFactory.getReferenceLink(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x180645c76c3c120aL, "voordeelkant");
+    /*package*/ static final SReferenceLink nadeelkant$C5vh = MetaAdapterFactory.getReferenceLink(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x180645c76c3c120cL, "nadeelkant");
+    /*package*/ static final SReferenceLink rechtsobject$_6Ns = MetaAdapterFactory.getReferenceLink(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L, 0x96fffcfa84714e3L, "rechtsobject");
+    /*package*/ static final SReferenceLink rechtsubject$_sIj = MetaAdapterFactory.getReferenceLink(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x3a6f73ff8479fcf5L, 0x781c3588c2251683L, "rechtsubject");
     /*package*/ static final SContainmentLink type$BdRQ = MetaAdapterFactory.getContainmentLink(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826e330cL, 0x521d9ee338bb0defL, "type");
     /*package*/ static final SContainmentLink elem$xIDF = MetaAdapterFactory.getContainmentLink(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826ddd50L, 0x9125cf4826e5ca7L, "elem");
     /*package*/ static final SContainmentLink rollen$hqtc = MetaAdapterFactory.getContainmentLink(0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x4c364aa0da8640abL, 0x4c364aa0da8640bdL, "rollen");

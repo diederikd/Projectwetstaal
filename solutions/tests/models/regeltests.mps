@@ -67,6 +67,9 @@
       <concept id="4697074533531324619" name="gegevensspraak.structure.BooleanLiteral" flags="ng" index="2Jx4MH">
         <property id="4697074533531324626" name="waarde" index="2Jx4MO" />
       </concept>
+      <concept id="8989128614611296432" name="gegevensspraak.structure.EnumWaardeRef" flags="ng" index="16yQLD">
+        <reference id="8989128614611340128" name="waarde" index="16yCuT" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -120,10 +123,10 @@
       <node concept="4OhPC" id="5rg1XHBzPyb" role="4Ohaa">
         <property role="TrG5h" value="voetgangerslicht A" />
         <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
-        <node concept="3_ceKt" id="5rg1XHBzPyg" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGpq7Z" resolve="rood" />
-          <node concept="2Jx4MH" id="5rg1XHBzRup" role="3_ceKu">
-            <property role="2Jx4MO" value="true" />
+        <node concept="3_ceKt" id="3Eqw34fFQZJ" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+          <node concept="16yQLD" id="3Eqw34fFR03" role="3_ceKu">
+            <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
           </node>
         </node>
       </node>
@@ -188,11 +191,11 @@
       <node concept="4Oh8J" id="5rg1XHBzPUe" role="4Ohb1">
         <ref role="3teO_M" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
         <ref role="4Oh8G" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
-        <node concept="3mzBic" id="5rg1XHBzRvL" role="4Ohbj">
+        <node concept="3mzBic" id="3Eqw34fFR0W" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:1w6hstGpq9c" resolve="groen" />
-          <node concept="2Jx4MH" id="5rg1XHBzRx0" role="3mzBi6">
-            <property role="2Jx4MO" value="true" />
+          <ref role="10Xmnc" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+          <node concept="16yQLD" id="3Eqw34fFR12" role="3mzBi6">
+            <ref role="16yCuT" to="akwf:3Eqw34fFQ4I" resolve="groen" />
           </node>
         </node>
       </node>
@@ -286,10 +289,10 @@
       <node concept="4OhPC" id="7wsdoz29eaN" role="4Ohaa">
         <property role="TrG5h" value="voetgangerslicht A" />
         <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
-        <node concept="3_ceKt" id="7wsdoz29eaO" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGpq9c" resolve="groen" />
-          <node concept="2Jx4MH" id="7wsdoz29eaP" role="3_ceKu">
-            <property role="2Jx4MO" value="true" />
+        <node concept="3_ceKt" id="3Eqw34fFQWT" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+          <node concept="16yQLD" id="3Eqw34fFQWU" role="3_ceKu">
+            <ref role="16yCuT" to="akwf:3Eqw34fFQ4I" resolve="groen" />
           </node>
         </node>
       </node>
@@ -354,11 +357,11 @@
       <node concept="4Oh8J" id="7wsdoz29ebc" role="4Ohb1">
         <ref role="3teO_M" node="7wsdoz29eaN" resolve="voetgangerslicht A" />
         <ref role="4Oh8G" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
-        <node concept="3mzBic" id="7wsdoz29ebd" role="4Ohbj">
+        <node concept="3mzBic" id="3Eqw34fFR1s" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:1w6hstGpq7Z" resolve="rood" />
-          <node concept="2Jx4MH" id="7wsdoz29ebe" role="3mzBi6">
-            <property role="2Jx4MO" value="true" />
+          <ref role="10Xmnc" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+          <node concept="16yQLD" id="3Eqw34fFR1y" role="3mzBi6">
+            <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
           </node>
         </node>
       </node>

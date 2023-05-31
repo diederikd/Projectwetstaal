@@ -33,7 +33,7 @@ is {
   (diederik, voetgangerslicht_spA);
   gebeurtenis_sp1. = true;
   (gebeurtenis_sp1, voetgangerslicht_spA);
-  voetgangerslicht_spA. = true;
+  (voetgangerslicht_spA, );
   rechtsbetrekking_spA. = false;
   rechtsbetrekking_spA. = true;
   (rechtsbetrekking_spA, diederik);
@@ -43,7 +43,7 @@ is {
   (rechtsbetrekking_spB, de_spStaat);
   (rechtsbetrekking_spB, diederik);
   try {    
-      apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_1731147829589942764();
+      apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818166684();
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_7134786545906924019();
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_6255508521334303941();
       apply ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_8654851445388105565();
@@ -54,7 +54,9 @@ is {
       it.printStackTrace();
     };
   ;
-  assert().checkEquals("<voetgangerslicht A> is/heeft groen ", true, (voetgangerslicht_spA));
+  if ((voetgangerslicht_spA) is unknown) then assert().checkTrue("resultaat van <kleur> van <voetgangerslicht A> is leeg. Voorspelde waarde: <groen>", false)
+  else assert().checkTrue("resultaat van <kleur> van <voetgangerslicht A>: "   (voetgangerslicht_spA) as a string   " verschilt van voorspelde waarde: "    as a string, (((voetgangerslicht_spA) is known) and
+  (((voetgangerslicht_spA) = ))));
   assert().checkEquals("<rechtsbetrekking A> is/heeft beeindigd ", true, (rechtsbetrekking_spA));
   assert().checkEquals("<rechtsbetrekking B> is/heeft ontstaan ", true, (rechtsbetrekking_spB));
 }

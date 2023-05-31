@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="7uazyzyv0yyu3aclm8cumybg71nxst4">
+<product version="3" modelHash="ba2211ryxn5wdcqekghczlfnefpcukh">
   <files dir="HTML/rapportages/" names="html.html" />
   <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
 </product>
