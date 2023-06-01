@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <product version="3" modelHash="am2mo485ccp5ls4f6ywtglstnn4tke5">
   <files names="RechtsgevolgenVanHetRechtsfeitVerspringenVanHetLichtNaarGroen.java:RechtsgevolgenVanHetRechtsfeitVerspringenVanHetLichtNaarRood.java:unittest_f41d6b00_9dc9_4ab0_9b1c_29caeb862185_680043336101762594.test.rb:unittest_f41d6b00_9dc9_4ab0_9b1c_29caeb862185_8654851445388272293.test.rb" />
+  <files dir="HTML/regeltests/" names="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen_TestSet.html:Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood_TestSet.html" />
+  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
+  <files dir="regeltests" names="modelInfo.json" />
 </product>
 

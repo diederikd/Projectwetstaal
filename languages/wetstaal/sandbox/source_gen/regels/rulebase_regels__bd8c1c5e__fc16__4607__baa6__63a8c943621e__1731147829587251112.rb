@@ -268,3 +268,82 @@ sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_8654851445387627
 
 }
 .
+// regelgroep : Consistentie van de feiten
+// regelversie: Consistentie van de feitelijke handeling bij rood licht beginnen met oversteken altijd
+// alef url   : http://127.0.0.1:63320/node?ref=r%3Abd8c1c5e-fc16-4607-baa6-63a8c943621e%28regels%29%2F4222828548818570262
+sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818570262 is
+{
+  rule rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818570262 is
+    if  is known
+    then {      
+        if (BlazeLibrary.isTrue(((((.) = ) and
+        (((.))))) as an Object)) then {        
+          RegelExecutieTracker.markeerGevuurd("rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818570262", an array of Object initially {
+           it.append().
+          });
+          fout_a0a0 is a boolean initially true;
+          try {            
+              if (()) then fout_a0a0 = false;
+            }
+          catch an Exception with {            
+              print("Fout in consistentieregel: " it.message.toString() "" );
+              fout_a0a0 = true;
+            }
+          finally {          
+            if (fout_a0a0) then {            
+              fault is an Inconsistentie initially {
+                  regel = "Consistentie van de feitelijke handeling bij rood licht beginnen met oversteken";
+                };
+              InconsistentieLijst.append(fault);
+              if (.inconsistenties is unknown) then .inconsistenties = an array of Inconsistentie;
+              .inconsistenties.append(fault);
+              RegelExecutieTracker.markeerInconsistent("rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818570262", an array of Object initially {
+               it.append().
+              });
+            }
+            else {            
+              consistent is a Consistentie initially {
+                  regel = "Consistentie van de feitelijke handeling bij rood licht beginnen met oversteken";
+                };
+              if (.consistenties is unknown) then .consistenties = an array of Consistentie;
+              .consistenties.append(consistent);
+            };
+          };
+        };
+      }.
+
+}
+.
+// regelgroep : Rechtsgevolgen van het rechtsfeit bij rood licht beginnen met oversteken
+// regelversie: Rechtsgevolgen van het rechtsfeit bij rood licht beginnen met oversteken altijd
+// alef url   : http://127.0.0.1:63320/node?ref=r%3Abd8c1c5e-fc16-4607-baa6-63a8c943621e%28regels%29%2F4222828548818750877
+sequential ruleset ruleset_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818750877 is
+{
+  rule rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818750877 is
+    if  is known
+    then {      
+        benadeelde_spPersoon_a0a0a0 is some  initially .;
+        if (benadeelde_spPersoon_a0a0a0 is known) then {        
+          if (BlazeLibrary.isTrue(((((benadeelde_spPersoon_a0a0a0)) and
+          (((benadeelde_spPersoon_a0a0a0.))))) as an Object)) then {          
+            RegelExecutieTracker.markeerGevuurd("rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818750877", an array of Object initially {
+             it.append(),
+             it.append(benadeelde_spPersoon_a0a0a0).
+            });
+            if (HuidigeRegelVersie <> "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818750877") then {            
+              HuidigeRegelVersie = "rule_bd8c1c5e_fc16_4607_baa6_63a8c943621e_4222828548818750877";
+              HuidigeHoofdOnderwerpen.clear();
+            }
+            else {            
+              if (HuidigeHoofdOnderwerpen.contains()) then {              
+                throw RuntimeException.newInstance("Fout in regel Rechtsgevolgen van het rechtsfeit bij rood licht beginnen met oversteken altijd: Er zijn meerdere instanties van nadeel van de bevoegdheid een administratieve sanctie kunnen opleggen die aan de voorwaarden voldoen");
+              };
+            };
+            HuidigeHoofdOnderwerpen.append();
+            (, true);
+          };
+        };
+      }.
+
+}
+.

@@ -150,7 +150,7 @@
               </node>
             </node>
             <node concept="WFELt" id="g9av3vF$Sm" role="2OqNvi">
-              <ref role="1A0vxQ" to="b0hk:g9av3vFtXK" resolve="IsBeeindigd" />
+              <ref role="1A0vxQ" to="b0hk:5rg1XHBzSyF" resolve="IsOntstaan" />
             </node>
           </node>
         </node>
@@ -163,7 +163,7 @@
               </node>
             </node>
             <node concept="WFELt" id="5rg1XHBzTbY" role="2OqNvi">
-              <ref role="1A0vxQ" to="b0hk:5rg1XHBzSyF" resolve="IsOnstaan" />
+              <ref role="1A0vxQ" to="b0hk:g9av3vFtXK" resolve="IsBeeindigd" />
             </node>
           </node>
         </node>
@@ -270,7 +270,7 @@
   </node>
   <node concept="13h7C7" id="5rg1XHBzSB2">
     <property role="3GE5qa" value="kenmerken" />
-    <ref role="13h7C2" to="b0hk:5rg1XHBzSyF" resolve="IsOnstaan" />
+    <ref role="13h7C2" to="b0hk:5rg1XHBzSyF" resolve="IsOntstaan" />
     <node concept="13hLZK" id="5rg1XHBzSB3" role="13h7CW">
       <node concept="3clFbS" id="5rg1XHBzSB4" role="2VODD2">
         <node concept="3clFbF" id="5rg1XHBzSFy" role="3cqZAp">

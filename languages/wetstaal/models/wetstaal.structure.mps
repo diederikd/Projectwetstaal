@@ -225,8 +225,8 @@
     </node>
   </node>
   <node concept="1TIwiD" id="5rg1XHBzSyF">
-    <property role="EcuMT" value="6255508521334311083" />
-    <property role="TrG5h" value="IsOnstaan" />
+    <property role="EcuMT" value="6173858968450824192" />
+    <property role="TrG5h" value="IsOntstaan" />
     <property role="3GE5qa" value="kenmerken" />
     <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
@@ -247,6 +247,17 @@
     <property role="TrG5h" value="IsUitgevoerd" />
     <property role="3GE5qa" value="kenmerken" />
     <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
+  </node>
+  <node concept="1TIwiD" id="3Eqw34fGx9C">
+    <property role="EcuMT" value="4222828548818342504" />
+    <property role="TrG5h" value="FeitelijkeHandelingMetRechtsGevolg" />
+    <property role="3GE5qa" value="rechtsfeiten" />
+    <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
+    <node concept="1TJgyj" id="3Eqw34fGx9D" role="1TKVEi">
+      <property role="IQ2ns" value="8654851445388285571" />
+      <property role="20kJfa" value="rechtsubject" />
+      <ref role="20lvS9" node="g9av3vEY0i" resolve="Rechtssubject" />
+    </node>
   </node>
 </model>
 

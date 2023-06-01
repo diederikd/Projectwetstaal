@@ -10,9 +10,10 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_DatumTijd;
+  private ConceptPresentation props_FeitelijkeHandelingMetRechtsGevolg;
   private ConceptPresentation props_GebeurtenisMetRechtsgevolg;
   private ConceptPresentation props_IsBeeindigd;
-  private ConceptPresentation props_IsOnstaan;
+  private ConceptPresentation props_IsOntstaan;
   private ConceptPresentation props_IsUitgevoerd;
   private ConceptPresentation props_Nadeelkant;
   private ConceptPresentation props_Rechtsbetrekking;
@@ -36,6 +37,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DatumTijd = cpb.create();
         }
         return props_DatumTijd;
+      case LanguageConceptSwitch.FeitelijkeHandelingMetRechtsGevolg:
+        if (props_FeitelijkeHandelingMetRechtsGevolg == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_FeitelijkeHandelingMetRechtsGevolg = cpb.create();
+        }
+        return props_FeitelijkeHandelingMetRechtsGevolg;
       case LanguageConceptSwitch.GebeurtenisMetRechtsgevolg:
         if (props_GebeurtenisMetRechtsgevolg == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -50,13 +58,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_IsBeeindigd = cpb.create();
         }
         return props_IsBeeindigd;
-      case LanguageConceptSwitch.IsOnstaan:
-        if (props_IsOnstaan == null) {
+      case LanguageConceptSwitch.IsOntstaan:
+        if (props_IsOntstaan == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
           cpb.presentationByName();
-          props_IsOnstaan = cpb.create();
+          props_IsOntstaan = cpb.create();
         }
-        return props_IsOnstaan;
+        return props_IsOntstaan;
       case LanguageConceptSwitch.IsUitgevoerd:
         if (props_IsUitgevoerd == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
