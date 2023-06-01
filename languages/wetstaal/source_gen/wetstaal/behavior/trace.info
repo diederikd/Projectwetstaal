@@ -294,8 +294,8 @@
     <file name="Rechtsbetrekking__BehaviorDescriptor.java">
       <node id="290809765463719313" at="21,0,22,0" concept="6" trace="CONCEPT" />
       <node id="290809765463719313" at="24,0,25,0" concept="6" trace="BH_METHODS" />
-      <node id="290809765463719325" at="26,63,27,88" concept="1" />
-      <node id="6255508521334313721" at="27,88,28,86" concept="1" />
+      <node id="290809765463719325" at="26,63,27,87" concept="1" />
+      <node id="6255508521334313721" at="27,87,28,88" concept="1" />
       <node id="290809765463719313" at="36,114,37,21" concept="1" />
       <node id="290809765463719313" at="41,114,42,49" concept="4" />
       <node id="290809765463719313" at="43,26,44,56" concept="9" />
@@ -306,8 +306,8 @@
       <node id="290809765463719313" at="66,48,67,22" concept="5" />
       <node id="290809765463719313" at="72,40,73,19" concept="5" />
       <node id="290809765463719313" at="77,0,78,0" concept="6" trace="elem$xIDF" />
-      <node id="290809765463719313" at="81,0,82,0" concept="6" trace="IsBeeindigd$w8" />
-      <node id="290809765463719313" at="82,0,83,0" concept="6" trace="IsOnstaan$b1" />
+      <node id="290809765463719313" at="81,0,82,0" concept="6" trace="IsOntstaan$fM" />
+      <node id="290809765463719313" at="82,0,83,0" concept="6" trace="IsBeeindigd$w8" />
       <node id="290809765463719313" at="32,0,34,0" concept="0" trace="Rechtsbetrekking__BehaviorDescriptor#()V" />
       <node id="290809765463719313" at="42,49,45,5" concept="2" />
       <node id="290809765463719313" at="54,49,57,5" concept="2" />
@@ -327,7 +327,7 @@
       <scope id="290809765463719313" at="59,14,60,58" />
       <scope id="290809765463719313" at="66,48,67,22" />
       <scope id="290809765463719313" at="72,40,73,19" />
-      <scope id="290809765463719313" at="26,63,28,86" />
+      <scope id="290809765463719313" at="26,63,28,88" />
       <scope id="290809765463719313" at="32,0,34,0" />
       <scope id="290809765463719313" at="26,0,30,0">
         <var name="__thisNode__" id="290809765463719313" />
@@ -361,7 +361,7 @@
     </file>
   </root>
   <root nodeRef="r:9dd5f631-350a-4a3f-838d-33bdad23c07c(wetstaal.behavior)/6255508521334311362">
-    <file name="IsOnstaan__BehaviorDescriptor.java">
+    <file name="IsOntstaan__BehaviorDescriptor.java">
       <node id="6255508521334311362" at="20,0,21,0" concept="6" trace="CONCEPT" />
       <node id="6255508521334311362" at="23,0,24,0" concept="6" trace="BH_METHODS" />
       <node id="6255508521334311650" at="25,63,26,74" concept="1" />
@@ -377,7 +377,7 @@
       <node id="6255508521334311362" at="71,40,72,19" concept="5" />
       <node id="6255508521334311362" at="76,0,77,0" concept="6" trace="name$MnvL" />
       <node id="6255508521334311362" at="77,0,78,0" concept="6" trace="bijvoeglijk$xhQM" />
-      <node id="6255508521334311362" at="31,0,33,0" concept="0" trace="IsOnstaan__BehaviorDescriptor#()V" />
+      <node id="6255508521334311362" at="31,0,33,0" concept="0" trace="IsOntstaan__BehaviorDescriptor#()V" />
       <node id="6255508521334311362" at="41,49,44,5" concept="2" />
       <node id="6255508521334311362" at="53,49,56,5" concept="2" />
       <node id="6255508521334311362" at="25,0,29,0" concept="7" trace="___init___#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -388,7 +388,7 @@
       <node id="6255508521334311362" at="69,0,74,0" concept="3" trace="getConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="6255508521334311362" at="39,0,50,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
       <node id="6255508521334311362" at="51,0,62,0" concept="3" trace="invokeSpecial0#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Ljetbrains/mps/core/aspects/behaviour/api/SMethod;[Ljava/lang/Object;)null" />
-      <scope id="6255508521334311362" at="31,47,31,47" />
+      <scope id="6255508521334311362" at="31,48,31,48" />
       <scope id="6255508521334311362" at="35,114,36,21" />
       <scope id="6255508521334311362" at="42,26,43,56" />
       <scope id="6255508521334311362" at="46,14,47,58" />
@@ -424,8 +424,8 @@
         <var name="method" id="6255508521334311362" />
         <var name="parameters" id="6255508521334311362" />
       </scope>
-      <unit id="6255508521334311362" at="75,0,79,0" name="wetstaal.behavior.IsOnstaan__BehaviorDescriptor$PROPS" />
-      <unit id="6255508521334311362" at="19,0,80,0" name="wetstaal.behavior.IsOnstaan__BehaviorDescriptor" />
+      <unit id="6255508521334311362" at="75,0,79,0" name="wetstaal.behavior.IsOntstaan__BehaviorDescriptor$PROPS" />
+      <unit id="6255508521334311362" at="19,0,80,0" name="wetstaal.behavior.IsOntstaan__BehaviorDescriptor" />
     </file>
   </root>
   <root nodeRef="r:9dd5f631-350a-4a3f-838d-33bdad23c07c(wetstaal.behavior)/680043336102948531">

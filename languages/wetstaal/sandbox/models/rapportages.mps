@@ -40,6 +40,12 @@
     <node concept="ihC25" id="7wsdoz2ckmZ" role="3TIiAN">
       <ref role="ihCKg" to="elf3:7wsdoz269Wo" resolve="Rechtsgevolgen van het rechtsfeit aan de overkant op de stoep stappen" />
     </node>
+    <node concept="ihC25" id="3Eqw34fKlck" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:3Eqw34fI3Wt" resolve="Rechtsgevolgen van het rechtsfeit bij rood licht beginnen met oversteken" />
+    </node>
+    <node concept="ihC25" id="3Eqw34fKlnS" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:3Eqw34fHoKk" resolve="Consistentie van het rechtsfeit bij rood licht beginnen met oversteken" />
+    </node>
   </node>
 </model>
 

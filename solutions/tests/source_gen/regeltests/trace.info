@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <root nodeRef="r:f41d6b00-9dc9-4ab0-9b1c-29caeb862185(regeltests)/680043336101762594">
+    <file name="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen_TestSet.html">
+      <unit id="680043336101762594" at="1,0,230,7" name="regeltests.Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen_TestSet" />
+    </file>
+  </root>
+  <root nodeRef="r:f41d6b00-9dc9-4ab0-9b1c-29caeb862185(regeltests)/8654851445388272293">
+    <file name="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood_TestSet.html">
+      <unit id="8654851445388272293" at="1,0,240,7" name="regeltests.Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood_TestSet" />
+    </file>
+  </root>
+</debug-info>
 

@@ -17,9 +17,10 @@ import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptDatumTijd = createDescriptorForDatumTijd();
+  /*package*/ final ConceptDescriptor myConceptFeitelijkeHandelingMetRechtsGevolg = createDescriptorForFeitelijkeHandelingMetRechtsGevolg();
   /*package*/ final ConceptDescriptor myConceptGebeurtenisMetRechtsgevolg = createDescriptorForGebeurtenisMetRechtsgevolg();
   /*package*/ final ConceptDescriptor myConceptIsBeeindigd = createDescriptorForIsBeeindigd();
-  /*package*/ final ConceptDescriptor myConceptIsOnstaan = createDescriptorForIsOnstaan();
+  /*package*/ final ConceptDescriptor myConceptIsOntstaan = createDescriptorForIsOntstaan();
   /*package*/ final ConceptDescriptor myConceptIsUitgevoerd = createDescriptorForIsUitgevoerd();
   /*package*/ final ConceptDescriptor myConceptNadeelkant = createDescriptorForNadeelkant();
   /*package*/ final ConceptDescriptor myConceptRechtsbetrekking = createDescriptorForRechtsbetrekking();
@@ -46,7 +47,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptDatumTijd, myConceptGebeurtenisMetRechtsgevolg, myConceptIsBeeindigd, myConceptIsOnstaan, myConceptIsUitgevoerd, myConceptNadeelkant, myConceptRechtsbetrekking, myConceptRechtsfeit, myConceptRechtshandeling, myConceptRechtsobject, myConceptRechtssubject, myConceptUitgevoerdOp, myConceptVoordeelkant, myConceptWetsmodel);
+    return Arrays.asList(myConceptDatumTijd, myConceptFeitelijkeHandelingMetRechtsGevolg, myConceptGebeurtenisMetRechtsgevolg, myConceptIsBeeindigd, myConceptIsOntstaan, myConceptIsUitgevoerd, myConceptNadeelkant, myConceptRechtsbetrekking, myConceptRechtsfeit, myConceptRechtshandeling, myConceptRechtsobject, myConceptRechtssubject, myConceptUitgevoerdOp, myConceptVoordeelkant, myConceptWetsmodel);
   }
 
   @Override
@@ -55,12 +56,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     switch (myIndexSwitch.index(id)) {
       case LanguageConceptSwitch.DatumTijd:
         return myConceptDatumTijd;
+      case LanguageConceptSwitch.FeitelijkeHandelingMetRechtsGevolg:
+        return myConceptFeitelijkeHandelingMetRechtsGevolg;
       case LanguageConceptSwitch.GebeurtenisMetRechtsgevolg:
         return myConceptGebeurtenisMetRechtsgevolg;
       case LanguageConceptSwitch.IsBeeindigd:
         return myConceptIsBeeindigd;
-      case LanguageConceptSwitch.IsOnstaan:
-        return myConceptIsOnstaan;
+      case LanguageConceptSwitch.IsOntstaan:
+        return myConceptIsOntstaan;
       case LanguageConceptSwitch.IsUitgevoerd:
         return myConceptIsUitgevoerd;
       case LanguageConceptSwitch.Nadeelkant:
@@ -103,6 +106,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForFeitelijkeHandelingMetRechtsGevolg() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "FeitelijkeHandelingMetRechtsGevolg", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x3a9a80310fb21268L);
+    b.class_(false, false, false);
+    b.super_("gegevensspraak.structure.ObjectType", 0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf4826ddd50L);
+    b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/4222828548818342504");
+    b.version(2);
+    b.associate("rechtsubject", 0x781c3588c2251683L).target(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfabe012L).optional(true).origin("4222828548818342505").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForGebeurtenisMetRechtsgevolg() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "GebeurtenisMetRechtsgevolg", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c5c0ec3L);
     b.class_(false, false, false);
@@ -119,8 +131,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     return b.create();
   }
-  private static ConceptDescriptor createDescriptorForIsOnstaan() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "IsOnstaan", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x56d007db678f88abL);
+  private static ConceptDescriptor createDescriptorForIsOntstaan() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("wetstaal", "IsOntstaan", 0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x55adf40573def800L);
     b.class_(false, false, false);
     b.super_("gegevensspraak.structure.Kenmerk", 0x471364db80784933L, 0xb2ef88232bfa34fcL, 0x9125cf482747bb2L);
     b.origin("r:9acafe7b-fa4e-4a85-abfb-ac71aa0fdcb7(wetstaal.structure)/6255508521334311083");

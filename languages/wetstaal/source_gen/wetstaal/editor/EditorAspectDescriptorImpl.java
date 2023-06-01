@@ -24,20 +24,22 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     SAbstractConcept cncpt = ((SAbstractConcept) concept);
     switch (conceptIndex.index(cncpt)) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new GebeurtenisMetRechtsgevolg_Editor());
+        return Collections.<ConceptEditor>singletonList(new FeitelijkeHandelingMetRechtsGevolg_Editor());
       case 1:
-        return Arrays.asList(new ConceptEditor[]{new Nadeelkant_Editor(), new Nadeelkant_tooltipHint_acmcvu_c4a_Editor(), new Nadeelkant_tooltipHint_acmcvu_e4a_Editor(), new Nadeelkant_tooltipHint_acmcvu_f4a_Editor()});
+        return Collections.<ConceptEditor>singletonList(new GebeurtenisMetRechtsgevolg_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new Rechtsbetrekking_Editor());
+        return Arrays.asList(new ConceptEditor[]{new Nadeelkant_Editor(), new Nadeelkant_tooltipHint_acmcvu_c4a_Editor(), new Nadeelkant_tooltipHint_acmcvu_e4a_Editor(), new Nadeelkant_tooltipHint_acmcvu_f4a_Editor()});
       case 3:
-        return Collections.<ConceptEditor>singletonList(new Rechtshandeling_Editor());
+        return Collections.<ConceptEditor>singletonList(new Rechtsbetrekking_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new Rechtsobject_Editor());
+        return Collections.<ConceptEditor>singletonList(new Rechtshandeling_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new Rechtssubject_Editor());
+        return Collections.<ConceptEditor>singletonList(new Rechtsobject_Editor());
       case 6:
-        return Arrays.asList(new ConceptEditor[]{new Voordeelkant_Editor(), new Voordeelkant_tooltipHint_z6ziza_c4a_Editor(), new Voordeelkant_tooltipHint_z6ziza_e4a_Editor(), new Voordeelkant_tooltipHint_z6ziza_f4a_Editor()});
+        return Collections.<ConceptEditor>singletonList(new Rechtssubject_Editor());
       case 7:
+        return Arrays.asList(new ConceptEditor[]{new Voordeelkant_Editor(), new Voordeelkant_tooltipHint_z6ziza_c4a_Editor(), new Voordeelkant_tooltipHint_z6ziza_e4a_Editor(), new Voordeelkant_tooltipHint_z6ziza_f4a_Editor()});
+      case 8:
         return Collections.<ConceptEditor>singletonList(new Wetsmodel_Editor());
       default:
     }
@@ -62,6 +64,6 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase imple
     return Collections.<SubstituteMenu>emptyList();
   }
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c5c0ec3L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe4L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x3a6f73ff8479fcf5L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c634e1cL), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfabe012L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe0L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x781c3588c200b263L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x3a9a80310fb21268L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c5c0ec3L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe4L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf55L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x3a6f73ff8479fcf5L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c634e1cL), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfabe012L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe0L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x781c3588c200b263L)).seal();
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe4L), MetaIdFactory.conceptId(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x180645c76c3c8fe0L)).seal();
 }

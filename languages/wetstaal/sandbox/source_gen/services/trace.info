@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
   <root nodeRef="r:9dd9a1e4-ea5e-402f-8409-30b3c0c2eae9(services)/680043336103799869">
-    <file name="BepalenRechtsgevolgen_Service.html">
-      <unit id="680043336103799869" at="1,0,147,7" name="services.BepalenRechtsgevolgen_Service" />
-    </file>
-    <file name="bepalenrechtsgevolgen.properties">
-      <unit id="680043336103799869" at="1,0,22,0" name="services.bepalenrechtsgevolgen" />
-    </file>
-    <file name="bepalenrechtsgevolgen____ObjectModel.java">
-      <node id="680043336103799869" at="9,27,10,212" concept="1" />
-      <node id="680043336103799869" at="10,212,11,35" concept="3" />
-      <node id="680043336103799869" at="15,38,16,37" concept="3" />
-      <node id="680043336103799869" at="20,50,21,42" concept="3" />
-      <node id="680043336103799869" at="25,35,26,73" concept="3" />
-      <node id="680043336103799869" at="30,34,31,63" concept="3" />
-      <node id="680043336103799869" at="34,49,35,0" concept="4" />
-      <node id="680043336103799869" at="34,0,37,0" concept="0" trace="bepalenrechtsgevolgen____ObjectModel#()V" />
-      <node id="680043336103799869" at="14,0,18,0" concept="2" trace="getServiceAcroniem#()Ljava/lang/String;" />
-      <node id="680043336103799869" at="19,0,23,0" concept="2" trace="getBlazeEntryPointFunctionName#()Ljava/lang/String;" />
-      <node id="680043336103799869" at="24,0,28,0" concept="2" trace="getXmlNamespace#()Ljava/lang/String;" />
-      <node id="680043336103799869" at="29,0,33,0" concept="2" trace="getXsdFileName#()Ljava/lang/String;" />
-      <node id="680043336103799869" at="8,0,13,0" concept="2" trace="getName#()Ljava/lang/String;" />
-      <scope id="680043336103799869" at="15,38,16,37" />
-      <scope id="680043336103799869" at="20,50,21,42" />
-      <scope id="680043336103799869" at="25,35,26,73" />
-      <scope id="680043336103799869" at="30,34,31,63" />
-      <scope id="680043336103799869" at="34,49,35,0" />
-      <scope id="680043336103799869" at="9,27,11,35" />
-      <scope id="680043336103799869" at="34,0,37,0" />
-      <scope id="680043336103799869" at="14,0,18,0" />
-      <scope id="680043336103799869" at="19,0,23,0" />
-      <scope id="680043336103799869" at="24,0,28,0" />
-      <scope id="680043336103799869" at="29,0,33,0" />
-      <scope id="680043336103799869" at="8,0,13,0" />
-      <unit id="680043336103799869" at="7,0,38,0" name="services.bepalenrechtsgevolgen____ObjectModel" />
-    </file>
-  </root>
-  <root nodeRef="r:9dd9a1e4-ea5e-402f-8409-30b3c0c2eae9(services)/680043336103800086">
-    <file name="Invoerbericht_InvoerBerichtType.html">
-      <unit id="680043336103800086" at="1,0,22,7" name="services.Invoerbericht_InvoerBerichtType" />
-    </file>
-  </root>
-  <root nodeRef="r:9dd9a1e4-ea5e-402f-8409-30b3c0c2eae9(services)/680043336103800087">
-    <file name="Uitvoerbericht_UitvoerBerichtType.html">
-      <unit id="680043336103800087" at="1,0,22,7" name="services.Uitvoerbericht_UitvoerBerichtType" />
+    <file name="rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.xsd">
+      <unit id="680043336103799869" at="1,0,54,13" name="services.bepalenrechtsgevolgen" />
     </file>
   </root>
 </debug-info>

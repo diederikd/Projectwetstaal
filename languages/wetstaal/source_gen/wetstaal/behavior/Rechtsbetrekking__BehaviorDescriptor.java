@@ -24,8 +24,8 @@ public final class Rechtsbetrekking__BehaviorDescriptor extends BaseBHDescriptor
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
+    SLinkOperations.addNewChild(__thisNode__, LINKS.elem$xIDF, CONCEPTS.IsOntstaan$fM);
     SLinkOperations.addNewChild(__thisNode__, LINKS.elem$xIDF, CONCEPTS.IsBeeindigd$w8);
-    SLinkOperations.addNewChild(__thisNode__, LINKS.elem$xIDF, CONCEPTS.IsOnstaan$b1);
   }
 
 
@@ -78,7 +78,7 @@ public final class Rechtsbetrekking__BehaviorDescriptor extends BaseBHDescriptor
   }
 
   private static final class CONCEPTS {
+    /*package*/ static final SConcept IsOntstaan$fM = MetaAdapterFactory.getConcept(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x55adf40573def800L, "wetstaal.structure.IsOntstaan");
     /*package*/ static final SConcept IsBeeindigd$w8 = MetaAdapterFactory.getConcept(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x40929f0dfaddf70L, "wetstaal.structure.IsBeeindigd");
-    /*package*/ static final SConcept IsOnstaan$b1 = MetaAdapterFactory.getConcept(0xe55f258baf614a6aL, 0x8f907f249af47f79L, 0x56d007db678f88abL, "wetstaal.structure.IsOnstaan");
   }
 }

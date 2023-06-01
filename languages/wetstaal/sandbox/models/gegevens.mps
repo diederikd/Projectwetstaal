@@ -55,9 +55,12 @@
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
       <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
       <concept id="6255508521334311083" name="wetstaal.structure.IsUitgevoerd" flags="ng" index="LnSXK" />
+      <concept id="4222828548818342504" name="wetstaal.structure.FeitelijkeHandelingMetRechtsGevolg" flags="ng" index="Pa99p">
+        <reference id="8654851445388285571" name="rechtsubject" index="2Ueicb" />
+      </concept>
       <concept id="8654851445385900643" name="wetstaal.structure.Wetsmodel" flags="ng" index="2U78vF" />
       <concept id="4210711717891144949" name="wetstaal.structure.Rechtshandeling" flags="ng" index="2Y5CWa">
-        <reference id="8654851445388285571" name="rechtsubject" index="2Ueicb" />
+        <reference id="8654851445388285571" name="rechtsubject" index="2Ueicc" />
       </concept>
       <concept id="290809765463580690" name="wetstaal.structure.Rechtssubject" flags="ng" index="3rCGBy" />
       <concept id="290809765463711600" name="wetstaal.structure.IsBeeindigd" flags="ng" index="3rDfq0" />
@@ -420,7 +423,7 @@
     </node>
     <node concept="2Y5CWa" id="_JZWYCiquS" role="2bv6Cn">
       <property role="TrG5h" value="Overkant op de stoep stappen" />
-      <ref role="2Ueicb" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="2Ueicc" node="g9av3vFtWz" resolve="Persoon" />
       <node concept="2bpyt6" id="7wsdoz26L67" role="2bv01j">
         <property role="TrG5h" value="uitgevoerd" />
         <property role="2n7kvO" value="true" />
@@ -450,6 +453,125 @@
         <property role="TrG5h" value="persoon" />
         <property role="2mCGrO" value="gaat" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+    </node>
+    <node concept="Pa99p" id="3Eqw34fHoxw" role="2bv6Cn">
+      <property role="TrG5h" value="Bij rood licht beginnen met oversteken" />
+      <ref role="2Ueicb" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="2bpyt6" id="3Eqw34fHozo" role="2bv01j">
+        <property role="TrG5h" value="uitgevoerd" />
+        <property role="2n7kvO" value="true" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2x9_6m" id="3Eqw34fHozp" role="2bv01j">
+        <property role="TrG5h" value="Uitgevoerd op" />
+        <node concept="1EDDdA" id="3Eqw34fHozq" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Ih38J" id="3Eqw34fHozE" role="2bv6Cn">
+      <property role="TrG5h" value="Het rechtssubject die de handeling uitvoert:" />
+    </node>
+    <node concept="2mG0Cb" id="3Eqw34fHozF" role="2bv6Cn">
+      <property role="TrG5h" value="voetganger die bij rood licht begint met oversteken" />
+      <node concept="2mG0Ck" id="3Eqw34fHozG" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="wordt uitgevoerd door" />
+        <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fHozH" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetganger" />
+        <property role="2mCGrO" value="gaat" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+    </node>
+    <node concept="3Ih38J" id="3Eqw34fHoT2" role="2bv6Cn">
+      <property role="TrG5h" value="Het rechtsobject van de handeling:" />
+    </node>
+    <node concept="2mG0Cb" id="3Eqw34fHoT3" role="2bv6Cn">
+      <property role="TrG5h" value="beginnen met oversteken waarbij met rood licht wordt begonnen met oversteken" />
+      <node concept="2mG0Ck" id="3Eqw34fHoT4" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="wordt uitgevoerd door" />
+        <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fHoT5" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="beginnen met oversteken" />
+        <property role="2mCGrO" value="gaat" />
+        <ref role="1fE_qF" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
+      </node>
+    </node>
+    <node concept="3Ih38J" id="3Eqw34fHoDr" role="2bv6Cn">
+      <property role="TrG5h" value="Het voorwerp van de handeling:" />
+    </node>
+    <node concept="2mG0Cb" id="3Eqw34fHoDs" role="2bv6Cn">
+      <property role="TrG5h" value="voetgangerslicht waarbij met rood licht wordt begonnen met oversteken" />
+      <node concept="2mG0Ck" id="3Eqw34fHoDt" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
+        <property role="16Ztxt" value="true" />
+        <property role="2mCGrO" value="wordt uitgevoerd bij" />
+        <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fHoDu" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voetgangerslicht" />
+        <property role="2mCGrO" value="gaat" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
+      </node>
+    </node>
+    <node concept="3rDfq_" id="3Eqw34fHpA4" role="2bv6Cn">
+      <property role="TrG5h" value="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <property role="3rDz0B" value="g9av3vFLsq/S03" />
+      <property role="3rDz0D" value="g9av3vFLB1/S031" />
+      <property role="2xb$lm" value="bevoegdheids hebbende persoon" />
+      <property role="2xb$li" value="benadeelde persoon" />
+      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="2bpyt6" id="3Eqw34fI44o" role="2bv01j">
+        <property role="TrG5h" value="ontstaan" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="3rDfq0" id="3Eqw34fHpA5" role="2bv01j">
+        <property role="TrG5h" value="beëindigd" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+    </node>
+    <node concept="1OeGCB" id="3Eqw34fI4kW" role="2bv6Cn">
+      <ref role="1OeGCA" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <node concept="2mG0Ck" id="3Eqw34fI4kX" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="bevoegdheids hebbende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fI4kY" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voordeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      </node>
+    </node>
+    <node concept="1OeGCz" id="3Eqw34fI4h9" role="2bv6Cn">
+      <ref role="1OeGCy" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <node concept="2mG0Ck" id="3Eqw34fI4ha" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="benadeelde persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fI4hb" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="nadeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
       </node>
     </node>
   </node>

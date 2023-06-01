@@ -43,6 +43,14 @@
       <ref role="ihCKg" to="elf3:7wsdoz269Wo" resolve="Rechtsgevolgen van het rechtsfeit aan de overkant op de stoep stappen" />
       <uo k="s:originTrace" v="n:8654851445389084095" />
     </node>
+    <node concept="ihC25" id="5" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:3Eqw34fI3Wt" resolve="Rechtsgevolgen van het rechtsfeit bij rood licht beginnen met oversteken" />
+      <uo k="s:originTrace" v="n:4222828548819342100" />
+    </node>
+    <node concept="ihC25" id="6" role="3TIiAN">
+      <ref role="ihCKg" to="elf3:3Eqw34fHoKk" resolve="Consistentie van het rechtsfeit bij rood licht beginnen met oversteken" />
+      <uo k="s:originTrace" v="n:4222828548819342840" />
+    </node>
   </node>
 </model>
 

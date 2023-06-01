@@ -17,6 +17,7 @@
   <uses module="b4d28e19-7d2d-47e9-943e-3a41f97a0e52(com.mbeddr.mpsutil.plantuml.node)" kind="dp" />
   <uses module="3687aae2-6660-4f63-9485-f13f557f67a9(csv)" kind="rt" />
   <uses module="471364db-8078-4933-b2ef-88232bfa34fc(gegevensspraak)" kind="dp" />
+  <uses module="2b29a21f-b9a9-48a3-8c3f-d8029c41f153(gegevensspraak#6782205004665360445)" kind="dp" />
   <uses module="a4bbe181-88ec-4b30-b7d3-db0b30b5c709(interpreter.debug)" kind="dp" />
   <uses module="e8bb4b2f-b77e-4e84-b80e-5162581b560d(interpreter.runtime)" kind="rt+dp" />
   <uses module="52b81ac7-93fd-4e9e-b972-4995882da6d4(jetbrains.mps.baseLanguage.references.runtime)" kind="rt" />
