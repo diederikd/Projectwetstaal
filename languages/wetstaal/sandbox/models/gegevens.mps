@@ -53,6 +53,7 @@
       <concept id="4104573890451362331" name="gegevensspraak.structure.Commentaar" flags="ng" index="3Ih38J" />
     </language>
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
+      <concept id="1407126424426475688" name="wetstaal.structure.Voorwaarde" flags="ng" index="9xAUJ" />
       <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
       <concept id="6255508521334311083" name="wetstaal.structure.IsUitgevoerd" flags="ng" index="LnSXK" />
       <concept id="4222828548818342504" name="wetstaal.structure.FeitelijkeHandelingMetRechtsGevolg" flags="ng" index="Pa99p">
@@ -67,6 +68,7 @@
       <concept id="290809765463711573" name="wetstaal.structure.Rechtsbetrekking" flags="ng" index="3rDfq_">
         <property id="680043336102427293" name="tekstnadeelkant" index="2xb$li" />
         <property id="680043336102427289" name="tekstvoordeelkant" index="2xb$lm" />
+        <property id="2458382292634911437" name="kortecode" index="2CwaXA" />
         <property id="290809765463792087" name="hoofdsoort" index="3rDz0B" />
         <property id="290809765463792089" name="ondersoort" index="3rDz0D" />
         <reference id="680043336102778083" name="rechtsobject" index="2xaeGG" />
@@ -90,7 +92,7 @@
     </language>
   </registry>
   <node concept="2U78vF" id="7wsdoz23lHv">
-    <property role="TrG5h" value="wetsmodel wetstaal" />
+    <property role="TrG5h" value="Voetgangerslicht" />
     <node concept="3rCGBy" id="g9av3vFtWz" role="2bv6Cn">
       <property role="TrG5h" value="Persoon" />
       <node concept="2bv6ZS" id="g9av3vFtWI" role="2bv01j">
@@ -101,11 +103,15 @@
         <property role="TrG5h" value="bevoegd ambtenaar" />
       </node>
     </node>
+    <node concept="3Ih38J" id="28tVqIaBh7m" role="2bv6Cn">
+      <property role="TrG5h" value="Specialisatie rechtspersoon en natuurlijk persoon van rechtspersoon." />
+    </node>
+    <node concept="3H5gaA" id="28tVqIaBgZU" role="2bv6Cn" />
     <node concept="2mG0Cb" id="5rg1XHBzR7S" role="2bv6Cn">
       <property role="TrG5h" value="overstekende voetganger bij een verkeerlicht" />
       <node concept="2mG0Ck" id="5rg1XHBzR7T" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voetganger bij verkeerslicht" />
+        <property role="TrG5h" value="voetganger bij voetgangerslicht" />
         <property role="2mCGrO" value="staat bij" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
@@ -205,11 +211,17 @@
       <property role="TrG5h" value="Fatale verplichting niet meer beginnen met over te steken" />
       <property role="3rDz0B" value="g9av3vFLsd/S01" />
       <property role="3rDz0D" value="g9av3vFLAD/S011" />
-      <property role="2xb$lm" value="krachtige aanspraak hebbende persoon" />
+      <property role="2xb$lm" value="de Staat" />
       <property role="2xb$li" value="fatale plichthoudende persoon" />
+      <property role="2CwaXA" value="RB01" />
       <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="9xAUJ" id="1e77wsq2cMj" role="2bv01j">
+        <property role="TrG5h" value="voetgangerslicht dat op rood staat" />
+        <property role="3uiUDc" value="true" />
+        <property role="16Ztxt" value="true" />
+      </node>
       <node concept="2bpyt6" id="_JZWYCdgYf" role="2bv01j">
         <property role="TrG5h" value="ontstaan" />
         <property role="2VcyFJ" value="true" />
@@ -219,6 +231,13 @@
         <property role="2VcyFJ" value="true" />
       </node>
     </node>
+    <node concept="3Ih38J" id="28tVqIaDavG" role="2bv6Cn">
+      <property role="TrG5h" value="Uit pragmatische redenen is de voorwaarde behorende bij een rechtsbetrekking opgenomen in een regel." />
+    </node>
+    <node concept="3Ih38J" id="28tVqIaDa_m" role="2bv6Cn">
+      <property role="TrG5h" value="Rechtsbetrekking heeft als datatype een boolean, net als voorwaarde." />
+    </node>
+    <node concept="3H5gaA" id="28tVqIaDax$" role="2bv6Cn" />
     <node concept="1OeGCB" id="1w6hstGmubC" role="2bv6Cn">
       <ref role="1OeGCA" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       <node concept="2mG0Ck" id="1w6hstGmubD" role="2mG0Ct">
@@ -242,7 +261,6 @@
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="2mG0Ck" id="1w6hstGmuaZ" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
         <property role="TrG5h" value="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
         <property role="16Ztxt" value="true" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />

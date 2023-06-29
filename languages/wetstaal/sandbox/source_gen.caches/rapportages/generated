@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-6u3bjzpfilznmb9bpt0fujm9ehucyol">
-  <files dir="HTML/rapportages/" names="html.html" />
-  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
-</product>
-

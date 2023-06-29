@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2">
-  <root nodeRef="r:9dd9a1e4-ea5e-402f-8409-30b3c0c2eae9(services)/680043336103799869">
-    <file name="rsbepalenrechtsgevolgen/bepalenrechtsgevolgen.xsd">
-      <unit id="680043336103799869" at="1,0,54,13" name="services.bepalenrechtsgevolgen" />
-    </file>
-  </root>
-</debug-info>
-

@@ -23,6 +23,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -77,6 +78,11 @@
       <property role="IQ2ns" value="680043336102778083" />
       <property role="20kJfa" value="rechtsobject" />
       <ref role="20lvS9" node="1w6hstGoOSs" resolve="Rechtsobject" />
+    </node>
+    <node concept="1TJgyi" id="28tVqIaBkbd" role="1TKVEl">
+      <property role="IQ2nx" value="2458382292634911437" />
+      <property role="TrG5h" value="kortecode" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="_JZWYCgrEp" role="1TKVEl">
       <property role="IQ2nx" value="680043336102427289" />
@@ -258,6 +264,13 @@
       <property role="20kJfa" value="rechtsubject" />
       <ref role="20lvS9" node="g9av3vEY0i" resolve="Rechtssubject" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1e77wsq0n2C">
+    <property role="EcuMT" value="1407126424426475688" />
+    <property role="TrG5h" value="Voorwaarde" />
+    <property role="3GE5qa" value="kenmerken" />
+    <property role="R4oN_" value="voorwaarde bij een rechtsbetrekking" />
+    <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
 </model>
 

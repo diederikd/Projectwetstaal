@@ -576,5 +576,47 @@
       </node>
     </node>
   </node>
+  <node concept="2bQVlO" id="28tVqIaDa3B">
+    <property role="TrG5h" value="Geldigheid rechtsbetrekking" />
+    <node concept="1HSql3" id="28tVqIaDa3C" role="1HSqhF">
+      <property role="TrG5h" value="Geldigheid rechtsbetrekking" />
+      <node concept="1wO7pt" id="28tVqIaDa3D" role="kiesI">
+        <node concept="2boe1W" id="28tVqIaDa3E" role="1wO7pp">
+          <node concept="2zaH5l" id="28tVqIaDa3Q" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:1e77wsq2cMj" resolve="voetgangerslicht dat op rood staat" />
+            <node concept="3_kdyS" id="28tVqIaDa3S" role="pRcyL">
+              <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="1e77wsq4BIj" role="1wO7i3">
+            <node concept="3_mHL5" id="1e77wsq4BIk" role="2z5D6P">
+              <node concept="c2t0s" id="1e77wsq4BIL" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+              </node>
+              <node concept="3_mHL5" id="1e77wsq4BOs" role="pQQuc">
+                <node concept="ean_g" id="1e77wsq4BOt" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
+                </node>
+                <node concept="3_mHL5" id="1e77wsq4BOp" role="pQQuc">
+                  <node concept="ean_g" id="1e77wsq4BOq" role="eaaoM">
+                    <ref role="Qu8KH" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
+                  </node>
+                  <node concept="3yS1BT" id="1e77wsq4BOr" role="pQQuc">
+                    <ref role="3yS1Ki" node="28tVqIaDa3S" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="28IAyu" id="1e77wsq4BPg" role="2z5HcU">
+              <node concept="16yQLD" id="1e77wsq4BQG" role="28IBCi">
+                <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="28tVqIaDa3G" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
 </model>
 
