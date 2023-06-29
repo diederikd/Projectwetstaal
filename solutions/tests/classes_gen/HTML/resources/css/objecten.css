@@ -1,0 +1,89 @@
+
+#generate-date {
+    float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 2px;
+    color: grey;
+    font-style: italic;
+}
+
+.objectmodeltable {
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    padding-right: 0px;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: rgb(248, 248, 248);
+}
+
+.comment {
+    color: rgb(150, 150, 150);
+}
+.elem {
+    margin-bottom: 16px;
+}
+.attribuut {
+    color: rgb(80, 140, 36);
+}
+.rol {
+    color: blue;
+}
+.rol-link {
+    color: #AD1793;
+}
+.kenmerk {
+    color: #A65E2E;
+}
+.objecttype {
+    color: rgb(127, 25, 122);
+}
+.enumwaarde {
+    color: #206040;
+}
+.domein {
+}
+.parameter {
+    color: blue;
+}
+.variabele {
+    color: darkblue;
+}
+.stringliteral {
+    color: darkgreen;
+    background-color: rgb(220,220,220);
+}
+.literal {
+    color: steelblue;
+}
+.dimensie {
+    color: rgb(160,100,0);
+}
+.label {
+    color: rgb(80,50,0);
+}
+.geldig {
+    margin-left: 20px;
+    background-color: rgb(220, 220, 220);
+}
+
+.branch {
+    color: rgb(150,150,150);
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+     .selector:not(*:root), .chrome {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+ul.horizontaal-lijst {
+    list-style: none;
+    margin: 0em;
+}

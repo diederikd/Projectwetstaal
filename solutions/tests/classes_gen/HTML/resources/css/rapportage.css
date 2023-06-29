@@ -1,0 +1,83 @@
+.navigation {
+}
+#navigationFrame {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    height: 90%;
+    width: 25%;
+    background-color: rgb(90,130,200);
+    color: white;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+#navigationFrame ul {
+    list-style: none;
+    padding-left: 15px;
+}
+#navigationFrame a {
+    color: rgb(200, 200, 200);
+}
+.folder {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+.folder::before {
+    content: "\25B6";
+    color: white;
+    display: inline-block;
+    margin-right: 6px;
+}
+.folder-expanded::before {
+    transform: rotate(90deg);
+}
+.nested { display: none; }
+.active { display: block; }
+.selected { background-color: rgb(120, 150, 220); }
+
+#contentFrame {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    height: 90%;
+    width: calc(75% - 30px);
+    padding-left: 30px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    background-color: white;
+}
+
+#top-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 87px;
+    text-align: center;
+    background: transparent;
+}
+
+.branch {
+    color: rgb(150,150,150);
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+     .selector:not(*:root), .chrome {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+

@@ -1,0 +1,71 @@
+@import url("regels.css");
+
+:root {
+    --achtergrond-kleur: rgb(240, 240, 240);
+    --conclusie-achtergrond-kleur: rgb(224, 255, 255);
+    --rand: 1px solid rgb(200, 200, 200);
+    --btrand: 2px solid;
+}
+
+.regel {
+    margin-bottom: 24px;
+}
+
+/*
+  css voor o.a. correcte randen beslistabellen, met separator condities/conclusies
+*/
+.beslistabel table {
+    border-collapse: collapse;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 24px;
+}
+
+.beslistabel th {
+    padding: 0;
+    border-bottom: var(--btrand);
+    border-right: var(--rand);
+    border-top: var(--rand);
+    text-align: left;
+    font-weight: normal;
+}
+
+.beslistabel td {
+    text-align: left;
+    padding: 0;
+    border-right: var(--rand); 
+    border-bottom: var(--rand);
+}
+
+.beslistabel td:nth-child(1), th:nth-child(1) {
+    border-left: var(--rand);
+}
+
+.btspraak {
+     padding: 10px;
+}
+
+.btnummer {
+    padding: 5px;
+}
+
+.btconclusie {
+    background-color: var(--conclusie-achtergrond-kleur); 
+}
+
+.btborder {
+    border-left: var(--btrand);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}

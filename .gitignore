@@ -1,4 +1,15 @@
-**/classes_gen
+**/classes_gen/besturing
+**/classes_gen/gegevens
+**/classes_gen/regels
+**/classes_gen/services
+**/classes_gen/rapportages
+**/classes_gen/regeltests
+**/classes_gen/tests
+**/classes_gen/wetstaal
+**/classes_gen/wetstaalNaarHtml
+
+
+
 **/source_gen
 **/source_gen.caches
 *.java
