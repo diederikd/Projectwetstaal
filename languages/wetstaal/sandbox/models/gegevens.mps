@@ -279,6 +279,53 @@
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
+    <node concept="3rDfq_" id="_JZWYCiqoy" role="2bv6Cn">
+      <property role="TrG5h" value="Verplichting om  zo snel mogelijk door te lopen" />
+      <property role="3rDz0B" value="g9av3vFLsd/S01" />
+      <property role="3rDz0D" value="g9av3vFLAF/S013" />
+      <property role="2xb$lm" value="aanspraak hebbende persoon" />
+      <property role="2xb$li" value="zwakke plichthoudende persoon" />
+      <property role="2CwaXA" value="RB02" />
+      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="3rDfq0" id="_JZWYCiqoz" role="2bv01j">
+        <property role="TrG5h" value="beëindigd" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="LnSXK" id="_JZWYCiqo$" role="2bv01j">
+        <property role="TrG5h" value="ontstaan" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+    </node>
+    <node concept="1OeGCz" id="7wsdoz26aWd" role="2bv6Cn">
+      <ref role="1OeGCy" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      <node concept="2mG0Ck" id="7wsdoz26aWe" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="zwakke plichthoudende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="7wsdoz26aWf" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
+        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      </node>
+    </node>
+    <node concept="1OeGCB" id="7wsdoz26aZ6" role="2bv6Cn">
+      <ref role="1OeGCA" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      <node concept="2mG0Ck" id="7wsdoz26aZ7" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="aanspraak hebbende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="7wsdoz26aZ8" role="2mG0Ct">
+        <property role="u$DAK" value="false" />
+        <property role="TrG5h" value="voordelen door Verplichting om  zo snel mogelijk door te lopen" />
+        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
+      </node>
+    </node>
+    <node concept="3H5gaA" id="_JZWYCiqnz" role="2bv6Cn" />
     <node concept="3H5gaA" id="5rg1XHBz7SQ" role="2bv6Cn" />
     <node concept="3rDfq_" id="6c3QCZh1c5D" role="2bv6Cn">
       <property role="TrG5h" value="Vrijheid om over te steken" />
@@ -286,6 +333,7 @@
       <property role="3rDz0D" value="g9av3vFLAQ/S021" />
       <property role="2xb$lm" value="verlof hebbende persoon" />
       <property role="2xb$li" value="geenaanspraak" />
+      <property role="2CwaXA" value="RB03" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
@@ -327,52 +375,6 @@
         <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
       </node>
     </node>
-    <node concept="3rDfq_" id="_JZWYCiqoy" role="2bv6Cn">
-      <property role="TrG5h" value="Verplichting om  zo snel mogelijk door te lopen" />
-      <property role="3rDz0B" value="g9av3vFLsd/S01" />
-      <property role="3rDz0D" value="g9av3vFLAF/S013" />
-      <property role="2xb$lm" value="aanspraak hebbende persoon" />
-      <property role="2xb$li" value="zwakke plichthoudende persoon" />
-      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
-      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
-      <node concept="3rDfq0" id="_JZWYCiqoz" role="2bv01j">
-        <property role="TrG5h" value="beëindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="LnSXK" id="_JZWYCiqo$" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-    </node>
-    <node concept="1OeGCz" id="7wsdoz26aWd" role="2bv6Cn">
-      <ref role="1OeGCy" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
-      <node concept="2mG0Ck" id="7wsdoz26aWe" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="zwakke plichthoudende persoon" />
-        <property role="2mCGrO" value="heeft" />
-        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
-      </node>
-      <node concept="2mG0Ck" id="7wsdoz26aWf" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
-        <property role="TrG5h" value="nadelen door Verplichting om  zo snel mogelijk door te lopen" />
-        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
-      </node>
-    </node>
-    <node concept="1OeGCB" id="7wsdoz26aZ6" role="2bv6Cn">
-      <ref role="1OeGCA" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
-      <node concept="2mG0Ck" id="7wsdoz26aZ7" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="aanspraak hebbende persoon" />
-        <property role="2mCGrO" value="heeft" />
-        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
-      </node>
-      <node concept="2mG0Ck" id="7wsdoz26aZ8" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
-        <property role="TrG5h" value="voordelen door Verplichting om  zo snel mogelijk door te lopen" />
-        <ref role="1fE_qF" node="_JZWYCiqoy" resolve="Verplichting om  zo snel mogelijk door te lopen" />
-      </node>
-    </node>
-    <node concept="3H5gaA" id="_JZWYCiqnz" role="2bv6Cn" />
     <node concept="1Om$G4" id="1w6hstGoORj" role="2bv6Cn">
       <property role="TrG5h" value="Verspringen van het licht naar groen" />
       <property role="16Ztxt" value="true" />
@@ -551,6 +553,7 @@
       <property role="3rDz0D" value="g9av3vFLB1/S031" />
       <property role="2xb$lm" value="bevoegdheids hebbende persoon" />
       <property role="2xb$li" value="benadeelde persoon" />
+      <property role="2CwaXA" value="RB04" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <node concept="2bpyt6" id="3Eqw34fI44o" role="2bv01j">
