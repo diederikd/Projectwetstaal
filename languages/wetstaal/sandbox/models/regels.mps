@@ -56,6 +56,9 @@
       <concept id="5696347358796946095" name="regelspraak.structure.SamengesteldeVoorwaarde" flags="ng" index="19nIsh">
         <child id="5696347358796946096" name="predicaat" index="19nIse" />
       </concept>
+      <concept id="7676270149288280326" name="regelspraak.structure.Ontkenbaar" flags="ng" index="3iLdo1">
+        <property id="7676270149288280327" name="ontkenning" index="3iLdo0" />
+      </concept>
       <concept id="1480463129960505090" name="regelspraak.structure.RegelVersie" flags="ng" index="1wO7pt">
         <child id="1480463129960505094" name="statement" index="1wO7pp" />
       </concept>
@@ -80,8 +83,32 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
+        <child id="3717301156197626301" name="content" index="3DQ709" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="3133179214568824809" name="jetbrains.mps.lang.text.structure.NodeWrapperElement" flags="nn" index="tu5oc">
+        <child id="3133179214568824810" name="node" index="tu5of" />
+      </concept>
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -269,25 +296,143 @@
         <node concept="2ljwA5" id="3Eqw34fFQDK" role="1nvPAL" />
       </node>
     </node>
+    <node concept="3DQ70j" id="3XodiQsDPo5" role="lGtFl">
+      <property role="3V$3am" value="regel" />
+      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
+      <node concept="1Pa9Pv" id="3XodiQsDPse" role="3DQ709">
+        <node concept="1PaTwC" id="3XodiQsDPsf" role="1PaQFQ">
+          <node concept="3oM_SD" id="3XodiQsDPCF" role="1PaTwD">
+            <property role="3oM_SC" value="eigenlijk" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPCN" role="1PaTwD">
+            <property role="3oM_SC" value="zou" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPDh" role="1PaTwD">
+            <property role="3oM_SC" value="deze" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPDM" role="1PaTwD">
+            <property role="3oM_SC" value="voorwaarde" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPDX" role="1PaTwD">
+            <property role="3oM_SC" value="erbij" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPEm" role="1PaTwD">
+            <property role="3oM_SC" value="moeten" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPE$" role="1PaTwD">
+            <property role="3oM_SC" value="worden" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPEN" role="1PaTwD">
+            <property role="3oM_SC" value="opgenomen:" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="3XodiQsDPF4" role="1PaQFQ">
+          <node concept="3oM_SD" id="3XodiQsDPJe" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPE9" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+          <node concept="tu5oc" id="3XodiQsDPuz" role="1PaTwD">
+            <node concept="2z5Mdt" id="3XodiQsDPu$" role="tu5of">
+              <node concept="3_mHL5" id="3XodiQsDPu_" role="2z5D6P">
+                <node concept="ean_g" id="3XodiQsDPuA" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
+                </node>
+                <node concept="3yS1BT" id="3XodiQsDPuB" role="pQQuc">
+                  <ref role="3yS1Ki" node="7wsdoz269Ic" resolve="fatale plichthoudende persoon" />
+                </node>
+              </node>
+              <node concept="28IzFB" id="3XodiQsDPuC" role="2z5HcU">
+                <property role="3iLdo0" value="true" />
+                <ref role="28I$VD" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
+              </node>
+            </node>
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPL4" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="3XodiQsDPLf" role="1PaQFQ">
+          <node concept="3oM_SD" id="3XodiQsDPLe" role="1PaTwD">
+            <property role="3oM_SC" value="Dit" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPNj" role="1PaTwD">
+            <property role="3oM_SC" value="leidt" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPNm" role="1PaTwD">
+            <property role="3oM_SC" value="nu" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPNq" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPNG" role="1PaTwD">
+            <property role="3oM_SC" value="ALEF" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPO1" role="1PaTwD">
+            <property role="3oM_SC" value="tot" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPO8" role="1PaTwD">
+            <property role="3oM_SC" value="cycles." />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPOz" role="1PaTwD">
+            <property role="3oM_SC" value="Op" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPOG" role="1PaTwD">
+            <property role="3oM_SC" value="het" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPOQ" role="1PaTwD">
+            <property role="3oM_SC" value="moment" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPP1" role="1PaTwD">
+            <property role="3oM_SC" value="dat" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPPd" role="1PaTwD">
+            <property role="3oM_SC" value="tijdsafhankelijkheid" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPPq" role="1PaTwD">
+            <property role="3oM_SC" value="wordt" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPPC" role="1PaTwD">
+            <property role="3oM_SC" value="ondersteund" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPPR" role="1PaTwD">
+            <property role="3oM_SC" value="lukt" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPQ7" role="1PaTwD">
+            <property role="3oM_SC" value="dat" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPQo" role="1PaTwD">
+            <property role="3oM_SC" value="een" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPQE" role="1PaTwD">
+            <property role="3oM_SC" value="stuk" />
+          </node>
+          <node concept="3oM_SD" id="3XodiQsDPQX" role="1PaTwD">
+            <property role="3oM_SC" value="beter." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1HSql3" id="7wsdoz269HZ" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
       <node concept="1wO7pt" id="7wsdoz269I0" role="kiesI">
         <node concept="2boe1W" id="7wsdoz269I1" role="1wO7pp">
-          <node concept="2z5Mdt" id="7wsdoz269I2" role="1wO7i3">
-            <node concept="3_mHL5" id="7wsdoz269I3" role="2z5D6P">
-              <node concept="ean_g" id="7wsdoz269I4" role="eaaoM">
+          <node concept="2z5Mdt" id="3XodiQsDOOz" role="1wO7i3">
+            <node concept="3_mHL5" id="3XodiQsDOO$" role="2z5D6P">
+              <node concept="ean_g" id="3XodiQsDOO_" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
               </node>
-              <node concept="3_mHL5" id="7wsdoz269I5" role="pQQuc">
-                <node concept="ean_g" id="7wsdoz269I6" role="eaaoM">
+              <node concept="3_mHL5" id="3XodiQsDOOA" role="pQQuc">
+                <node concept="ean_g" id="3XodiQsDOOB" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                 </node>
-                <node concept="3yS1BT" id="7wsdoz269I7" role="pQQuc">
+                <node concept="3yS1BT" id="3XodiQsDOOC" role="pQQuc">
                   <ref role="3yS1Ki" node="7wsdoz269Ic" resolve="fatale plichthoudende persoon" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="7wsdoz269I8" role="2z5HcU">
+            <node concept="28IzFB" id="3XodiQsDOOD" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
             </node>
           </node>
@@ -321,21 +466,21 @@
               </node>
             </node>
           </node>
-          <node concept="2z5Mdt" id="7wsdoz269Il" role="1wO7i3">
-            <node concept="3_mHL5" id="7wsdoz269Im" role="2z5D6P">
-              <node concept="ean_g" id="7wsdoz269In" role="eaaoM">
+          <node concept="2z5Mdt" id="3XodiQsDNW1" role="1wO7i3">
+            <node concept="3_mHL5" id="3XodiQsDNW2" role="2z5D6P">
+              <node concept="ean_g" id="3XodiQsDNW3" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:_JZWYCiqwx" resolve="verspringen van het licht naar rood" />
               </node>
-              <node concept="3_mHL5" id="7wsdoz269Io" role="pQQuc">
-                <node concept="ean_g" id="7wsdoz269Ip" role="eaaoM">
+              <node concept="3_mHL5" id="3XodiQsDNW4" role="pQQuc">
+                <node concept="ean_g" id="3XodiQsDNW5" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                 </node>
-                <node concept="3yS1BT" id="7wsdoz269Iq" role="pQQuc">
+                <node concept="3yS1BT" id="3XodiQsDNW6" role="pQQuc">
                   <ref role="3yS1Ki" node="7wsdoz269Ik" resolve="verlof hebbende persoon" />
                 </node>
               </node>
             </node>
-            <node concept="28IzFB" id="7wsdoz269Ir" role="2z5HcU">
+            <node concept="28IzFB" id="3XodiQsDNW7" role="2z5HcU">
               <ref role="28I$VD" to="akwf:_JZWYCiqro" resolve="plaatsgevonden" />
             </node>
           </node>

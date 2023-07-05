@@ -38,7 +38,6 @@
       <concept id="5970487230362917627" name="gegevensspraak.structure.EnumeratieType" flags="ng" index="2n4JhV">
         <child id="4145085948684469801" name="waarde" index="1niOIs" />
       </concept>
-      <concept id="8878823228840241647" name="gegevensspraak.structure.TekstType" flags="ng" index="THod0" />
       <concept id="8989128614612178023" name="gegevensspraak.structure.Naamwoord" flags="ng" index="16ZtyY">
         <property id="5970487230362691956" name="onderdrukLidwoord" index="2n7kvO" />
         <property id="8989128614612178052" name="isOnzijdig" index="16Ztxt" />
@@ -93,12 +92,18 @@
   </registry>
   <node concept="2U78vF" id="7wsdoz23lHv">
     <property role="TrG5h" value="Voetgangerslicht" />
+    <node concept="3Ih38J" id="3XodiQsDNuh" role="2bv6Cn">
+      <property role="TrG5h" value="De tijd is in de modellering weggelaten. Deze moet in volgende versies worden toegevoegd op het moment dat ALEF" />
+    </node>
+    <node concept="3Ih38J" id="3XodiQsDN_N" role="2bv6Cn">
+      <property role="TrG5h" value="tijdsafhankelijke berekeningen ondersteund." />
+    </node>
+    <node concept="3H5gaA" id="3XodiQsDNsp" role="2bv6Cn" />
+    <node concept="3Ih38J" id="3XodiQsDNlH" role="2bv6Cn">
+      <property role="TrG5h" value="Rechtssubject is iemand met rechten en plichten" />
+    </node>
     <node concept="3rCGBy" id="g9av3vFtWz" role="2bv6Cn">
       <property role="TrG5h" value="Persoon" />
-      <node concept="2bv6ZS" id="g9av3vFtWI" role="2bv01j">
-        <property role="TrG5h" value="identificatie" />
-        <node concept="THod0" id="g9av3vFtXe" role="1EDDcc" />
-      </node>
       <node concept="2bpyt6" id="1w6hstGfI3G" role="2bv01j">
         <property role="TrG5h" value="bevoegd ambtenaar" />
       </node>
@@ -106,9 +111,15 @@
     <node concept="3Ih38J" id="28tVqIaBh7m" role="2bv6Cn">
       <property role="TrG5h" value="Specialisatie rechtspersoon en natuurlijk persoon van rechtspersoon." />
     </node>
-    <node concept="3H5gaA" id="28tVqIaBgZU" role="2bv6Cn" />
+    <node concept="3Ih38J" id="ncuzrI78zh" role="2bv6Cn">
+      <property role="TrG5h" value="Specialisatie is echter (nog) geen functionaliteit in ALEF" />
+    </node>
+    <node concept="3H5gaA" id="ncuzrI78xp" role="2bv6Cn" />
+    <node concept="3Ih38J" id="3XodiQsDNDB" role="2bv6Cn">
+      <property role="TrG5h" value="de voetganger op het troittoir of voetpad bij een voetgangerslicht" />
+    </node>
     <node concept="2mG0Cb" id="5rg1XHBzR7S" role="2bv6Cn">
-      <property role="TrG5h" value="overstekende voetganger bij een verkeerlicht" />
+      <property role="TrG5h" value="voetganger bij een voetgangerslicht" />
       <node concept="2mG0Ck" id="5rg1XHBzR7T" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voetganger bij voetgangerslicht" />
@@ -123,7 +134,7 @@
       </node>
     </node>
     <node concept="2mG0Cb" id="_JZWYCe_ce" role="2bv6Cn">
-      <property role="TrG5h" value="overstekende voetganger steekt over bij een verkeerlicht" />
+      <property role="TrG5h" value="overstekende voetganger steekt over bij een voetgangerslicht" />
       <node concept="2mG0Ck" id="_JZWYCe_cf" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="overstekende voetganger" />
@@ -181,7 +192,6 @@
         <property role="2n7kvO" value="true" />
       </node>
     </node>
-    <node concept="3H5gaA" id="_JZWYChL2M" role="2bv6Cn" />
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
     </node>
@@ -206,7 +216,6 @@
     <node concept="3Ih38J" id="4oA7p__MxR6" role="2bv6Cn">
       <property role="TrG5h" value="7. Voorwaarde: indien voetgangerslicht op rood staat" />
     </node>
-    <node concept="3H5gaA" id="_JZWYCfdao" role="2bv6Cn" />
     <node concept="3rDfq_" id="1w6hstGfI2K" role="2bv6Cn">
       <property role="TrG5h" value="Fatale verplichting niet meer beginnen met over te steken" />
       <property role="3rDz0B" value="g9av3vFLsd/S01" />
@@ -237,7 +246,6 @@
     <node concept="3Ih38J" id="28tVqIaDa_m" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking heeft als datatype een boolean, net als voorwaarde." />
     </node>
-    <node concept="3H5gaA" id="28tVqIaDax$" role="2bv6Cn" />
     <node concept="1OeGCB" id="1w6hstGmubC" role="2bv6Cn">
       <ref role="1OeGCA" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       <node concept="2mG0Ck" id="1w6hstGmubD" role="2mG0Ct">
@@ -263,6 +271,7 @@
       <node concept="2mG0Ck" id="1w6hstGmuaZ" role="2mG0Ct">
         <property role="TrG5h" value="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
         <property role="16Ztxt" value="true" />
+        <property role="u$DAK" value="true" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
@@ -355,7 +364,7 @@
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="2mG0Ck" id="6c3QCZh1c9g" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
+        <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voordeel van de Vrijheid om over te steken" />
         <property role="16Ztxt" value="true" />
         <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
