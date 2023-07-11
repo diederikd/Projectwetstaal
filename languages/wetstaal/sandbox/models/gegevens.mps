@@ -41,6 +41,7 @@
       <concept id="8989128614612178023" name="gegevensspraak.structure.Naamwoord" flags="ng" index="16ZtyY">
         <property id="5970487230362691956" name="onderdrukLidwoord" index="2n7kvO" />
         <property id="8989128614612178052" name="isOnzijdig" index="16Ztxt" />
+        <property id="8989128614612178055" name="meervoudsvorm" index="16Ztxu" />
       </concept>
       <concept id="5917060184181247365" name="gegevensspraak.structure.DatumTijdType" flags="ng" index="1EDDdA">
         <property id="5917060184181247410" name="granulariteit" index="1EDDdh" />
@@ -130,7 +131,7 @@
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voetgangerslicht waarbij de persoon is" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
       </node>
     </node>
     <node concept="2mG0Cb" id="_JZWYCe_ce" role="2bv6Cn">
@@ -145,7 +146,7 @@
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="voetgangerslicht waarbij wordt overgestoken" />
         <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="1w6hstGppRa" />
+        <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
       </node>
     </node>
     <node concept="1OpgJr" id="1w6hstGppRa" role="2bv6Cn">
@@ -216,13 +217,22 @@
     <node concept="3Ih38J" id="4oA7p__MxR6" role="2bv6Cn">
       <property role="TrG5h" value="7. Voorwaarde: indien voetgangerslicht op rood staat" />
     </node>
+    <node concept="3H5gaA" id="3XodiQsFIUA" role="2bv6Cn" />
+    <node concept="3Ih38J" id="3XodiQsFIYt" role="2bv6Cn">
+      <property role="TrG5h" value="Onderstaande kenmerken onstaan en beeindigd zijn opgenomen om regel te kunnen schrijven die rechtsgevolgen bepalen" />
+    </node>
+    <node concept="3Ih38J" id="3XodiQsFJ2n" role="2bv6Cn">
+      <property role="TrG5h" value="Met die kenmerken kunnen rechtsbetrekkingen in het leven worden geroepen en rechtsbetrekkingen worden beeindigd." />
+    </node>
+    <node concept="3H5gaA" id="3XodiQsFJ4l" role="2bv6Cn" />
     <node concept="3rDfq_" id="1w6hstGfI2K" role="2bv6Cn">
       <property role="TrG5h" value="Fatale verplichting niet meer beginnen met over te steken" />
       <property role="3rDz0B" value="g9av3vFLsd/S01" />
       <property role="3rDz0D" value="g9av3vFLAD/S011" />
-      <property role="2xb$lm" value="de Staat" />
+      <property role="2xb$lm" value="staat" />
       <property role="2xb$li" value="fatale plichthoudende persoon" />
       <property role="2CwaXA" value="RB01" />
+      <property role="16Ztxu" value="Fatale verplichting niet meer beginnen met over te steken" />
       <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
@@ -241,22 +251,26 @@
       </node>
     </node>
     <node concept="3Ih38J" id="28tVqIaDavG" role="2bv6Cn">
-      <property role="TrG5h" value="Uit pragmatische redenen is de voorwaarde behorende bij een rechtsbetrekking opgenomen in een regel." />
+      <property role="TrG5h" value="Uit pragmatische redenen is de evaluatie van de voorwaarde behorende bij een rechtsbetrekking opgenomen in een regel." />
     </node>
     <node concept="3Ih38J" id="28tVqIaDa_m" role="2bv6Cn">
-      <property role="TrG5h" value="Rechtsbetrekking heeft als datatype een boolean, net als voorwaarde." />
+      <property role="TrG5h" value="Rechtsbetrekking heeft als datatype een boolean, net als voorwaarde 'voetgangerslicht dat op rood staat'." />
     </node>
-    <node concept="1OeGCB" id="1w6hstGmubC" role="2bv6Cn">
+    <node concept="3Ih38J" id="N9BnHMHcQ5" role="2bv6Cn">
+      <property role="TrG5h" value="In een wereld waarin tijdsafhankelijkheid wordt ondersteund kan een rechtspersoon natuurlijk meerdere rechtsbetrekkingen hebben." />
+    </node>
+    <node concept="3Ih38J" id="N9BnHMHcU5" role="2bv6Cn" />
+    <node concept="1OeGCB" id="1zBYsFY383z" role="2bv6Cn">
       <ref role="1OeGCA" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-      <node concept="2mG0Ck" id="1w6hstGmubD" role="2mG0Ct">
+      <node concept="2mG0Ck" id="1zBYsFY383$" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="krachtige aanspraak hebbende persoon" />
+        <property role="TrG5h" value="Staat" />
         <property role="2mCGrO" value="heeft" />
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
-      <node concept="2mG0Ck" id="1w6hstGmubE" role="2mG0Ct">
-        <property role="u$DAK" value="false" />
-        <property role="TrG5h" value="voordelen door Fatale verplichting niet meer beginnen met over te steken" />
+      <node concept="2mG0Ck" id="1zBYsFY383_" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voordeel van de fatale verplichting niet meer beginnen met over te steken" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
@@ -272,6 +286,7 @@
         <property role="TrG5h" value="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
         <property role="16Ztxt" value="true" />
         <property role="u$DAK" value="true" />
+        <property role="16Ztxu" value="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
@@ -285,6 +300,7 @@
       <node concept="2mG0Ck" id="_JZWYChLgs" role="2mG0Ct">
         <property role="u$DAK" value="false" />
         <property role="TrG5h" value="fatale verplichting niet meer beginnen met over te steken" />
+        <property role="16Ztxu" value="fatale verplichting niet meer beginnen met over te steken" />
         <ref role="1fE_qF" node="1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
       </node>
     </node>
