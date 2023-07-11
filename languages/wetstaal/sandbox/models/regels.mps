@@ -159,10 +159,10 @@
               </node>
               <node concept="3_mHL5" id="_JZWYCdhnu" role="pQQuc">
                 <node concept="ean_g" id="_JZWYCdhnv" role="eaaoM">
-                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                 </node>
                 <node concept="3yS1BT" id="_JZWYCdhnt" role="pQQuc">
-                  <ref role="3yS1Ki" node="_JZWYCdhkN" resolve="plichthoudende Persoon" />
+                  <ref role="3yS1Ki" node="_JZWYCdhkN" resolve="fatale plichthoudende persoon" />
                 </node>
               </node>
             </node>
@@ -174,10 +174,10 @@
             <ref role="2zaJI2" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
             <node concept="3_mHL5" id="_JZWYCdhkL" role="pRcyL">
               <node concept="ean_g" id="_JZWYCdhkM" role="eaaoM">
-                <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadelen door Fatale verplichting niet meer beginnen met over te steken" />
+                <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
               </node>
               <node concept="3_kdyS" id="_JZWYCdhkN" role="pQQuc">
-                <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="plichthoudende Persoon" />
+                <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
               </node>
             </node>
           </node>
@@ -193,10 +193,10 @@
             <ref role="2zaJI2" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
             <node concept="3_mHL5" id="_JZWYCdhrj" role="pRcyL">
               <node concept="ean_g" id="_JZWYCdhrk" role="eaaoM">
-                <ref role="Qu8KH" to="akwf:6c3QCZh1c9g" resolve="voordelen door Vrijheid om over te steken" />
+                <ref role="Qu8KH" to="akwf:6c3QCZh1c9g" resolve="voordeel van de Vrijheid om over te steken" />
               </node>
               <node concept="3_kdyS" id="_JZWYCdhrl" role="pQQuc">
-                <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="rechthebbende Persoon" />
+                <ref role="Qu8KH" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
               </node>
             </node>
           </node>
@@ -207,10 +207,10 @@
               </node>
               <node concept="3_mHL5" id="_JZWYCdhuf" role="pQQuc">
                 <node concept="ean_g" id="_JZWYCdhug" role="eaaoM">
-                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+                  <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                 </node>
                 <node concept="3yS1BT" id="_JZWYCdhue" role="pQQuc">
-                  <ref role="3yS1Ki" node="_JZWYCdhrl" resolve="rechthebbende Persoon" />
+                  <ref role="3yS1Ki" node="_JZWYCdhrl" resolve="verlof hebbende persoon" />
                 </node>
               </node>
             </node>
@@ -408,11 +408,19 @@
           <node concept="3oM_SD" id="3XodiQsDPQE" role="1PaTwD">
             <property role="3oM_SC" value="stuk" />
           </node>
-          <node concept="3oM_SD" id="3XodiQsDPQX" role="1PaTwD">
+          <node concept="3oM_SD" id="3XodiQsF0Wc" role="1PaTwD">
             <property role="3oM_SC" value="beter." />
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="3XodiQsF14X" role="lGtFl">
+      <property role="3V$3am" value="regel" />
+      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
+    </node>
+    <node concept="3DQ70j" id="3XodiQsF18T" role="lGtFl">
+      <property role="3V$3am" value="regel" />
+      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
     </node>
     <node concept="1HSql3" id="7wsdoz269HZ" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het beeindigen van de rechtsbetrekking" />
@@ -499,7 +507,7 @@
               </node>
               <node concept="3_mHL5" id="7wsdoz26aTg" role="pQQuc">
                 <node concept="ean_g" id="7wsdoz26aTh" role="eaaoM">
-                  <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht" />
+                  <ref role="Qu8KH" to="akwf:_JZWYCe_cg" resolve="voetgangerslicht waarbij wordt overgestoken" />
                 </node>
                 <node concept="3yS1BT" id="7wsdoz26bmo" role="pQQuc">
                   <ref role="3yS1Ki" node="7wsdoz26b51" resolve="zwakke plichthoudende persoon" />
@@ -546,14 +554,14 @@
           <node concept="2z5Mdt" id="7wsdoz26KPN" role="1wO7i3">
             <node concept="3_mHL5" id="7wsdoz26L1q" role="2z5D6P">
               <node concept="ean_g" id="7wsdoz26L1r" role="eaaoM">
-                <ref role="Qu8KH" to="akwf:_JZWYCiqzy" resolve="overkant op de stoep stappen" />
+                <ref role="Qu8KH" to="akwf:_JZWYCiqzy" resolve="aan de overkant op de stoep stappen" />
               </node>
               <node concept="3yS1BT" id="7wsdoz26L50" role="pQQuc">
                 <ref role="3yS1Ki" node="7wsdoz26KFV" resolve="zwakke plichthoudende persoon" />
               </node>
             </node>
             <node concept="28IzFB" id="7wsdoz26L7k" role="2z5HcU">
-              <ref role="28I$VD" to="akwf:7wsdoz26L67" resolve="plaatsgevonden" />
+              <ref role="28I$VD" to="akwf:7wsdoz26L67" resolve="uitgevoerd" />
             </node>
           </node>
         </node>
@@ -722,9 +730,9 @@
     </node>
   </node>
   <node concept="2bQVlO" id="28tVqIaDa3B">
-    <property role="TrG5h" value="Geldigheid rechtsbetrekking" />
+    <property role="TrG5h" value="Geldigheid voorwaarde bij de rechtsbetrekking RB01" />
     <node concept="1HSql3" id="28tVqIaDa3C" role="1HSqhF">
-      <property role="TrG5h" value="Geldigheid rechtsbetrekking" />
+      <property role="TrG5h" value="Geldigheid voorwaarde bij de rechtsbetrekking RB01" />
       <node concept="1wO7pt" id="28tVqIaDa3D" role="kiesI">
         <node concept="2boe1W" id="28tVqIaDa3E" role="1wO7pp">
           <node concept="2zaH5l" id="28tVqIaDa3Q" role="1wO7i6">
@@ -733,27 +741,27 @@
               <ref role="Qu8KH" to="akwf:1w6hstGmuaZ" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
             </node>
           </node>
-          <node concept="2z5Mdt" id="1e77wsq4BIj" role="1wO7i3">
-            <node concept="3_mHL5" id="1e77wsq4BIk" role="2z5D6P">
-              <node concept="c2t0s" id="1e77wsq4BIL" role="eaaoM">
+          <node concept="2z5Mdt" id="1zBYsFY4qzb" role="1wO7i3">
+            <node concept="3_mHL5" id="1zBYsFY4qzc" role="2z5D6P">
+              <node concept="c2t0s" id="1zBYsFY4qzC" role="eaaoM">
                 <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
               </node>
-              <node concept="3_mHL5" id="1e77wsq4BOs" role="pQQuc">
-                <node concept="ean_g" id="1e77wsq4BOt" role="eaaoM">
+              <node concept="3_mHL5" id="1zBYsFY4qAy" role="pQQuc">
+                <node concept="ean_g" id="1zBYsFY4qAz" role="eaaoM">
                   <ref role="Qu8KH" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
                 </node>
-                <node concept="3_mHL5" id="1e77wsq4BOp" role="pQQuc">
-                  <node concept="ean_g" id="1e77wsq4BOq" role="eaaoM">
-                    <ref role="Qu8KH" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
+                <node concept="3_mHL5" id="1zBYsFY4qAv" role="pQQuc">
+                  <node concept="ean_g" id="1zBYsFY4qAw" role="eaaoM">
+                    <ref role="Qu8KH" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
                   </node>
-                  <node concept="3yS1BT" id="1e77wsq4BOr" role="pQQuc">
+                  <node concept="3yS1BT" id="1zBYsFY4qAx" role="pQQuc">
                     <ref role="3yS1Ki" node="28tVqIaDa3S" resolve="nadeel van de fatale verplichting niet meer beginnen met over te steken" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="28IAyu" id="1e77wsq4BPg" role="2z5HcU">
-              <node concept="16yQLD" id="1e77wsq4BQG" role="28IBCi">
+            <node concept="28IAyu" id="1zBYsFY4qBm" role="2z5HcU">
+              <node concept="16yQLD" id="1zBYsFY4qCK" role="28IBCi">
                 <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
               </node>
             </node>

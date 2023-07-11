@@ -107,6 +107,9 @@
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
+      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
+        <child id="1138662048170" name="value" index="tz02z" />
+      </concept>
       <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
         <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
       </concept>
@@ -1126,7 +1129,32 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1w6hstGlUQP" role="3uHU7B">
-                  <property role="Xl_RC" value="voordelen door " />
+                  <property role="Xl_RC" value="voordeel van " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="N9BnHMGrNI" role="3cqZAp">
+            <node concept="2OqwBi" id="N9BnHMGrNJ" role="3clFbG">
+              <node concept="2OqwBi" id="N9BnHMGrNK" role="2Oq$k0">
+                <node concept="1y4W85" id="N9BnHMGrNL" role="2Oq$k0">
+                  <node concept="3cmrfG" id="N9BnHMGrNM" role="1y58nS">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="N9BnHMGrNN" role="1y566C">
+                    <node concept="3kakTB" id="N9BnHMGrNO" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="N9BnHMGrNP" role="2OqNvi">
+                      <ref role="3TtcxE" to="3ic2:4KQiE3qx$2X" resolve="rollen" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="N9BnHMGrNQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="3ic2:5EoNr_42_g9" resolve="single" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="N9BnHMGrNR" role="2OqNvi">
+                <node concept="3clFbT" id="N9BnHMGrNS" role="tz02z">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>
@@ -1303,7 +1331,32 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="1w6hstGlUcP" role="3uHU7B">
-                  <property role="Xl_RC" value="nadelen door " />
+                  <property role="Xl_RC" value="nadeel van " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="N9BnHMGhjh" role="3cqZAp">
+            <node concept="2OqwBi" id="N9BnHMGqBw" role="3clFbG">
+              <node concept="2OqwBi" id="N9BnHMGmZU" role="2Oq$k0">
+                <node concept="1y4W85" id="N9BnHMGmIN" role="2Oq$k0">
+                  <node concept="3cmrfG" id="N9BnHMGmJH" role="1y58nS">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                  <node concept="2OqwBi" id="N9BnHMGhQV" role="1y566C">
+                    <node concept="3kakTB" id="N9BnHMGhjg" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="N9BnHMGioJ" role="2OqNvi">
+                      <ref role="3TtcxE" to="3ic2:4KQiE3qx$2X" resolve="rollen" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="N9BnHMGqed" role="2OqNvi">
+                  <ref role="3TsBF5" to="3ic2:5EoNr_42_g9" resolve="single" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="N9BnHMGqWh" role="2OqNvi">
+                <node concept="3clFbT" id="N9BnHMGqYB" role="tz02z">
+                  <property role="3clFbU" value="true" />
                 </node>
               </node>
             </node>

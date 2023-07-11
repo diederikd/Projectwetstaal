@@ -83,17 +83,17 @@
     <node concept="210ffa" id="_JZWYCdToP" role="10_$IM">
       <property role="TrG5h" value="001" />
       <node concept="4Oh8J" id="_JZWYCdToQ" role="4Ohb1">
-        <ref role="3teO_M" node="_JZWYCdToR" resolve="diederik" />
+        <ref role="3teO_M" node="_JZWYCdToR" resolve="Diederik" />
         <ref role="4Oh8G" to="akwf:g9av3vFtWz" resolve="Persoon" />
       </node>
       <node concept="4OhPC" id="_JZWYCdToR" role="4Ohaa">
         <property role="TrG5h" value="Diederik" />
         <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
         <node concept="3_ceKt" id="_JZWYCdWNk" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="verkeerslicht" />
+          <ref role="3_ceKs" to="akwf:5rg1XHBzR7U" resolve="voetgangerslicht waarbij de persoon is" />
           <node concept="4PMua" id="_JZWYCdWOc" role="3_ceKu">
             <node concept="4PMub" id="_JZWYCdWOo" role="4PMue">
-              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
+              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="voetgangerslicht A" />
             </node>
           </node>
         </node>
@@ -109,7 +109,7 @@
           <ref role="3_ceKs" to="akwf:1w6hstGpq0b" resolve="verkeerslicht" />
           <node concept="4PMua" id="5rg1XHBzRMx" role="3_ceKu">
             <node concept="4PMub" id="5rg1XHBzRMS" role="4PMue">
-              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
+              <ref role="4PMuN" node="5rg1XHBzPyb" resolve="voetgangerslicht A" />
             </node>
           </node>
         </node>
@@ -122,7 +122,7 @@
       </node>
       <node concept="4OhPC" id="5rg1XHBzPyb" role="4Ohaa">
         <property role="TrG5h" value="voetgangerslicht A" />
-        <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="4OhPH" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
         <node concept="3_ceKt" id="3Eqw34fFQZJ" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
           <node concept="16yQLD" id="3Eqw34fFR03" role="3_ceKu">
@@ -134,7 +134,7 @@
         <property role="TrG5h" value="rechtsbetrekking A" />
         <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
         <node concept="3_ceKt" id="_JZWYCfdzU" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
+          <ref role="3_ceKs" to="akwf:1zBYsFY383$" resolve="de Staat" />
           <node concept="4PMua" id="_JZWYCfd$n" role="3_ceKu">
             <node concept="4PMub" id="_JZWYCfd$I" role="4PMue">
               <ref role="4PMuN" node="_JZWYCfdzh" resolve="de Staat" />
@@ -142,10 +142,10 @@
           </node>
         </node>
         <node concept="3_ceKt" id="5rg1XHBzPz1" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGmuaY" resolve="plichthoudende Persoon" />
+          <ref role="3_ceKs" to="akwf:1w6hstGmuaY" resolve="fatale plichthoudende persoon" />
           <node concept="4PMua" id="5rg1XHBzPzs" role="3_ceKu">
             <node concept="4PMub" id="5rg1XHBzPzz" role="4PMue">
-              <ref role="4PMuN" node="_JZWYCdToR" resolve="diederik" />
+              <ref role="4PMuN" node="_JZWYCdToR" resolve="Diederik" />
             </node>
           </node>
         </node>
@@ -164,15 +164,15 @@
         <property role="TrG5h" value="rechtsbetrekking B" />
         <ref role="4OhPH" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
         <node concept="3_ceKt" id="5rg1XHBzRCk" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1c9f" resolve="rechthebbende Persoon" />
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c9f" resolve="verlof hebbende persoon" />
           <node concept="4PMua" id="5rg1XHBzRCD" role="3_ceKu">
             <node concept="4PMub" id="5rg1XHBzRCS" role="4PMue">
-              <ref role="4PMuN" node="_JZWYCdToR" resolve="diederik" />
+              <ref role="4PMuN" node="_JZWYCdToR" resolve="Diederik" />
             </node>
           </node>
         </node>
         <node concept="3_ceKt" id="_JZWYCfd_a" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1c7Q" resolve="plichthoudende Persoon" />
+          <ref role="3_ceKs" to="akwf:6c3QCZh1c7Q" resolve="geenaanspraak" />
           <node concept="4PMua" id="_JZWYCfd_t" role="3_ceKu">
             <node concept="4PMub" id="_JZWYCfd_W" role="4PMue">
               <ref role="4PMuN" node="_JZWYCfdzh" resolve="de Staat" />
@@ -189,8 +189,8 @@
         </node>
       </node>
       <node concept="4Oh8J" id="5rg1XHBzPUe" role="4Ohb1">
-        <ref role="3teO_M" node="5rg1XHBzPyb" resolve="verkeerslicht A" />
-        <ref role="4Oh8G" to="akwf:1w6hstGppRa" resolve="Verkeerslicht" />
+        <ref role="3teO_M" node="5rg1XHBzPyb" resolve="voetgangerslicht A" />
+        <ref role="4Oh8G" to="akwf:1w6hstGppRa" resolve="Voetgangerslicht" />
         <node concept="3mzBic" id="3Eqw34fFR0W" role="4Ohbj">
           <property role="V2jGk" value="-1" />
           <ref role="10Xmnc" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
@@ -201,7 +201,7 @@
       </node>
       <node concept="4Oh8J" id="5rg1XHBzQ3X" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-        <ref role="3teO_M" node="5rg1XHBzPyB" resolve="Rechtsbetrekking A" />
+        <ref role="3teO_M" node="5rg1XHBzPyB" resolve="rechtsbetrekking A" />
         <node concept="3mzBic" id="5rg1XHBzQ47" role="4Ohbj">
           <property role="V2jGk" value="-1" />
           <ref role="10Xmnc" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
@@ -212,7 +212,7 @@
       </node>
       <node concept="4Oh8J" id="5rg1XHBzRE9" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
-        <ref role="3teO_M" node="5rg1XHBzRBG" resolve="Rechtsbetrekking B" />
+        <ref role="3teO_M" node="5rg1XHBzRBG" resolve="rechtsbetrekking B" />
         <node concept="3mzBic" id="5rg1XHBzREk" role="4Ohbj">
           <property role="V2jGk" value="-1" />
           <ref role="10Xmnc" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
@@ -300,7 +300,7 @@
         <property role="TrG5h" value="rechtsbetrekking A" />
         <ref role="4OhPH" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
         <node concept="3_ceKt" id="7wsdoz29eaR" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGmubD" resolve="krachtige aanspraak hebbende persoon" />
+          <ref role="3_ceKs" to="akwf:1zBYsFY383$" resolve="de Staat" />
           <node concept="4PMua" id="7wsdoz29eaS" role="3_ceKu">
             <node concept="4PMub" id="7wsdoz29eaT" role="4PMue">
               <ref role="4PMuN" node="7wsdoz29eaG" resolve="de Staat" />

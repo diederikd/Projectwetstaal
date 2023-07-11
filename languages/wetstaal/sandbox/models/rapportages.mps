@@ -47,7 +47,7 @@
       <ref role="ihCKg" to="elf3:3Eqw34fHoKk" resolve="Consistentie van het rechtsfeit bij rood licht beginnen met oversteken" />
     </node>
     <node concept="ihC25" id="1e77wsq6m1r" role="3TIiAN">
-      <ref role="ihCKg" to="elf3:28tVqIaDa3B" resolve="Geldigheid rechtsbetrekking" />
+      <ref role="ihCKg" to="elf3:28tVqIaDa3B" resolve="Geldigheid voorwaarde bij de rechtsbetrekking RB01" />
     </node>
   </node>
 </model>

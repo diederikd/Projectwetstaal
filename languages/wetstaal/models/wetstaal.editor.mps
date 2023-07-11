@@ -17,7 +17,9 @@
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1226339813308" name="jetbrains.mps.lang.editor.structure.PaddingBottomStyleClassItem" flags="ln" index="27z8qx" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
@@ -507,6 +509,9 @@
           <ref role="1NtTu8" to="b0hk:_JZWYCgrEp" resolve="tekstvoordeelkant" />
           <ref role="1k5W1q" to="mbb7:2RxNjHYI77r" resolve="Rol" />
         </node>
+        <node concept="3F0ifn" id="N9BnHMD7Rn" role="3EZMnx">
+          <property role="3F0ifm" value="is een rechtssubject van het type" />
+        </node>
         <node concept="3F0ifn" id="_JZWYCgrPW" role="3EZMnx">
           <property role="3F0ifm" value=" " />
         </node>
@@ -537,6 +542,9 @@
         </node>
         <node concept="3F0ifn" id="_JZWYCgrOQ" role="3EZMnx">
           <property role="3F0ifm" value=" " />
+        </node>
+        <node concept="3F0ifn" id="N9BnHMD82f" role="3EZMnx">
+          <property role="3F0ifm" value="is een rechtssubject van het type" />
         </node>
         <node concept="1iCGBv" id="1w6hstGf1ht" role="3EZMnx">
           <ref role="1NtTu8" to="b0hk:1w6hstGf18c" resolve="nadeelkant" />
@@ -616,6 +624,9 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+    <node concept="PMmxH" id="3YnP5vvjOjM" role="6VMZX">
+      <ref role="PMmxG" to="2i4n:7cxOe9rGDZG" resolve="EditableMetatags" />
     </node>
   </node>
   <node concept="24kQdi" id="1w6hstGf9KS">

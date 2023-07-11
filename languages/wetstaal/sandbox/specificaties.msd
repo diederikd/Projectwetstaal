@@ -19,6 +19,7 @@
     <language slang="l:65239ca4-9057-41f8-999d-97fa1a60b298:besturingspraak" version="2" />
     <language slang="l:08d6f877-03cc-45d3-b03c-d6f786266853:bronspraak" version="0" />
     <language slang="l:b4d28e19-7d2d-47e9-943e-3a41f97a0e52:com.mbeddr.mpsutil.plantuml.node" version="0" />
+    <language slang="l:820be96c-c3e4-4ee6-a8eb-f19f786eb28b:gegevensNaarHtml" version="0" />
     <language slang="l:471364db-8078-4933-b2ef-88232bfa34fc:gegevensspraak" version="16" />
     <language slang="l:a4bbe181-88ec-4b30-b7d3-db0b30b5c709:interpreter.debug" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
