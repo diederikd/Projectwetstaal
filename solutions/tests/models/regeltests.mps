@@ -149,15 +149,11 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="_JZWYCfdqW" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="_JZWYCfdrb" role="3_ceKu">
+        <node concept="3_ceKt" id="N9BnHML81S" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:N9BnHML6fW" resolve="geldig" />
+          <node concept="2Jx4MH" id="N9BnHML82g" role="3_ceKu">
             <property role="2Jx4MO" value="true" />
           </node>
-        </node>
-        <node concept="3_ceKt" id="5rg1XHB_5hU" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
-          <node concept="2Jx4MH" id="5rg1XHB_5i5" role="3_ceKu" />
         </node>
       </node>
       <node concept="4OhPC" id="5rg1XHBzRBG" role="4Ohaa">
@@ -179,13 +175,9 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="5rg1XHBzRC1" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="5rg1XHBzRC8" role="3_ceKu" />
-        </node>
-        <node concept="3_ceKt" id="_JZWYCfdRF" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
-          <node concept="2Jx4MH" id="_JZWYCfdRX" role="3_ceKu" />
+        <node concept="3_ceKt" id="N9BnHML82r" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:N9BnHML6LK" resolve="geldig" />
+          <node concept="2Jx4MH" id="N9BnHML82N" role="3_ceKu" />
         </node>
       </node>
       <node concept="4Oh8J" id="5rg1XHBzPUe" role="4Ohb1">
@@ -202,21 +194,19 @@
       <node concept="4Oh8J" id="5rg1XHBzQ3X" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
         <ref role="3teO_M" node="5rg1XHBzPyB" resolve="rechtsbetrekking A" />
-        <node concept="3mzBic" id="5rg1XHBzQ47" role="4Ohbj">
+        <node concept="3mzBic" id="N9BnHMLcJO" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
-          <node concept="2Jx4MH" id="5rg1XHBzQ5r" role="3mzBi6">
-            <property role="2Jx4MO" value="true" />
-          </node>
+          <ref role="10Xmnc" to="akwf:N9BnHML6fW" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLcJY" role="3mzBi6" />
         </node>
       </node>
       <node concept="4Oh8J" id="5rg1XHBzRE9" role="4Ohb1">
         <ref role="4Oh8G" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
         <ref role="3teO_M" node="5rg1XHBzRBG" resolve="rechtsbetrekking B" />
-        <node concept="3mzBic" id="5rg1XHBzREk" role="4Ohbj">
+        <node concept="3mzBic" id="N9BnHMLcKl" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="5rg1XHBzRFo" role="3mzBi6">
+          <ref role="10Xmnc" to="akwf:N9BnHML6LK" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLcKm" role="3mzBi6">
             <property role="2Jx4MO" value="true" />
           </node>
         </node>
@@ -315,13 +305,9 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="7wsdoz29eaX" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="7wsdoz29eaY" role="3_ceKu" />
-        </node>
-        <node concept="3_ceKt" id="7wsdoz29eaZ" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
-          <node concept="2Jx4MH" id="7wsdoz29eb0" role="3_ceKu" />
+        <node concept="3_ceKt" id="N9BnHMLd5M" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:N9BnHML6fW" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLd67" role="3_ceKu" />
         </node>
       </node>
       <node concept="4OhPC" id="7wsdoz29eb1" role="4Ohaa">
@@ -343,15 +329,11 @@
             </node>
           </node>
         </node>
-        <node concept="3_ceKt" id="7wsdoz29eb8" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="7wsdoz29eb9" role="3_ceKu">
+        <node concept="3_ceKt" id="N9BnHMLd6i" role="4OhPJ">
+          <ref role="3_ceKs" to="akwf:N9BnHML6LK" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLd6B" role="3_ceKu">
             <property role="2Jx4MO" value="true" />
           </node>
-        </node>
-        <node concept="3_ceKt" id="7wsdoz29eba" role="4OhPJ">
-          <ref role="3_ceKs" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
-          <node concept="2Jx4MH" id="7wsdoz29ebb" role="3_ceKu" />
         </node>
       </node>
       <node concept="4Oh8J" id="7wsdoz29ebc" role="4Ohb1">
@@ -368,35 +350,21 @@
       <node concept="4Oh8J" id="7wsdoz29ebf" role="4Ohb1">
         <ref role="3teO_M" node="7wsdoz29eaQ" resolve="rechtsbetrekking A" />
         <ref role="4Oh8G" to="akwf:1w6hstGfI2K" resolve="Fatale verplichting niet meer beginnen met over te steken" />
-        <node concept="3mzBic" id="7wsdoz29epH" role="4Ohbj">
+        <node concept="3mzBic" id="N9BnHMLd6O" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:_JZWYCdgYf" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="7wsdoz29eqU" role="3mzBi6">
+          <ref role="10Xmnc" to="akwf:N9BnHML6fW" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLd6W" role="3mzBi6">
             <property role="2Jx4MO" value="true" />
           </node>
-        </node>
-        <node concept="3mzBic" id="7wsdoz29ebg" role="4Ohbj">
-          <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:1w6hstGfI2L" resolve="beeindigd" />
-          <node concept="2Jx4MH" id="7wsdoz29ebh" role="3mzBi6" />
         </node>
       </node>
       <node concept="4Oh8J" id="7wsdoz29ebi" role="4Ohb1">
         <ref role="3teO_M" node="7wsdoz29eb1" resolve="rechtsbetrekking B" />
         <ref role="4Oh8G" to="akwf:6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
-        <node concept="3mzBic" id="7wsdoz29ebj" role="4Ohbj">
+        <node concept="3mzBic" id="N9BnHMLd7d" role="4Ohbj">
           <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:5rg1XHBzQKg" resolve="ontstaan" />
-          <node concept="2Jx4MH" id="7wsdoz29ebk" role="3mzBi6">
-            <property role="2Jx4MO" value="true" />
-          </node>
-        </node>
-        <node concept="3mzBic" id="7wsdoz29enF" role="4Ohbj">
-          <property role="V2jGk" value="-1" />
-          <ref role="10Xmnc" to="akwf:6c3QCZh1c5E" resolve="beëindigd" />
-          <node concept="2Jx4MH" id="7wsdoz29eoV" role="3mzBi6">
-            <property role="2Jx4MO" value="true" />
-          </node>
+          <ref role="10Xmnc" to="akwf:N9BnHML6LK" resolve="geldigheid" />
+          <node concept="2Jx4MH" id="N9BnHMLd7l" role="3mzBi6" />
         </node>
       </node>
     </node>

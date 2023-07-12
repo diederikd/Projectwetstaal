@@ -43,6 +43,7 @@
         <property id="8989128614612178052" name="isOnzijdig" index="16Ztxt" />
         <property id="8989128614612178055" name="meervoudsvorm" index="16Ztxu" />
       </concept>
+      <concept id="5917060184181247441" name="gegevensspraak.structure.BooleanType" flags="ng" index="1EDDcM" />
       <concept id="5917060184181247365" name="gegevensspraak.structure.DatumTijdType" flags="ng" index="1EDDdA">
         <property id="5917060184181247410" name="granulariteit" index="1EDDdh" />
       </concept>
@@ -249,6 +250,30 @@
         <property role="TrG5h" value="beeindigd" />
         <property role="2VcyFJ" value="true" />
       </node>
+      <node concept="2bv6ZS" id="N9BnHML6fW" role="2bv01j">
+        <property role="TrG5h" value="geldigheid" />
+        <node concept="1EDDcM" id="N9BnHML6gD" role="1EDDcc" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML4qg" role="2bv01j">
+        <property role="TrG5h" value="geldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML5_0" role="2bv01j">
+        <property role="TrG5h" value="ongeldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4rg" role="2bv01j">
+        <property role="TrG5h" value="onstaan op" />
+        <node concept="1EDDdA" id="N9BnHML4s0" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4s_" role="2bv01j">
+        <property role="TrG5h" value="beeindigd op" />
+        <node concept="1EDDdA" id="N9BnHML4tv" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
     </node>
     <node concept="3Ih38J" id="28tVqIaDavG" role="2bv6Cn">
       <property role="TrG5h" value="Uit pragmatische redenen is de evaluatie van de voorwaarde behorende bij een rechtsbetrekking opgenomen in een regel." />
@@ -314,12 +339,36 @@
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <node concept="3rDfq0" id="_JZWYCiqoz" role="2bv01j">
-        <property role="TrG5h" value="beëindigd" />
+        <property role="TrG5h" value="beeindigd" />
         <property role="2VcyFJ" value="true" />
       </node>
       <node concept="LnSXK" id="_JZWYCiqo$" role="2bv01j">
         <property role="TrG5h" value="ontstaan" />
         <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML6JD" role="2bv01j">
+        <property role="TrG5h" value="geldigheid" />
+        <node concept="1EDDcM" id="N9BnHML6JE" role="1EDDcc" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML5zM" role="2bv01j">
+        <property role="TrG5h" value="geldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML5zN" role="2bv01j">
+        <property role="TrG5h" value="ongeldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4$F" role="2bv01j">
+        <property role="TrG5h" value="onstaan op" />
+        <node concept="1EDDdA" id="N9BnHML4$G" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4$H" role="2bv01j">
+        <property role="TrG5h" value="beeindigd op" />
+        <node concept="1EDDdA" id="N9BnHML4$I" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
       </node>
     </node>
     <node concept="1OeGCz" id="7wsdoz26aWd" role="2bv6Cn">
@@ -367,8 +416,32 @@
         <property role="2VcyFJ" value="true" />
       </node>
       <node concept="3rDfq0" id="6c3QCZh1c5E" role="2bv01j">
-        <property role="TrG5h" value="beëindigd" />
+        <property role="TrG5h" value="beeindigd" />
         <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML6LK" role="2bv01j">
+        <property role="TrG5h" value="geldigheid" />
+        <node concept="1EDDcM" id="N9BnHML6LL" role="1EDDcc" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML4_q" role="2bv01j">
+        <property role="TrG5h" value="geldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML4M4" role="2bv01j">
+        <property role="TrG5h" value="ongeldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4_r" role="2bv01j">
+        <property role="TrG5h" value="onstaan op" />
+        <node concept="1EDDdA" id="N9BnHML4_s" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML4_t" role="2bv01j">
+        <property role="TrG5h" value="beeindigd op" />
+        <node concept="1EDDdA" id="N9BnHML4_u" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
       </node>
     </node>
     <node concept="1OeGCB" id="6c3QCZh1c9e" role="2bv6Cn">
@@ -398,6 +471,66 @@
         <property role="u$DAK" value="false" />
         <property role="TrG5h" value="nadelen door Vrijheid om over te steken" />
         <ref role="1fE_qF" node="6c3QCZh1c5D" resolve="Vrijheid om over te steken" />
+      </node>
+    </node>
+    <node concept="3rDfq_" id="3Eqw34fHpA4" role="2bv6Cn">
+      <property role="TrG5h" value="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <property role="3rDz0B" value="g9av3vFLsq/S03" />
+      <property role="3rDz0D" value="g9av3vFLB1/S031" />
+      <property role="2xb$lm" value="bevoegdheids hebbende persoon" />
+      <property role="2xb$li" value="benadeelde persoon" />
+      <property role="2CwaXA" value="RB04" />
+      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="2bpyt6" id="3Eqw34fI44o" role="2bv01j">
+        <property role="TrG5h" value="ontstaan" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="3rDfq0" id="3Eqw34fHpA5" role="2bv01j">
+        <property role="TrG5h" value="beëindigd" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bv6ZS" id="N9BnHML6Ne" role="2bv01j">
+        <property role="TrG5h" value="geldigheid" />
+        <node concept="1EDDcM" id="N9BnHML6Nf" role="1EDDcc" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML5JO" role="2bv01j">
+        <property role="TrG5h" value="geldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+      <node concept="2bpyt6" id="N9BnHML5JP" role="2bv01j">
+        <property role="TrG5h" value="ongeldig" />
+        <property role="2VcyFJ" value="true" />
+      </node>
+    </node>
+    <node concept="1OeGCB" id="3Eqw34fI4kW" role="2bv6Cn">
+      <ref role="1OeGCA" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <node concept="2mG0Ck" id="3Eqw34fI4kX" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="bevoegdheids hebbende persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fI4kY" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="voordeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      </node>
+    </node>
+    <node concept="1OeGCz" id="3Eqw34fI4h9" role="2bv6Cn">
+      <ref role="1OeGCy" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
+      <node concept="2mG0Ck" id="3Eqw34fI4ha" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="benadeelde persoon" />
+        <property role="2mCGrO" value="heeft" />
+        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
+      </node>
+      <node concept="2mG0Ck" id="3Eqw34fI4hb" role="2mG0Ct">
+        <property role="u$DAK" value="true" />
+        <property role="TrG5h" value="nadeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
+        <property role="16Ztxt" value="true" />
+        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
       </node>
     </node>
     <node concept="1Om$G4" id="1w6hstGoORj" role="2bv6Cn">
@@ -570,54 +703,6 @@
         <property role="TrG5h" value="voetgangerslicht" />
         <property role="2mCGrO" value="gaat" />
         <ref role="1fE_qF" node="1w6hstGppRa" resolve="Voetgangerslicht" />
-      </node>
-    </node>
-    <node concept="3rDfq_" id="3Eqw34fHpA4" role="2bv6Cn">
-      <property role="TrG5h" value="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
-      <property role="3rDz0B" value="g9av3vFLsq/S03" />
-      <property role="3rDz0D" value="g9av3vFLB1/S031" />
-      <property role="2xb$lm" value="bevoegdheids hebbende persoon" />
-      <property role="2xb$li" value="benadeelde persoon" />
-      <property role="2CwaXA" value="RB04" />
-      <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
-      <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
-      <node concept="2bpyt6" id="3Eqw34fI44o" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="3rDfq0" id="3Eqw34fHpA5" role="2bv01j">
-        <property role="TrG5h" value="beëindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-    </node>
-    <node concept="1OeGCB" id="3Eqw34fI4kW" role="2bv6Cn">
-      <ref role="1OeGCA" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
-      <node concept="2mG0Ck" id="3Eqw34fI4kX" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="bevoegdheids hebbende persoon" />
-        <property role="2mCGrO" value="heeft" />
-        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
-      </node>
-      <node concept="2mG0Ck" id="3Eqw34fI4kY" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="voordeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
-      </node>
-    </node>
-    <node concept="1OeGCz" id="3Eqw34fI4h9" role="2bv6Cn">
-      <ref role="1OeGCy" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
-      <node concept="2mG0Ck" id="3Eqw34fI4ha" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="benadeelde persoon" />
-        <property role="2mCGrO" value="heeft" />
-        <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
-      </node>
-      <node concept="2mG0Ck" id="3Eqw34fI4hb" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="nadeel van de bevoegdheid een administratieve sanctie kunnen opleggen" />
-        <property role="16Ztxt" value="true" />
-        <ref role="1fE_qF" node="3Eqw34fHpA4" resolve="Bevoegdheid voor kunnen opleggen van administratieve sanctie" />
       </node>
     </node>
   </node>
