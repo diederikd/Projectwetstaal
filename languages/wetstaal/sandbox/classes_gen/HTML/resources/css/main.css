@@ -1,0 +1,50 @@
+body {
+    font-family: "Calibri", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+:target {
+    animation: target-fade 20s 1;
+}
+@keyframes target-fade {
+    0% { background-color: yellow; }
+    100% { background-color: transparent; }
+}
+
+span {
+    display: inline;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.alefUrl {
+    cursor: pointer;
+    user-select: none;
+    position: fixed;
+    right: 0px;
+}
+
+.branch {
+    color: rgb(150,150,150);
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+     .selector:not(*:root), .chrome {
+    display: block;
+    background-color: red;
+    color: white;
+}
+

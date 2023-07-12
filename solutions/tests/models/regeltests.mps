@@ -2,8 +2,6 @@
 <model ref="r:f41d6b00-9dc9-4ab0-9b1c-29caeb862185(regeltests)">
   <persistence version="9" />
   <languages>
-    <use id="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0" name="testspraak" version="15" />
-    <use id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak" version="16" />
     <devkit ref="d07fa9c5-678d-4a9b-9eaf-b1b8c569b820(alef.devkit)" />
   </languages>
   <imports>
