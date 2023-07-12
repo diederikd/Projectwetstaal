@@ -56,7 +56,6 @@
     <language id="e55f258b-af61-4a6a-8f90-7f249af47f79" name="wetstaal">
       <concept id="1407126424426475688" name="wetstaal.structure.Voorwaarde" flags="ng" index="9xAUJ" />
       <concept id="680043336102948441" name="wetstaal.structure.UitgevoerdOp" flags="ng" index="2x9_6m" />
-      <concept id="6255508521334311083" name="wetstaal.structure.IsUitgevoerd" flags="ng" index="LnSXK" />
       <concept id="4222828548818342504" name="wetstaal.structure.FeitelijkeHandelingMetRechtsGevolg" flags="ng" index="Pa99p">
         <reference id="8654851445388285571" name="rechtsubject" index="2Ueicb" />
       </concept>
@@ -65,7 +64,6 @@
         <reference id="8654851445388285571" name="rechtsubject" index="2Ueicc" />
       </concept>
       <concept id="290809765463580690" name="wetstaal.structure.Rechtssubject" flags="ng" index="3rCGBy" />
-      <concept id="290809765463711600" name="wetstaal.structure.IsBeeindigd" flags="ng" index="3rDfq0" />
       <concept id="290809765463711573" name="wetstaal.structure.Rechtsbetrekking" flags="ng" index="3rDfq_">
         <property id="680043336102427293" name="tekstnadeelkant" index="2xb$li" />
         <property id="680043336102427289" name="tekstvoordeelkant" index="2xb$lm" />
@@ -242,25 +240,9 @@
         <property role="3uiUDc" value="true" />
         <property role="16Ztxt" value="true" />
       </node>
-      <node concept="2bpyt6" id="_JZWYCdgYf" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="3rDfq0" id="1w6hstGfI2L" role="2bv01j">
-        <property role="TrG5h" value="beeindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
       <node concept="2bv6ZS" id="N9BnHML6fW" role="2bv01j">
         <property role="TrG5h" value="geldigheid" />
         <node concept="1EDDcM" id="N9BnHML6gD" role="1EDDcc" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML4qg" role="2bv01j">
-        <property role="TrG5h" value="geldig" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML5_0" role="2bv01j">
-        <property role="TrG5h" value="ongeldig" />
-        <property role="2VcyFJ" value="true" />
       </node>
       <node concept="2bv6ZS" id="N9BnHML4rg" role="2bv01j">
         <property role="TrG5h" value="onstaan op" />
@@ -338,25 +320,9 @@
       <property role="2CwaXA" value="RB02" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
-      <node concept="3rDfq0" id="_JZWYCiqoz" role="2bv01j">
-        <property role="TrG5h" value="beeindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="LnSXK" id="_JZWYCiqo$" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
       <node concept="2bv6ZS" id="N9BnHML6JD" role="2bv01j">
         <property role="TrG5h" value="geldigheid" />
         <node concept="1EDDcM" id="N9BnHML6JE" role="1EDDcc" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML5zM" role="2bv01j">
-        <property role="TrG5h" value="geldig" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML5zN" role="2bv01j">
-        <property role="TrG5h" value="ongeldig" />
-        <property role="2VcyFJ" value="true" />
       </node>
       <node concept="2bv6ZS" id="N9BnHML4$F" role="2bv01j">
         <property role="TrG5h" value="onstaan op" />
@@ -411,25 +377,9 @@
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
-      <node concept="2bpyt6" id="5rg1XHBzQKg" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="3rDfq0" id="6c3QCZh1c5E" role="2bv01j">
-        <property role="TrG5h" value="beeindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
       <node concept="2bv6ZS" id="N9BnHML6LK" role="2bv01j">
         <property role="TrG5h" value="geldigheid" />
         <node concept="1EDDcM" id="N9BnHML6LL" role="1EDDcc" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML4_q" role="2bv01j">
-        <property role="TrG5h" value="geldig" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="2bpyt6" id="N9BnHML4M4" role="2bv01j">
-        <property role="TrG5h" value="ongeldig" />
-        <property role="2VcyFJ" value="true" />
       </node>
       <node concept="2bv6ZS" id="N9BnHML4_r" role="2bv01j">
         <property role="TrG5h" value="onstaan op" />
@@ -482,25 +432,21 @@
       <property role="2CwaXA" value="RB04" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
-      <node concept="2bpyt6" id="3Eqw34fI44o" role="2bv01j">
-        <property role="TrG5h" value="ontstaan" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="3rDfq0" id="3Eqw34fHpA5" role="2bv01j">
-        <property role="TrG5h" value="beëindigd" />
-        <property role="2VcyFJ" value="true" />
-      </node>
       <node concept="2bv6ZS" id="N9BnHML6Ne" role="2bv01j">
         <property role="TrG5h" value="geldigheid" />
         <node concept="1EDDcM" id="N9BnHML6Nf" role="1EDDcc" />
       </node>
-      <node concept="2bpyt6" id="N9BnHML5JO" role="2bv01j">
-        <property role="TrG5h" value="geldig" />
-        <property role="2VcyFJ" value="true" />
+      <node concept="2bv6ZS" id="N9BnHMNvX0" role="2bv01j">
+        <property role="TrG5h" value="onstaan op" />
+        <node concept="1EDDdA" id="N9BnHMNvX1" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
       </node>
-      <node concept="2bpyt6" id="N9BnHML5JP" role="2bv01j">
-        <property role="TrG5h" value="ongeldig" />
-        <property role="2VcyFJ" value="true" />
+      <node concept="2bv6ZS" id="N9BnHMNvX2" role="2bv01j">
+        <property role="TrG5h" value="beeindigd op" />
+        <node concept="1EDDdA" id="N9BnHMNvX3" role="1EDDcc">
+          <property role="1EDDdh" value="58tBIcSIKQD/MILLISECONDE" />
+        </node>
       </node>
     </node>
     <node concept="1OeGCB" id="3Eqw34fI4kW" role="2bv6Cn">
