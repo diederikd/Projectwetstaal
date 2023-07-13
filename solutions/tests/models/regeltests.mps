@@ -70,8 +70,29 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
+        <child id="3717301156197626301" name="content" index="3DQ709" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -80,6 +101,17 @@
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar groen" />
     <node concept="210ffa" id="_JZWYCdToP" role="10_$IM">
       <property role="TrG5h" value="001" />
+      <node concept="3DQ70j" id="4OqlVzOQSAL" role="lGtFl">
+        <property role="3V$3am" value="situatie" />
+        <property role="3V$3ak" value="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0/7760345304267117455/6527873696160724992" />
+        <node concept="1Pa9Pv" id="4OqlVzOQSBt" role="3DQ709">
+          <node concept="1PaTwC" id="4OqlVzOQSBu" role="1PaQFQ">
+            <node concept="3oM_SD" id="4OqlVzOQSBy" role="1PaTwD">
+              <property role="3oM_SC" value="Rechtssubjecten" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="4Oh8J" id="_JZWYCdToQ" role="4Ohb1">
         <ref role="3teO_M" node="_JZWYCdToR" resolve="Diederik" />
         <ref role="4Oh8G" to="akwf:g9av3vFtWz" resolve="Persoon" />
@@ -100,6 +132,17 @@
         <property role="TrG5h" value="de Staat" />
         <ref role="4OhPH" to="akwf:g9av3vFtWz" resolve="Persoon" />
       </node>
+      <node concept="3DQ70j" id="4OqlVzOQSA2" role="lGtFl">
+        <property role="3V$3am" value="situatie" />
+        <property role="3V$3ak" value="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0/7760345304267117455/6527873696160724992" />
+        <node concept="1Pa9Pv" id="4OqlVzOQSAE" role="3DQ709">
+          <node concept="1PaTwC" id="4OqlVzOQSAF" role="1PaQFQ">
+            <node concept="3oM_SD" id="4OqlVzOQSAJ" role="1PaTwD">
+              <property role="3oM_SC" value="Toestandveranderaar" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="4OhPC" id="5rg1XHBzPBL" role="4Ohaa">
         <property role="TrG5h" value="Gebeurtenis 1" />
         <ref role="4OhPH" to="akwf:1w6hstGoORj" resolve="Verspringen van het licht naar groen" />
@@ -115,6 +158,20 @@
           <ref role="3_ceKs" to="akwf:1w6hstGpqbg" resolve="plaatsgevonden" />
           <node concept="2Jx4MH" id="5rg1XHBzPPh" role="3_ceKu">
             <property role="2Jx4MO" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3DQ70j" id="4OqlVzOQSxl" role="lGtFl">
+        <property role="3V$3am" value="situatie" />
+        <property role="3V$3ak" value="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0/7760345304267117455/6527873696160724992" />
+        <node concept="1Pa9Pv" id="4OqlVzOQSxS" role="3DQ709">
+          <node concept="1PaTwC" id="4OqlVzOQSxT" role="1PaQFQ">
+            <node concept="3oM_SD" id="4OqlVzOQSxX" role="1PaTwD">
+              <property role="3oM_SC" value="Juridische" />
+            </node>
+            <node concept="3oM_SD" id="4OqlVzOQSxZ" role="1PaTwD">
+              <property role="3oM_SC" value="begintoestand" />
+            </node>
           </node>
         </node>
       </node>
@@ -176,6 +233,21 @@
         <node concept="3_ceKt" id="N9BnHML82r" role="4OhPJ">
           <ref role="3_ceKs" to="akwf:N9BnHML6LK" resolve="geldig" />
           <node concept="2Jx4MH" id="N9BnHML82N" role="3_ceKu" />
+        </node>
+      </node>
+      <node concept="3DQ70j" id="4OqlVzOQSy2" role="lGtFl">
+        <property role="3V$3am" value="resultaat" />
+        <property role="3V$3ak" value="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0/7760345304267117455/6527873696160725067" />
+        <node concept="1Pa9Pv" id="4OqlVzOQSyf" role="3DQ709">
+          <node concept="1PaTwC" id="4OqlVzOQSyw" role="1PaQFQ">
+            <node concept="3oM_SD" id="4OqlVzOQSyy" role="1PaTwD">
+              <property role="3oM_SC" value="Juridische" />
+            </node>
+            <node concept="3oM_SD" id="4OqlVzOQSyB" role="1PaTwD">
+              <property role="3oM_SC" value="eindtoestand" />
+            </node>
+            <node concept="3oM_SD" id="4OqlVzOQSyz" role="1PaTwD" />
+          </node>
         </node>
       </node>
       <node concept="4Oh8J" id="5rg1XHBzPUe" role="4Ohb1">

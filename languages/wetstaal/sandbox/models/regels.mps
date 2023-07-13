@@ -83,8 +83,29 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
+        <child id="3717301156197626301" name="content" index="3DQ709" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -255,6 +276,113 @@
   </node>
   <node concept="2bQVlO" id="7wsdoz269H5">
     <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit verspringen van het licht naar rood" />
+    <node concept="3DQ70j" id="4OqlVzOQS8e" role="lGtFl">
+      <property role="3V$3am" value="regel" />
+      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
+      <node concept="1Pa9Pv" id="4OqlVzOQSfP" role="3DQ709">
+        <node concept="1PaTwC" id="4OqlVzOQSfQ" role="1PaQFQ">
+          <node concept="3oM_SD" id="4OqlVzOQSi1" role="1PaTwD">
+            <property role="3oM_SC" value="Er" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSi3" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSi6" role="1PaTwD">
+            <property role="3oM_SC" value="gekozen" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSia" role="1PaTwD">
+            <property role="3oM_SC" value="voor" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSif" role="1PaTwD">
+            <property role="3oM_SC" value="het" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSil" role="1PaTwD">
+            <property role="3oM_SC" value="gebruik" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSis" role="1PaTwD">
+            <property role="3oM_SC" value="van" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSi$" role="1PaTwD">
+            <property role="3oM_SC" value="het" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSiH" role="1PaTwD">
+            <property role="3oM_SC" value="attribuut" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSiR" role="1PaTwD">
+            <property role="3oM_SC" value="geldigheid" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSj2" role="1PaTwD">
+            <property role="3oM_SC" value="ipv" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSje" role="1PaTwD">
+            <property role="3oM_SC" value="objectcreatie/feitcreatie." />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSkn" role="1PaTwD">
+            <property role="3oM_SC" value="Omdat" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSk_" role="1PaTwD">
+            <property role="3oM_SC" value="gebruik" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSkO" role="1PaTwD">
+            <property role="3oM_SC" value="daarvan" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSl4" role="1PaTwD">
+            <property role="3oM_SC" value="leidt" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSll" role="1PaTwD">
+            <property role="3oM_SC" value="tot" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSlB" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="4OqlVzOQSlV" role="1PaQFQ">
+          <node concept="3oM_SD" id="4OqlVzOQSlU" role="1PaTwD">
+            <property role="3oM_SC" value="cycles" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSmR" role="1PaTwD">
+            <property role="3oM_SC" value="en" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSmU" role="1PaTwD">
+            <property role="3oM_SC" value="zeer" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSmY" role="1PaTwD">
+            <property role="3oM_SC" value="moeilijk" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSn3" role="1PaTwD">
+            <property role="3oM_SC" value="leesbare" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSn9" role="1PaTwD">
+            <property role="3oM_SC" value="regels." />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSnO" role="1PaTwD">
+            <property role="3oM_SC" value="Erg" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSnW" role="1PaTwD">
+            <property role="3oM_SC" value="mooi" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSo5" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSof" role="1PaTwD">
+            <property role="3oM_SC" value="geldigheid" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSoq" role="1PaTwD">
+            <property role="3oM_SC" value="overigens" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSoA" role="1PaTwD">
+            <property role="3oM_SC" value="ook" />
+          </node>
+          <node concept="3oM_SD" id="4OqlVzOQSoN" role="1PaTwD">
+            <property role="3oM_SC" value="niet." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3DQ70j" id="4OqlVzOQSc1" role="lGtFl">
+      <property role="3V$3am" value="regel" />
+      <property role="3V$3ak" value="7bbaf860-5f96-44b4-9731-6e00ae137ece/653687101158189440/9154144551704439187" />
+    </node>
     <node concept="1HSql3" id="N9BnHML9yy" role="1HSqhF">
       <property role="TrG5h" value="Rechtsgevolgen van het rechtsfeit  ten aanzien van het ontstaan van de rechtsbetrekking" />
       <node concept="1wO7pt" id="N9BnHML9yz" role="kiesI">

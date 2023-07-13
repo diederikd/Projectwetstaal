@@ -105,7 +105,7 @@
     <node concept="3rCGBy" id="g9av3vFtWz" role="2bv6Cn">
       <property role="TrG5h" value="Persoon" />
       <node concept="2bpyt6" id="1w6hstGfI3G" role="2bv01j">
-        <property role="TrG5h" value="bevoegd ambtenaar" />
+        <property role="TrG5h" value="Staat" />
       </node>
     </node>
     <node concept="3Ih38J" id="28tVqIaBh7m" role="2bv6Cn">
@@ -157,18 +157,6 @@
           <ref role="1EDDfl" node="3Eqw34fFQ2f" resolve="KleurVanHetLicht" />
         </node>
       </node>
-      <node concept="2bpyt6" id="1w6hstGpq7Z" role="2bv01j">
-        <property role="TrG5h" value="rood" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="2bpyt6" id="1w6hstGpq8$" role="2bv01j">
-        <property role="TrG5h" value="knipperend groen" />
-        <property role="2VcyFJ" value="true" />
-      </node>
-      <node concept="2bpyt6" id="1w6hstGpq9c" role="2bv01j">
-        <property role="TrG5h" value="groen" />
-        <property role="2VcyFJ" value="true" />
-      </node>
     </node>
     <node concept="2bv6Zy" id="3Eqw34fFQ2f" role="2bv6Cn">
       <property role="TrG5h" value="KleurVanHetLicht" />
@@ -218,10 +206,19 @@
     </node>
     <node concept="3H5gaA" id="3XodiQsFIUA" role="2bv6Cn" />
     <node concept="3Ih38J" id="3XodiQsFIYt" role="2bv6Cn">
-      <property role="TrG5h" value="Onderstaande kenmerken onstaan en beeindigd zijn opgenomen om regel te kunnen schrijven die rechtsgevolgen bepalen" />
+      <property role="TrG5h" value="Onderstaande kenmerk geldigheid is opgenomen om regel te kunnen schrijven die rechtsgevolgen bepalen" />
     </node>
     <node concept="3Ih38J" id="3XodiQsFJ2n" role="2bv6Cn">
       <property role="TrG5h" value="Met die kenmerken kunnen rechtsbetrekkingen in het leven worden geroepen en rechtsbetrekkingen worden beeindigd." />
+    </node>
+    <node concept="3Ih38J" id="4OqlVzOQRHt" role="2bv6Cn">
+      <property role="TrG5h" value="geldigheid is waar -&gt; in het leven roepen van de rechtsbetrekking" />
+    </node>
+    <node concept="3Ih38J" id="4OqlVzOQRM1" role="2bv6Cn">
+      <property role="TrG5h" value="geldigheid is onwaar -&gt; beeindigen van de rechtsbetrekking" />
+    </node>
+    <node concept="3Ih38J" id="4OqlVzOQRQB" role="2bv6Cn">
+      <property role="TrG5h" value="In de ideale wereld kunnen er natuurlijk meerdere rechtsbetrekkingen zijn door de tijd heen" />
     </node>
     <node concept="3H5gaA" id="3XodiQsFJ4l" role="2bv6Cn" />
     <node concept="3rDfq_" id="1w6hstGfI2K" role="2bv6Cn">
