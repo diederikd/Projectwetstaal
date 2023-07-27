@@ -9,13 +9,6 @@
   </imports>
   <registry>
     <language id="7bbaf860-5f96-44b4-9731-6e00ae137ece" name="regelspraak">
-      <concept id="6747529342265147481" name="regelspraak.structure.SamengesteldPredicaat" flags="ng" index="28AkDQ">
-        <child id="6747529342265147484" name="subconditie" index="28AkDN" />
-        <child id="6747529342265147483" name="quant" index="28AkDO" />
-      </concept>
-      <concept id="6747529342261866296" name="regelspraak.structure.ConsistentieRegel" flags="ng" index="28FMkn">
-        <child id="6747529342261867287" name="criterium" index="28FN$S" />
-      </concept>
       <concept id="6747529342263111880" name="regelspraak.structure.RolOfKenmerkCheck" flags="ng" index="28IzFB">
         <reference id="6747529342263116998" name="rolOfKenmerk" index="28I$VD" />
       </concept>
@@ -53,16 +46,9 @@
         <child id="6774523643279660910" name="selector" index="eaaoM" />
         <child id="9009487889885775372" name="object" index="pQQuc" />
       </concept>
-      <concept id="5696347358796946095" name="regelspraak.structure.SamengesteldeVoorwaarde" flags="ng" index="19nIsh">
-        <child id="5696347358796946096" name="predicaat" index="19nIse" />
-      </concept>
       <concept id="1480463129960505090" name="regelspraak.structure.RegelVersie" flags="ng" index="1wO7pt">
         <child id="1480463129960505094" name="statement" index="1wO7pp" />
       </concept>
-      <concept id="1480463129961380548" name="regelspraak.structure.Subconditie" flags="ng" index="1wSDer">
-        <child id="1480463129961380549" name="conditie" index="1wSDeq" />
-      </concept>
-      <concept id="1480463129962641080" name="regelspraak.structure.Alle" flags="ng" index="1wXXZB" />
       <concept id="1024280404772184160" name="regelspraak.structure.OnderwerpRef" flags="ng" index="3yS1BT">
         <reference id="1024280404772185483" name="ref" index="3yS1Ki" />
       </concept>
@@ -585,131 +571,6 @@
           </node>
         </node>
         <node concept="2ljwA5" id="N9BnHMLgbL" role="1nvPAL" />
-      </node>
-    </node>
-  </node>
-  <node concept="2bQVlO" id="3Eqw34fHoKk">
-    <property role="TrG5h" value="Consistentie van het rechtsfeit bij rood licht beginnen met oversteken" />
-    <node concept="1HSql3" id="3Eqw34fHoKl" role="1HSqhF">
-      <property role="TrG5h" value="Consistentie van de feitelijke handeling bij rood licht beginnen met oversteken (optie 1)" />
-      <node concept="1wO7pt" id="3Eqw34fHoKm" role="kiesI">
-        <node concept="2boe1W" id="3Eqw34fHoKn" role="1wO7pp">
-          <node concept="28FMkn" id="3Eqw34fHoK_" role="1wO7i6">
-            <node concept="2z5Mdt" id="3Eqw34fHoKH" role="28FN$S">
-              <node concept="3_kdyS" id="3Eqw34fHoLV" role="2z5D6P">
-                <ref role="Qu8KH" to="akwf:3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
-              </node>
-              <node concept="28IzFB" id="3Eqw34fHoMw" role="2z5HcU">
-                <ref role="28I$VD" to="akwf:3Eqw34fHozo" resolve="uitgevoerd" />
-              </node>
-            </node>
-          </node>
-          <node concept="19nIsh" id="3Eqw34fHpay" role="1wO7i3">
-            <node concept="28AkDQ" id="3Eqw34fHpaz" role="19nIse">
-              <node concept="1wSDer" id="3Eqw34fHpav" role="28AkDN">
-                <node concept="2z5Mdt" id="3Eqw34fHpd0" role="1wSDeq">
-                  <node concept="3_mHL5" id="3Eqw34fHpd1" role="2z5D6P">
-                    <node concept="ean_g" id="3Eqw34fHpd2" role="eaaoM">
-                      <ref role="Qu8KH" to="akwf:3Eqw34fHoT5" resolve="beginnen met oversteken" />
-                    </node>
-                    <node concept="3yS1BT" id="3Eqw34fHpd3" role="pQQuc">
-                      <ref role="3yS1Ki" node="3Eqw34fHoLV" resolve="Bij rood licht beginnen met oversteken" />
-                    </node>
-                  </node>
-                  <node concept="28IzFB" id="3Eqw34fHphS" role="2z5HcU">
-                    <ref role="28I$VD" to="akwf:3Eqw34fECp6" resolve="plaatsgevonden" />
-                  </node>
-                </node>
-              </node>
-              <node concept="1wSDer" id="3Eqw34fHpa$" role="28AkDN">
-                <node concept="2z5Mdt" id="3Eqw34fHpa_" role="1wSDeq">
-                  <node concept="3_mHL5" id="3Eqw34fHpaA" role="2z5D6P">
-                    <node concept="c2t0s" id="3Eqw34fHpaB" role="eaaoM">
-                      <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
-                    </node>
-                    <node concept="3_mHL5" id="3Eqw34fHpaC" role="pQQuc">
-                      <node concept="ean_g" id="3Eqw34fHpaD" role="eaaoM">
-                        <ref role="Qu8KH" to="akwf:3Eqw34fHoDu" resolve="voetgangerslicht" />
-                      </node>
-                      <node concept="3yS1BT" id="3Eqw34fHpaE" role="pQQuc">
-                        <ref role="3yS1Ki" node="3Eqw34fHoLV" resolve="Bij rood licht beginnen met oversteken" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="28IAyu" id="3Eqw34fHpaF" role="2z5HcU">
-                    <node concept="16yQLD" id="3Eqw34fHpaG" role="28IBCi">
-                      <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1wXXZB" id="3Eqw34fHpbV" role="28AkDO" />
-            </node>
-          </node>
-        </node>
-        <node concept="2ljwA5" id="3Eqw34fHoKp" role="1nvPAL" />
-      </node>
-    </node>
-    <node concept="1HSql3" id="3Eqw34fJnQc" role="1HSqhF">
-      <property role="TrG5h" value="Consistentie van de feitelijke handeling bij rood licht beginnen met oversteken (optie 2)" />
-      <node concept="1wO7pt" id="3Eqw34fJnQd" role="kiesI">
-        <node concept="2boe1W" id="3Eqw34fJnQe" role="1wO7pp">
-          <node concept="28FMkn" id="3Eqw34fJnQf" role="1wO7i6">
-            <node concept="19nIsh" id="3Eqw34fJnTi" role="28FN$S">
-              <node concept="28AkDQ" id="3Eqw34fJnTj" role="19nIse">
-                <node concept="1wSDer" id="3Eqw34fJnTk" role="28AkDN">
-                  <node concept="2z5Mdt" id="3Eqw34fJnTl" role="1wSDeq">
-                    <node concept="3_kdyS" id="3Eqw34fJnTm" role="2z5D6P">
-                      <ref role="Qu8KH" to="akwf:3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
-                    </node>
-                    <node concept="28IzFB" id="3Eqw34fJnTn" role="2z5HcU">
-                      <ref role="28I$VD" to="akwf:3Eqw34fHozo" resolve="uitgevoerd" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="1wSDer" id="3Eqw34fJo5Z" role="28AkDN">
-                  <node concept="2z5Mdt" id="3Eqw34fJo60" role="1wSDeq">
-                    <node concept="3_mHL5" id="3Eqw34fJojJ" role="2z5D6P">
-                      <node concept="ean_g" id="3Eqw34fJojK" role="eaaoM">
-                        <ref role="Qu8KH" to="akwf:3Eqw34fHoT5" resolve="beginnen met oversteken" />
-                      </node>
-                      <node concept="3yS1BT" id="3Eqw34fJon2" role="pQQuc">
-                        <ref role="3yS1Ki" node="3Eqw34fJnTm" resolve="Bij rood licht beginnen met oversteken" />
-                      </node>
-                    </node>
-                    <node concept="28IzFB" id="3Eqw34fJopW" role="2z5HcU">
-                      <ref role="28I$VD" to="akwf:3Eqw34fECp6" resolve="plaatsgevonden" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="1wSDer" id="3Eqw34fJnVg" role="28AkDN">
-                  <node concept="2z5Mdt" id="3Eqw34fJnVh" role="1wSDeq">
-                    <node concept="3_mHL5" id="3Eqw34fJo1C" role="2z5D6P">
-                      <node concept="c2t0s" id="3Eqw34fJo2o" role="eaaoM">
-                        <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
-                      </node>
-                      <node concept="3_mHL5" id="3Eqw34fJo2l" role="pQQuc">
-                        <node concept="ean_g" id="3Eqw34fJo2m" role="eaaoM">
-                          <ref role="Qu8KH" to="akwf:3Eqw34fHoDu" resolve="voetgangerslicht" />
-                        </node>
-                        <node concept="3yS1BT" id="3Eqw34fJo2n" role="pQQuc">
-                          <ref role="3yS1Ki" node="3Eqw34fJnTm" resolve="Bij rood licht beginnen met oversteken" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="28IAyu" id="3Eqw34fJo3o" role="2z5HcU">
-                      <node concept="16yQLD" id="3Eqw34fJo50" role="28IBCi">
-                        <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1wXXZB" id="3Eqw34fJoqQ" role="28AkDO" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2ljwA5" id="3Eqw34fJnQ_" role="1nvPAL" />
       </node>
     </node>
   </node>

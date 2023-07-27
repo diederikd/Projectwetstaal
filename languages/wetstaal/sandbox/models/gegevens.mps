@@ -175,26 +175,35 @@
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
     </node>
+    <node concept="3Ih38J" id="32I8VWdUGU6" role="2bv6Cn">
+      <property role="TrG5h" value="I. Kennisdomein voetgangerslicht" />
+    </node>
     <node concept="3Ih38J" id="4oA7p__MxEy" role="2bv6Cn">
-      <property role="TrG5h" value="1. commentaar rechtsbetrekking RB01" />
+      <property role="TrG5h" value="II. korte code RB01" />
+    </node>
+    <node concept="3Ih38J" id="32I8VWdUGYw" role="2bv6Cn">
+      <property role="TrG5h" value="III.  Langere naam : het is verbonden voor de voetganger op het trottoir of voetpad bij een voetgangerslicht " />
+    </node>
+    <node concept="3Ih38J" id="32I8VWdUH2W" role="2bv6Cn">
+      <property role="TrG5h" value="      te beginnen met over te steken, indien het voetgangerslicht op rood staat." />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxGz" role="2bv6Cn">
-      <property role="TrG5h" value="2. hoofdsoort: verplichting" />
+      <property role="TrG5h" value="      1. hoofdsoort: verplichting" />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxIA" role="2bv6Cn">
-      <property role="TrG5h" value="3. ondersoort fatale verplichting" />
+      <property role="TrG5h" value="      2. ondersoort fatale verplichting" />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxKF" role="2bv6Cn">
-      <property role="TrG5h" value="4. Voordeel-houdend rechtssubject: de Staat" />
+      <property role="TrG5h" value="      3. Voordeel-houdend rechtssubject: de Staat" />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxMM" role="2bv6Cn">
-      <property role="TrG5h" value="5. Nadeel-houdend rechtssubject: de voetganger op het troittoir of voetpad bij een voetgangerslicht" />
+      <property role="TrG5h" value="      4. Nadeel-houdend rechtssubject: de voetganger op het troittoir of voetpad bij een voetgangerslicht" />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxOV" role="2bv6Cn">
-      <property role="TrG5h" value="6. Rechtsobject: beginnen over te steken" />
+      <property role="TrG5h" value="      5. Rechtsobject: beginnen over te steken" />
     </node>
     <node concept="3Ih38J" id="4oA7p__MxR6" role="2bv6Cn">
-      <property role="TrG5h" value="7. Voorwaarde: indien voetgangerslicht op rood staat" />
+      <property role="TrG5h" value="      6. Voorwaarde: indien voetgangerslicht op rood staat" />
     </node>
     <node concept="3H5gaA" id="3XodiQsFIUA" role="2bv6Cn" />
     <node concept="3Ih38J" id="3XodiQsFIYt" role="2bv6Cn">
