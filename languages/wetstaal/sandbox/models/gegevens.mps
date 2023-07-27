@@ -172,14 +172,6 @@
         </node>
       </node>
     </node>
-    <node concept="1OpgJr" id="_JZWYChLe3" role="2bv6Cn">
-      <property role="TrG5h" value="Beginnen met oversteken" />
-      <node concept="2bpyt6" id="3Eqw34fECp6" role="2bv01j">
-        <property role="TrG5h" value="plaatsgevonden" />
-        <property role="3uiUDc" value="true" />
-        <property role="2n7kvO" value="true" />
-      </node>
-    </node>
     <node concept="3Ih38J" id="4oA7p__MwvZ" role="2bv6Cn">
       <property role="TrG5h" value="Rechtsbetrekking" />
     </node>
@@ -229,9 +221,9 @@
       <property role="2xb$li" value="fatale plichthoudende persoon" />
       <property role="2CwaXA" value="RB01" />
       <property role="16Ztxu" value="Fatale verplichting niet meer beginnen met over te steken" />
-      <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
+      <ref role="2xaeGG" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
       <node concept="9xAUJ" id="1e77wsq2cMj" role="2bv01j">
         <property role="TrG5h" value="voetgangerslicht dat op rood staat" />
         <property role="3uiUDc" value="true" />
@@ -299,7 +291,7 @@
       <node concept="2mG0Ck" id="_JZWYChLgr" role="2mG0Ct">
         <property role="u$DAK" value="true" />
         <property role="TrG5h" value="beginnen met oversteken" />
-        <ref role="1fE_qF" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
+        <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Beginnen met oversteken" />
       </node>
       <node concept="2mG0Ck" id="_JZWYChLgs" role="2mG0Ct">
         <property role="u$DAK" value="false" />
@@ -373,7 +365,7 @@
       <property role="2CwaXA" value="RB03" />
       <ref role="1Oe_vd" node="g9av3vFtWz" resolve="Persoon" />
       <ref role="1Oe_vb" node="g9av3vFtWz" resolve="Persoon" />
-      <ref role="2xaeGG" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
+      <ref role="2xaeGG" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
       <node concept="2bv6ZS" id="N9BnHML6LK" role="2bv01j">
         <property role="TrG5h" value="geldigheid" />
         <node concept="1EDDcM" id="N9BnHML6LL" role="1EDDcc" />
@@ -577,8 +569,13 @@
       </node>
     </node>
     <node concept="Pa99p" id="3Eqw34fHoxw" role="2bv6Cn">
-      <property role="TrG5h" value="Bij rood licht beginnen met oversteken" />
+      <property role="TrG5h" value="Beginnen met oversteken" />
+      <property role="16Ztxt" value="true" />
       <ref role="2Ueicb" node="g9av3vFtWz" resolve="Persoon" />
+      <node concept="9xAUJ" id="32I8VWdSId4" role="2bv01j">
+        <property role="TrG5h" value="uitgevoerd bij rood licht" />
+        <property role="2VcyFJ" value="true" />
+      </node>
       <node concept="2bpyt6" id="3Eqw34fHozo" role="2bv01j">
         <property role="TrG5h" value="uitgevoerd" />
         <property role="2n7kvO" value="true" />
@@ -595,10 +592,10 @@
       <property role="TrG5h" value="Het rechtssubject die de handeling uitvoert:" />
     </node>
     <node concept="2mG0Cb" id="3Eqw34fHozF" role="2bv6Cn">
-      <property role="TrG5h" value="voetganger die bij rood licht begint met oversteken" />
+      <property role="TrG5h" value="voetganger die begint met oversteken" />
       <node concept="2mG0Ck" id="3Eqw34fHozG" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
+        <property role="TrG5h" value="beginnen met oversteken" />
         <property role="16Ztxt" value="true" />
         <property role="2mCGrO" value="wordt uitgevoerd door" />
         <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
@@ -610,25 +607,6 @@
         <ref role="1fE_qF" node="g9av3vFtWz" resolve="Persoon" />
       </node>
     </node>
-    <node concept="3Ih38J" id="3Eqw34fHoT2" role="2bv6Cn">
-      <property role="TrG5h" value="Het rechtsobject van de handeling:" />
-    </node>
-    <node concept="2mG0Cb" id="3Eqw34fHoT3" role="2bv6Cn">
-      <property role="TrG5h" value="beginnen met oversteken waarbij met rood licht wordt begonnen met oversteken" />
-      <node concept="2mG0Ck" id="3Eqw34fHoT4" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
-        <property role="16Ztxt" value="true" />
-        <property role="2mCGrO" value="wordt uitgevoerd door" />
-        <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />
-      </node>
-      <node concept="2mG0Ck" id="3Eqw34fHoT5" role="2mG0Ct">
-        <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="beginnen met oversteken" />
-        <property role="2mCGrO" value="gaat" />
-        <ref role="1fE_qF" node="_JZWYChLe3" resolve="Beginnen met oversteken" />
-      </node>
-    </node>
     <node concept="3Ih38J" id="3Eqw34fHoDr" role="2bv6Cn">
       <property role="TrG5h" value="Het voorwerp van de handeling:" />
     </node>
@@ -636,7 +614,7 @@
       <property role="TrG5h" value="voetgangerslicht waarbij met rood licht wordt begonnen met oversteken" />
       <node concept="2mG0Ck" id="3Eqw34fHoDt" role="2mG0Ct">
         <property role="u$DAK" value="true" />
-        <property role="TrG5h" value="bij rood licht beginnen met oversteken" />
+        <property role="TrG5h" value="beginnen met oversteken" />
         <property role="16Ztxt" value="true" />
         <property role="2mCGrO" value="wordt uitgevoerd bij" />
         <ref role="1fE_qF" node="3Eqw34fHoxw" resolve="Bij rood licht beginnen met oversteken" />

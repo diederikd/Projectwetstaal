@@ -797,5 +797,42 @@
       </node>
     </node>
   </node>
+  <node concept="2bQVlO" id="32I8VWdTYNZ">
+    <property role="TrG5h" value="Evaluatie van de voorwaarde bij de feitelijke handeling met rechtgevolg" />
+    <node concept="1HSql3" id="32I8VWdTYPa" role="1HSqhF">
+      <property role="TrG5h" value="Evaluatie van de voorwaarde bij de feitelijke handeling met rechtgevolg" />
+      <node concept="1wO7pt" id="32I8VWdTYPb" role="kiesI">
+        <node concept="2boe1W" id="32I8VWdTYPc" role="1wO7pp">
+          <node concept="2zaH5l" id="32I8VWdTYPq" role="1wO7i6">
+            <ref role="2zaJI2" to="akwf:32I8VWdSId4" resolve="bij rood licht" />
+            <node concept="3_kdyS" id="32I8VWdTYPs" role="pRcyL">
+              <ref role="Qu8KH" to="akwf:3Eqw34fHoxw" resolve="Beginnen met oversteken" />
+            </node>
+          </node>
+          <node concept="2z5Mdt" id="32I8VWdTYQV" role="1wO7i3">
+            <node concept="3_mHL5" id="32I8VWdTYQW" role="2z5D6P">
+              <node concept="c2t0s" id="32I8VWdTYRC" role="eaaoM">
+                <ref role="Qu8KH" to="akwf:3Eqw34fFQ5P" resolve="kleur" />
+              </node>
+              <node concept="3_mHL5" id="32I8VWdTYR_" role="pQQuc">
+                <node concept="ean_g" id="32I8VWdTYRA" role="eaaoM">
+                  <ref role="Qu8KH" to="akwf:3Eqw34fHoDu" resolve="voetgangerslicht" />
+                </node>
+                <node concept="3yS1BT" id="32I8VWdTYRB" role="pQQuc">
+                  <ref role="3yS1Ki" node="32I8VWdTYPs" resolve="Beginnen met oversteken" />
+                </node>
+              </node>
+            </node>
+            <node concept="28IAyu" id="32I8VWdTYSd" role="2z5HcU">
+              <node concept="16yQLD" id="32I8VWdTYTl" role="28IBCi">
+                <ref role="16yCuT" to="akwf:3Eqw34fFQ4h" resolve="rood" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="32I8VWdTYPe" role="1nvPAL" />
+      </node>
+    </node>
+  </node>
 </model>
 

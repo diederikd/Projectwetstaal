@@ -200,7 +200,7 @@
     <property role="TrG5h" value="Rechtsfeit" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="rechtsfeiten" />
-    <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
+    <ref role="1TJDcQ" node="1w6hstGoOSs" resolve="Rechtsobject" />
   </node>
   <node concept="1TIwiD" id="1w6hstGn0V3">
     <property role="EcuMT" value="1731147829589315267" />
@@ -223,7 +223,7 @@
     <property role="EcuMT" value="4210711717891144949" />
     <property role="TrG5h" value="Rechtshandeling" />
     <property role="3GE5qa" value="rechtsfeiten" />
-    <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
+    <ref role="1TJDcQ" node="1w6hstGn0V2" resolve="Rechtsfeit" />
     <node concept="1TJgyj" id="7wsdoz29hq3" role="1TKVEi">
       <property role="IQ2ns" value="8654851445388285571" />
       <property role="20kJfa" value="rechtsubject" />
@@ -258,7 +258,7 @@
     <property role="EcuMT" value="4222828548818342504" />
     <property role="TrG5h" value="FeitelijkeHandelingMetRechtsGevolg" />
     <property role="3GE5qa" value="rechtsfeiten" />
-    <ref role="1TJDcQ" to="3ic2:$infi2rtPg" resolve="ObjectType" />
+    <ref role="1TJDcQ" node="1w6hstGn0V2" resolve="Rechtsfeit" />
     <node concept="1TJgyj" id="3Eqw34fGx9D" role="1TKVEi">
       <property role="IQ2ns" value="8654851445388285571" />
       <property role="20kJfa" value="rechtsubject" />
@@ -269,7 +269,7 @@
     <property role="EcuMT" value="1407126424426475688" />
     <property role="TrG5h" value="Voorwaarde" />
     <property role="3GE5qa" value="kenmerken" />
-    <property role="R4oN_" value="voorwaarde bij een rechtsbetrekking" />
+    <property role="R4oN_" value="voorwaarde" />
     <ref role="1TJDcQ" to="3ic2:$infi2t7IM" resolve="Kenmerk" />
   </node>
 </model>
